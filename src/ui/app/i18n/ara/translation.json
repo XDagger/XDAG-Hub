@@ -1,0 +1,271 @@
+{
+  "title": "مرحبًا {{name}} بردود الفعل باستخدام الرياكت ورياكت-i18next ذات النوع الكامل الآمن",
+  "userMessagesUnread_one": "لديك {{count}} رسالة غير مقروءة.",
+  "userMessagesUnread_other": "لديك {{count}} رسائل غير مقروءة.",
+  "LanguageConfig": {
+    "followSystem": "كروم"
+  },
+  "lockedPage": {
+    "headerCaption": "محور تطبيقات XDag (معاينة مبكرة)",
+    "title": "XDAG HUB",
+    "forgotPassword": "هل نسيت كلمة السر؟",
+    "enterPassword": "أدخل كلمة السر",
+    "unlockWallet": "فتح المحفظة",
+    "incorrectPassword": "كلمة السر غير صحيحة"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "مرحبًا بك في XDAG HUB",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "توصيلك بالويب المركزي وشبكة XDag.",
+    "GetStarted": "ابدأ",
+    "Prop0": "إرسال واستلام عملات XDAG",
+    "Prop1": "استكشاف الدابس على سلسلة الكتل XDAG",
+    "Prop2": "استخدام واجهة برمجة التطبيقات لمحفظة XDAG لإنشاء تطبيق Dapp الخاص بك",
+    "Prop3": "تتبع نشاطك على شبكة XDAG",
+    "Prop4": "الحصول على موارد إيكوسيستم XDAG الرئيسية",
+    "Prop5": "تبادل XDAG مع رمز أو عملة أخرى"
+  },
+  "SelectPage": {
+    "heading": "هل أنت جديد على محفظة XDag؟",
+    "title1": "نعم ، دعنا نقوم بإنشاء واحدة!",
+    "desc1": "هذا ينشئ محفظة جديدة وعبارة استعادة من 12 كلمة.",
+    "action1": "إنشاء محفظة جديدة",
+    "title2": "لا ، لدي بالفعل واحدة",
+    "desc2": "استيراد المحفظة الحالية الخاصة بك عن طريق إدخال عبارة الاستعادة المؤلفة من 12 كلمة.",
+    "action2": "استيراد محفظة موجودة"
+  },
+  "CreatePage": {
+    "headerCaption": "إنشاء محفظة جديدة",
+    "title": "إنشاء كلمة سر لهذه المحفظة",
+    "IReadAndAgreedToThe": "قرأت ووافقت على",
+    "TermsOfServices": "شروط الخدمة",
+    "CreateWallet": "إنشاء محفظة"
+  },
+  "PasswordFields": {
+    "CreatePassword": "إنشاء كلمة سر",
+    "ConfirmPassword": "تأكيد كلمة السر"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "تم استيراد المحفظة بنجاح!",
+    "WalletCreatedSuccessfully": "تم إنشاء المحفظة بنجاح!",
+    "BackupRecoveryPhrase": "احتياط عبارة الاستعادة",
+    "RecoveryPhrase": "عبارة الاستعادة",
+    "BackupPlease": "تسهل عبارة الاستعادة الخاصة بك عمليات النسخ الاحتياطي واستعادة حسابك.",
+    "Warning": "تحذير",
+    "NeverDisclose": "لا تكشف عبارة الاستعادة السرية لأحد. يمكن لأي شخص السيطرة على حسابك بها.",
+    "IHaveSavedIt": "لقد قمت بحفظ عبارة الاستعادة",
+    "OpenXDagWallet": "افتح محفظة XDag"
+  },
+  "TokenDetails": {
+    "Buy": "شراء",
+    "Send": "إرسال",
+    "Swap": "تبديل",
+    "SuitableForSmallAmount": "مناسب لـ XDag Dapp بمبلغ صغير من العملات في هذه المحفظة."
+  },
+  "ImportPage": {
+    "WalletSetup": "إعداد المحفظة",
+    "ImportAnExistingWallet": "استيراد محفظة موجودة",
+    "ResetPasswordForThisWallet": "إعادة تعيين كلمة السر لهذه المحفظة"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "أدخل عبارة الاستعادة المكونة من 12 كلمة الخاصة بك",
+    "Next": "التالي",
+    "Continue": "استمر"
+  },
+  "StepTwo": {
+    "Back": "العودة",
+    "Import": "استيراد",
+    "Reset": "إعادة تعيين"
+  },
+  "Navigation": {
+    "Tokens": "الرموز",
+    "Coins": "العملات",
+    "Assets": "الأصول",
+    "Apps": "التطبيقات",
+    "Transactions": "المعاملات"
+  },
+  "MenuList": {
+    "WalletSettings": "إعدادات المحفظة",
+    "Accounts": "الحسابات",
+    "ViewAccountOnXdagExplorer": "عرض الحساب على مستكشف Xdag",
+    "Network": "الشبكة",
+    "AutoLock": "الغلق التلقائي",
+    "FAQ": "أسئلة شائعة",
+    "LockWallet": "قفل المحفظة",
+    "Logout": "تسجيل الخروج"
+  },
+  "AccountsSettings": {
+    "Accounts": "الحسابات",
+    "CreateNewAccount": "إنشاء حساب جديد",
+    "ImportPrivateKey": "استيراد المفتاح الخاص"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "استيراد حساب موجود",
+    "EnterPrivateKey": "أدخل المفتاح الخاص",
+    "Continue": "استمر"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "أدخل كلمة سر المحفظة للاستمرار",
+    "ThePasswordUseLockUnlockWallet": "هذه هي كلمة السر التي تستخدمها حاليًا لقفل وفتح محفظة XDag الخاصة بك."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "المفتاح الخاص بك",
+    "DoNotShare": "لا تشارك المفتاح الخاص بك!",
+    "ItProvidesFullControl": "يوفر التحكم الكامل في حسابك.",
+    "PrivateKeyCopied": "تم نسخ المفتاح الخاص",
+    "ExportPrivateKey": "تصدير المفتاح الخاص"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "تصدير المفتاح الخاص",
+    "ExportPassphrase": "تصدير عبارة السر"
+  },
+  "AccountListItem": {
+    "AddressCopied": "تم نسخ العنوان"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "تم إنشاء حساب جديد"
+  },
+  "AccountAddress": {
+    "AddressCopied": "تم نسخ العنوان"
+  },
+  "AccountSelector": {
+    "AddressCopied": "تم نسخ العنوان"
+  },
+  "Account": {
+    "AddressCopied": "تم نسخ العنوان"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "الغلق التلقائي",
+    "SetTheIdleTime": "قم بتعيين وقت الخمول بالدقائق قبل قفل محفظة XDag بنفسها."
+  },
+  "AutoLockTimerSelector": {
+    "Save": "حفظ"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "الموافقة",
+    "Reject": "رفض",
+    "ApproveTransaction": "الموافقة على العملية",
+    "MightFailWarning": "قد تفشل هذه العملية في نقل عملاتك. هل أنت متأكد أنك ترغب في الموافقة على العملية؟",
+    "ChargedGasFeeWarning": "سوف يتم خصم رسوم الغاز لهذه العملية وفقًا لبروتوكول XDag."
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "عرض الموقع",
+    "ConnectedAccount": "الحساب المتصل"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "تقدير رسوم الغاز",
+    "Sponsored": "برعاية",
+    "Estimating": "جاري التقدير...",
+    "GasEstimationFailed": "فشل تقدير الغاز",
+    "YouPay": "أنت تدفع"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "تفاصيل العملية",
+    "GatheringData": "جمع البيانات...",
+    "CouldNotGatherData": "تعذر جمع البيانات",
+    "Transactions": "العمليات",
+    "Inputs": "المدخلات"
+  },
+  "SiteConnectPage": {
+    "Continue": "متابعة",
+    "Reject": "رفض",
+    "YourConnectionIsNotSecure": "تذكير بالاتصال",
+    "WarningInfo": "سوف تقوم بتوصيل محفظتك بموقع الويب هذا. يرجى مراعاة المخاطر. انقر على رفض إذا لم تثق في هذا الموقع.",
+    "ContinueAtRisk": "الاستمرار إذا كنت على علم بالمخاطر.",
+    "Connect": "الاتصال",
+    "PermissionsRequested": "الأذونات المطلوبة",
+    "ApproveConnection": "الموافقة على الاتصال",
+    "ConnectAccounts": "ربط الحسابات",
+    "InsecureWebsite": "تحذير بشأن الموقع"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "مشاركة عنوان المحفظة",
+    "SuggestTransactionsToApprove": "اقتراح العمليات المطلوب الموافقة عليها"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "عملياتك"
+  },
+  "PendingTransaction": {
+    "Pending": "معلقة",
+    "Accepted": "مقبولة",
+    "Rejected": "مرفوضة",
+    "Amount": "المبلغ",
+    "From": "من",
+    "To": "إلى",
+    "Remark": "ملاحظة"
+  },
+  "TransactionCard": {
+    "Remark": "ملاحظة"
+  },
+  "OnRamp": {
+    "Buy": "شراء",
+    "CoinExExchange": "منصة CoinEx",
+    "MexcExchange": "منصة Mexc",
+    "UUbiterExchange": "منصة UUbiter"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "مراجعة وإرسال",
+    "SendCoins": "إرسال العملات",
+    "Back": "رجوع",
+    "SendNow": "إرسال الآن"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "اختر مبلغ العملة المراد إرساله",
+    "InsufficientXDAGToCoverTransaction": "مبلغ XDAG غير كافٍ لتغطية العملية",
+    "EnterRecipientAddress": "أدخل عنوان المستلم",
+    "EnterRemark": "أدخل الملاحظة",
+    "Review": "مراجعة",
+    "EnterAddress": "أدخل العنوان",
+    "Limited32Chars": "محدود إلى 32 حرفًا"
+  },
+  "CoinItem": {
+    "available": "متاح"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "فشلت العملية",
+    "SomethingWentWrong": "حدث خطأ ما",
+    "TransactionStatus": "حالة العملية"
+  },
+  "TransactionStatus": {
+    "Pending": "معلقة",
+    "Accepted": "مقبولة",
+    "Rejected": "مرفوضة",
+    "BlinkingUntilBlockchainAccepted": "وامض حتى يتم قبولها بواسطة البلوكشين ",
+    "WillTakeAbout5Minutes": "سيستغرق حوالي 5 دقائق...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "يمكن المغادرة أو العرض على المستكشف أو الانتظار هنا"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "عرض على المستكشف"
+  },
+  "PreviewTransfer": {
+    "Sending": "جارٍ الإرسال",
+    "From": "من",
+    "To": "إلى",
+    "Remark": "ملاحظة",
+    "EstimatedGasFees": "تقدير رسوم الغاز"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "تطبيقات XDag",
+    "DoYouOwnResearch": "يتم تحديد التطبيقات المدرجة أدناه خصيصًا، ولكنها غير مرتبطة بمحفظة XDag ولا تحظى بتأكيد أو موافقة منها. يُرجى إجراء البحوث الخاصة بك (DYOR - ابحث بنفسك)."
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "يتم عرض عمليات التداول المكتملة لـ XDag هنا."
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "واجهة برمجة تطبيقات محفظة XDag",
+    "descriptionXDagWalletApi": "دليل البرمجة والعرض التوضيحي لربط المحفظة بتطبيق الويب",
+    "nameXDagOffice": "مكتب XDag",
+    "descriptionXDagOffice": "موقع الويب الرسمي لـ XDag",
+    "nameXDagCommunity": "مجتمع XDag",
+    "descriptionXDagCommunity": "مجتمع لمحبي XDag",
+    "nameXDagFun": "XDag ممتع",
+    "descriptionXDagFun": "موقع ويب ممتع بتصنيف لمحافظ XDag",
+    "nameXDagMining": "تعدين XDag",
+    "descriptionXDagMining": "استخدام الأدوات الرسمية لتعدين XDag باستخدام وحدة المعالجة المركزية",
+    "nameXDagNews": "أخبار XDag",
+    "descriptionXDagNews": "الأخبار الرسمية حول XDAG",
+    "nameXDagProWallet": "محفظة XDagPro",
+    "descriptionXDagProWallet": "محفظة متخصصة لهواتف الأندرويد أو iOS"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "title": "환영합니다 {{name}}, react-i18next을 사용하여 완전 타입 안전한 방식으로 반응하기",
+  "userMessagesUnread_one": "{{count}}개의 읽지 않은 메시지가 있습니다.",
+  "userMessagesUnread_other": "{{count}}개의 읽지 않은 메시지가 있습니다.",
+  "LanguageConfig":{
+    "followSystem": "Chrome"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag 앱 허브 (조기 미리보기)",
+    "title": "XDAG HUB",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "enterPassword": "비밀번호 입력",
+    "unlockWallet": "지갑 잠금 해제",
+    "incorrectPassword": "잘못된 비밀번호"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "XDAG HUB에 오신 것을 환영합니다",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "탈중앙화 웹 및 Xdag 네트워크에 연결 중입니다.",
+    "GetStarted": "시작하기",
+    "Prop0": "XDAG 코인 송금 및 수신",
+    "Prop1": "XDAG 블록체인의 Dapp 탐색",
+    "Prop2": "XDAG 월렛 API를 사용하여 자체 Dapp 만들기",
+    "Prop3": "XDAG 네트워크 활동 추적",
+    "Prop4": "주요 XDAG 에코시스템 자원을 찾아보세요",
+    "Prop5": "XDAG를 다른 토큰이나 코인으로 교환하기"
+  },
+  "SelectPage": {
+    "heading": "XDag 지갑에 처음이신가요?",
+    "title1": "네, 만들어 보세요!",
+    "desc1": "이렇게 하면 새 지갑과 12단어 복구 구문이 생성됩니다.",
+    "action1": "새 지갑 생성",
+    "title2": "아니요, 이미 가지고 있어요",
+    "desc2": "12단어 복구 구문을 입력하여 기존 지갑을 가져옵니다.",
+    "action2": "기존 지갑 가져오기"
+  },
+  "CreatePage": {
+    "headerCaption": "새 지갑 생성",
+    "title": "이 지갑에 대한 비밀번호 생성",
+    "IReadAndAgreedToThe": "다음을 읽고 동의했습니다",
+    "TermsOfServices": "서비스 약관",
+    "CreateWallet": "지갑 생성"
+  },
+  "PasswordFields": {
+    "CreatePassword": "비밀번호 생성",
+    "ConfirmPassword": "비밀번호 확인"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "지갑이 성공적으로 가져와졌습니다!",
+    "WalletCreatedSuccessfully": "지갑이 성공적으로 생성되었습니다!",
+    "BackupRecoveryPhrase": "복구 구문 백업",
+    "RecoveryPhrase": "복구 구문",
+    "BackupPlease": "복구 구문을 사용하면 계정을 쉽게 백업하고 복원할 수 있습니다.",
+    "Warning": "주의",
+    "NeverDisclose": "비밀 복구 구문을 공개해서는 안됩니다. 아무나 이를 통해 계정을 탈취할 수 있습니다.",
+    "IHaveSavedIt": "복구 구문을 저장했습니다",
+    "OpenXDagWallet": "XDag 지갑 열기"
+  },
+  "TokenDetails": {
+    "Buy": "구매",
+    "Send": "전송",
+    "Swap": "교환",
+    "SuitableForSmallAmount": "이 지갑에 작은 금액의 XDag Dapp에 적합합니다."
+  },
+  "ImportPage": {
+    "WalletSetup": "지갑 설정",
+    "ImportAnExistingWallet": "기존 지갑 가져오기",
+    "ResetPasswordForThisWallet": "이 지갑의 비밀번호 재설정"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "12단어 복구 구문을 입력하세요",
+    "Next": "다음",
+    "Continue": "계속"
+  },
+  "StepTwo": {
+    "Back": "뒤로",
+    "Import": "가져오기",
+    "Reset": "재설정"
+  },
+  "Navigation": {
+    "Tokens": "토큰",
+    "Coins": "코인",
+    "Assets": "자산",
+    "Apps": "앱",
+    "Transactions": "거래"
+  },
+  "MenuList": {
+    "WalletSettings": "지갑 설정",
+    "Accounts": "계정",
+    "ViewAccountOnXdagExplorer": "XDag 탐색기에서 계정 보기",
+    "Network": "네트워크",
+    "AutoLock": "자동 잠금",
+    "FAQ": "FAQ",
+    "LockWallet": "지갑 잠금",
+    "Logout": "로그아웃"
+  },
+  "AccountsSettings": {
+    "Accounts": "계정",
+    "CreateNewAccount": "새 계정 생성",
+    "ImportPrivateKey": "개인 키 가져오기"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "기존 계정 가져오기",
+    "EnterPrivateKey": "개인 키 입력",
+    "Continue": "계속"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "계속하려면 지갑 비밀번호를 입력하세요.",
+    "ThePasswordUseLockUnlockWallet": "XDag 지갑을 잠금 해제하고 잠그는 데 현재 사용하는 비밀번호입니다."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "개인 키",
+    "DoNotShare": "개인 키를 공유하지 마세요!",
+    "ItProvidesFullControl": "계정에 대한 완전한 제어를 제공합니다.",
+    "PrivateKeyCopied": "개인 키가 복사되었습니다.",
+    "ExportPrivateKey": "개인 키 내보내기"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "개인 키 내보내기",
+    "ExportPassphrase": "복구 구문 내보내기"
+  },
+  "AccountListItem": {
+    "AddressCopied": "주소가 복사되었습니다."
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "새 계정이 생성되었습니다."
+  },
+  "AccountAddress": {
+    "AddressCopied": "주소가 복사되었습니다."
+  },
+  "AccountSelector": {
+    "AddressCopied": "주소가 복사되었습니다."
+  },
+  "Account": {
+    "AddressCopied": "주소가 복사되었습니다."
+  },
+  "AutoLockSettings": {
+    "AutoLock": "자동 잠금",
+    "SetTheIdleTime": "Xdag 지갑이 자동으로 잠금 상태로 전환되기 전에 대기 시간(분)을 설정하세요."
+  },
+  "AutoLockTimerSelector": {
+    "Save": "저장"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "승인",
+    "Reject": "거부",
+    "ApproveTransaction": "거래 승인",
+    "MightFailWarning": "이 거래는 코인을 이동시키며 실패할 수 있습니다. 여전히 거래를 승인하시겠습니까?",
+    "ChargedGasFeeWarning": "XDag 프로토콜에 따라 이 거래에 대한 가스 수수료가 부과됩니다."
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "웹 사이트 보기",
+    "ConnectedAccount": "연결된 계정"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "예상 가스 수수료",
+    "Sponsored": "스폰서",
+    "Estimating": "예측 중...",
+    "GasEstimationFailed": "가스 예측 실패",
+    "YouPay": "지불하십시오"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "거래 상세 정보",
+    "GatheringData": "데이터 수집 중...",
+    "CouldNotGatherData": "데이터를 수집하지 못했습니다.",
+    "Transactions": "거래",
+    "Inputs": "입력"
+  },
+  "SiteConnectPage": {
+    "Continue": "계속",
+    "Reject": "거부",
+    "YourConnectionIsNotSecure": "연결 안전성 알림",
+    "WarningInfo": "월렛을 이 사이트에 연결하려고 합니다. 위험을 인지하시기 바랍니다. 이 사이트를 신뢰하지 않는 경우 거부를 클릭하십시오.",
+    "ContinueAtRisk": "위험을 인지하고 계속하십시오.",
+    "Connect": "연결",
+    "PermissionsRequested": "요청된 권한",
+    "ApproveConnection": "연결 승인",
+    "ConnectAccounts": "계정 연결",
+    "InsecureWebsite": "웹사이트 경고"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "지갑 주소 공유",
+    "SuggestTransactionsToApprove": "승인할 거래 제안"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "내 거래"
+  },
+  "PendingTransaction": {
+    "Pending": "대기 중",
+    "Accepted": "승인됨",
+    "Rejected": "거부됨",
+    "Amount": "금액",
+    "From": "보낸이",
+    "To": "받는이",
+    "Remark": "비고"
+  },
+  "TransactionCard": {
+    "Remark": "비고"
+  },
+  "OnRamp": {
+    "Buy": "구매",
+    "CoinExExchange": "CoinEx 거래소",
+    "MexcExchange": "Mexc 거래소",
+    "UUbiterExchange": "UUbiter 거래소"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "검토 및 전송",
+    "SendCoins": "코인 전송",
+    "Back": "뒤로",
+    "SendNow": "지금 전송"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "전송할 코인 금액 선택",
+    "InsufficientXDAGToCoverTransaction": "거래 비용을 충당하기에 XDAG가 부족합니다.",
+    "EnterRecipientAddress": "수신자 주소 입력",
+    "EnterRemark": "비고 입력",
+    "Review": "검토",
+    "EnterAddress": "주소 입력",
+    "Limited32Chars": "32자로 제한"
+  },
+  "CoinItem": {
+    "available": "사용 가능"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "거래 실패",
+    "SomethingWentWrong": "문제가 발생했습니다",
+    "TransactionStatus": "거래 상태"
+  },
+  "TransactionStatus": {
+    "Pending": "대기 중",
+    "Accepted": "승인됨",
+    "Rejected": "거부됨",
+    "BlinkingUntilBlockchainAccepted": "블록체인 승인까지 깜박거림",
+    "WillTakeAbout5Minutes": "약 5분 정도 소요됩니다...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "나가기 또는 탐색기에서 보거나 여기서 기다릴 수 있습니다."
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "탐색기에서 보기"
+  },
+  "PreviewTransfer": {
+    "Sending": "전송 중",
+    "From": "보낸이",
+    "To": "받는이",
+    "Remark": "비고",
+    "EstimatedGasFees": "예상 가스 수수료"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "XDag 앱",
+    "DoYouOwnResearch": "다음에 나열된 앱들은 특별히 선별된 것이지만 XDag 지갑과 승인 또는 연관되지 않았습니다. 자체 조사를 진행해주세요 (DYOR - Do Your Own Research)."
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "XDag 거래 내역은 여기에 표시됩니다."
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDag 지갑 API",
+    "descriptionXDagWalletApi": "웹3 응용 프로그램에서 지갑에 연결하기 위한 프로그래밍 가이드와 데모",
+    "nameXDagOffice": "XDag 사무실",
+    "descriptionXDagOffice": "XDag의 공식 웹 사이트",
+    "nameXDagCommunity": "XDag 커뮤니티",
+    "descriptionXDagCommunity": "XDag 애호가를 위한 커뮤니티.",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "XDag 지갑 랭킹을 위한 흥미로운 웹 사이트.",
+    "nameXDagMining": "XDag 채굴",
+    "descriptionXDagMining": "CPU로 XDag를 채굴하기 위해 공식 도구 사용",
+    "nameXDagNews": "XDag 뉴스",
+    "descriptionXDagNews": "XDAG에 대한 공식 뉴스",
+    "nameXDagProWallet": "XDagPro 지갑",
+    "descriptionXDagProWallet": "안드로이드 또는 iOS 스마트폰용 전문적인 지갑"
+  }
+}

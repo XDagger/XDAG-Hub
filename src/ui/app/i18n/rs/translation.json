@@ -1,0 +1,270 @@
+{
+  "title": "Добро пожаловать {{name}}, чтобы реагировать, используйте react-i18next полностью безопасно",
+  "userMessagesUnread_one": "У вас {{count}} непрочитанное сообщение.",
+  "userMessagesUnread_other": "У вас {{count}} непрочитанных сообщений.",
+  "LanguageConfig":{
+    "followSystem": "Chrome"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag Центр приложений (предварительный просмотр)",
+    "title": "XDAG HUB",
+    "forgotPassword": "Забыли пароль?",
+    "enterPassword": "Введите пароль",
+    "unlockWallet": "Разблокировать кошелек",
+    "incorrectPassword": "Неправильный пароль"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "Добро пожаловать в XDAG HUB",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Соединение с децентрализованным вебом и сетью XDag.",
+    "GetStarted": "Начать",
+    "Prop0": "Отправка и получение монет XDAG",
+    "Prop1": "Исследование Dapp на блокчейне XDAG",
+    "Prop2": "Используйте XDAG Wallet API для создания своего Dapp",
+    "Prop3": "Отслеживайте активность вашей сети XDAG",
+    "Prop4": "Получайте основные ресурсы экосистемы XDAG",
+    "Prop5": "Обменяйте XDAG на другой токен или монету"
+  },
+  "SelectPage": {
+    "heading": "Впервые в XDag Wallet?",
+    "title1": "Да, давайте создадим!",
+    "desc1": "Это создаст новый кошелек и 12-словную фразу для восстановления.",
+    "action1": "Создать новый кошелек",
+    "title2": "Нет, у меня уже есть",
+    "desc2": "Импортируйте свой существующий кошелек, введя 12-словную фразу для восстановления.",
+    "action2": "Импортировать существующий кошелек"
+  },
+  "CreatePage": {
+    "headerCaption": "создать новый кошелек",
+    "title": "Создать пароль для этого кошелька",
+    "IReadAndAgreedToThe": "Я прочитал и согласен с",
+    "TermsOfServices": "Условиями обслуживания",
+    "CreateWallet": "Создать кошелек"
+  },
+  "PasswordFields": {
+    "CreatePassword": "Создайте пароль",
+    "ConfirmPassword": "Подтвердите пароль"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "Кошелек успешно импортирован!",
+    "WalletCreatedSuccessfully": "Кошелек успешно создан!",
+    "BackupRecoveryPhrase": "Создайте резервную копию фразы для восстановления",
+    "RecoveryPhrase": "Фраза для восстановления",
+    "BackupPlease": "Ваша фраза для восстановления позволяет легко создать резервную копию и восстановить ваш аккаунт.",
+    "Warning": "Предупреждение",
+    "NeverDisclose": "Никогда не раскрывайте секретную фразу для восстановления. По ней кто угодно может получить доступ к вашему аккаунту.",
+    "IHaveSavedIt": "Я сохранил мою фразу для восстановления",
+    "OpenXDagWallet": "Открыть XDag Wallet"
+  },
+  "TokenDetails": {
+    "Buy": "Купить",
+    "Send": "Отправить",
+    "Swap": "Обменять",
+    "SuitableForSmallAmount": "Подходит для XDag-приложений с небольшим количеством монет в этом кошельке."
+  },
+  "ImportPage": {
+    "WalletSetup": "Установка кошелька",
+    "ImportAnExistingWallet": "Импортировать существующий кошелек",
+    "ResetPasswordForThisWallet": "Сбросить пароль для этого кошелька"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "Введите вашу 12-словную фразу для восстановления",
+    "Next": "Далее",
+    "Continue": "Продолжить"
+  },
+  "StepTwo": {
+    "Back": "Назад",
+    "Import": "Импорт",
+    "Reset": "Сброс"
+  },
+  "Navigation": {
+    "Tokens": "Токены",
+    "Coins": "Монеты",
+    "Assets": "Активы",
+    "Apps": "Приложения",
+    "Transactions": "Транзакции"
+  },
+  "MenuList": {
+    "WalletSettings": "Настройки кошелька",
+    "Accounts": "Аккаунты",
+    "ViewAccountOnXdagExplorer": "Просмотреть аккаунт на Xdag Explorer",
+    "Network": "Сеть",
+    "AutoLock": "Автоматическая блокировка",
+    "FAQ": "Часто задаваемые вопросы",
+    "LockWallet": "Заблокировать кошелек",
+    "Logout": "Выйти"
+  },
+  "AccountsSettings": {
+    "Accounts": "Аккаунты",
+    "CreateNewAccount": "Создать новый аккаунт",
+    "ImportPrivateKey": "Импортировать приватный ключ"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "Импортировать существующий аккаунт",
+    "EnterPrivateKey": "Введите приватный ключ",
+    "Continue": "Продолжить"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "Введите пароль кошелька для продолжения",
+    "ThePasswordUseLockUnlockWallet": "Это пароль, который вы используете для блокировки и разблокировки вашего кошелька XDag."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "Ваш приватный ключ",
+    "DoNotShare": "Не делитесь вашим приватным ключом!",
+    "ItProvidesFullControl": "Он дает полный контроль над вашим аккаунтом.",
+    "PrivateKeyCopied": "Приватный ключ скопирован",
+    "ExportPrivateKey": "Экспорт приватного ключа"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "Экспорт приватного ключа",
+    "ExportPassphrase": "Экспорт парольной фразы"
+  },
+  "AccountListItem": {
+    "AddressCopied": "Адрес скопирован"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "Создан новый аккаунт"
+  },
+  "AccountAddress": {
+    "AddressCopied": "Адрес скопирован"
+  },
+  "AccountSelector": {
+    "AddressCopied": "Адрес скопирован"
+  },
+  "Account": {
+    "AddressCopied": "Адрес скопирован"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "Автоматическая блокировка",
+    "SetTheIdleTime": "Установите время бездействия в минутах перед блокировкой кошелька XDag."
+  },
+  "AutoLockTimerSelector": {
+    "Save": "Сохранить"
+  },
+  "...1": {},"TransactionRequest": {
+  "Approve": "Утвердить",
+  "Reject": "Отклонить",
+  "ApproveTransaction": "Утвердить транзакцию",
+  "MightFailWarning": "Эта транзакция переведет ваши монеты и может завершиться неудачно. Вы уверены, что все равно хотите утвердить транзакцию?",
+  "ChargedGasFeeWarning": "Вам все равно будет взиматься плата за газ по протоколу XDag."
+},
+  "DAppInfoCard": {
+    "ViewWebsite": "Просмотреть веб-сайт",
+    "ConnectedAccount": "Подключенный аккаунт"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "Расчетная плата за газ",
+    "Sponsored": "Спонсированная",
+    "Estimating": "Оценивается...",
+    "GasEstimationFailed": "Ошибка оценки газа",
+    "YouPay": "Вы платите"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "Детали транзакции",
+    "GatheringData": "Сбор данных...",
+    "CouldNotGatherData": "Не удалось собрать данные",
+    "Transactions": "Транзакции",
+    "Inputs": "Входы"
+  },
+  "SiteConnectPage": {
+    "Continue": "Продолжить",
+    "Reject": "Отклонить",
+    "YourConnectionIsNotSecure": "Напоминание о подключении",
+    "WarningInfo": "Вы будете подключать свой кошелек к этому сайту. Пожалуйста, примите к сведению возможные риски. Нажмите Отклонить, если вы не доверяете этому сайту.",
+    "ContinueAtRisk": "Продолжать, если вы осведомлены о рисках.",
+    "Connect": "Подключиться",
+    "PermissionsRequested": "Запрошенные разрешения",
+    "ApproveConnection": "Утвердить подключение",
+    "ConnectAccounts": "Подключить аккаунты",
+    "InsecureWebsite": "Предупреждение о веб-сайте"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "Поделиться адресом кошелька",
+    "SuggestTransactionsToApprove": "Предлагать транзакции для утверждения"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "Ваши транзакции"
+  },
+  "PendingTransaction": {
+    "Pending": "Ожидание",
+    "Accepted": "Принято",
+    "Rejected": "Отклонено",
+    "Amount": "Сумма",
+    "From": "От",
+    "To": "Кому",
+    "Remark": "Примечание"
+  },
+  "TransactionCard": {
+    "Remark": "Примечание"
+  },
+  "OnRamp": {
+    "Buy": "Купить",
+    "CoinExExchange": "Биржа CoinEx",
+    "MexcExchange": "Биржа Mexc",
+    "UUbiterExchange": "Биржа UUbiter"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "Проверить и отправить",
+    "SendCoins": "Отправить монеты",
+    "Back": "Назад",
+    "SendNow": "Отправить сейчас"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "Выберите количество монет для отправки",
+    "InsufficientXDAGToCoverTransaction": "Недостаточно XDAG для покрытия транзакции",
+    "EnterRecipientAddress": "Введите адрес получателя",
+    "EnterRemark": "Введите примечание",
+    "Review": "Просмотр",
+    "EnterAddress": "Введите адрес",
+    "Limited32Chars": "Ограничено 32 символами"
+  },
+  "CoinItem": {
+    "available": "доступно"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "Транзакция не удалась",
+    "SomethingWentWrong": "Что-то пошло не так",
+    "TransactionStatus": "Статус транзакции"
+  },
+  "TransactionStatus": {
+    "Pending": "В ожидании",
+    "Accepted": "Принято",
+    "Rejected": "Отклонено",
+    "BlinkingUntilBlockchainAccepted": "Мигает, пока не будет принято блокчейном",
+    "WillTakeAbout5Minutes": "Займет примерно 5 минут...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "Можете уйти, посмотреть в проводнике или подождать здесь"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "Посмотреть в проводнике"
+  },
+  "PreviewTransfer": {
+    "Sending": "Отправка",
+    "From": "От",
+    "To": "Кому",
+    "Remark": "Примечание",
+    "EstimatedGasFees": "Расчет комиссии за газ"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "Приложения XDag",
+    "DoYouOwnResearch": "Перечисленные ниже приложения отобраны специально, но не связаны с кошельком XDag и не имеют его подтверждения или одобрения. Пожалуйста, проведите свои собственные исследования (DYOR - Do Your Own Research)."
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "Здесь отображаются завершенные транзакции XDag."
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "API кошелька XDag",
+    "descriptionXDagWalletApi": "Руководство по программированию и демонстрация для подключения кошелька к веб-приложению",
+    "nameXDagOffice": "Офис XDag",
+    "descriptionXDagOffice": "Официальный веб-сайт XDag",
+    "nameXDagCommunity": "Сообщество XDag",
+    "descriptionXDagCommunity": "Сообщество для поклонников XDag",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "Интересный веб-сайт с рейтингом кошельков XDag",
+    "nameXDagMining": "XDag майнинг",
+    "descriptionXDagMining": "Использование официальных инструментов для майнинга XDag при помощи ЦП",
+    "nameXDagNews": "Новости XDag",
+    "descriptionXDagNews": "Официальные новости о XDAG",
+    "nameXDagProWallet": "Кошелек XDagPro",
+    "descriptionXDagProWallet": "Профессиональный кошелек для смартфонов на Android или iOS"
+  }
+}

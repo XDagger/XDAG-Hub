@@ -1,0 +1,273 @@
+{
+  "title": "स्वागत {{name}}, react-i18next का उपयोग करके पूर्ण टाइप-सेफ़ रिएक्ट",
+  "userMessagesUnread_one": "आपके पास {{count}} अच्छी तरह से पढ़ा नहीं जा रहा संदेश है।",
+  "userMessagesUnread_other": "आपके पास {{count}} अच्छी तरह से पढ़ा नहीं जा रहे संदेश हैं।",
+  "LanguageConfig": {
+    "followSystem": "क्रोम"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag ऐप्स का हब (पूर्वावलोकन)",
+    "title": "XDAG HUB",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "enterPassword": "पासवर्ड दर्ज करें",
+    "unlockWallet": "वॉलेट खोलें",
+    "incorrectPassword": "गलत पासवर्ड"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "XDAG HUB में आपका स्वागत है",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "आपको डीसेंट्रलाइज़्ड वेब और एक्सडैग नेटवर्क से जोड़ना।",
+    "GetStarted": "शुरू करना",
+    "Prop0": "एक्सडैग सिक्के भेजें, प्राप्त करें",
+    "Prop1": "एक्सडैग ब्लॉकचेन पर डैप्स खोजें",
+    "Prop2": "अपना डैप्प बनाने के लिए एक्सडैग वॉलेट API का उपयोग करें",
+    "Prop3": "अपनी एक्सडैग नेटवर्क गतिविधि को ट्रैक करें",
+    "Prop4": "मुख्य एक्सडैग ईकोसिस्टम संसाधन प्राप्त करें",
+    "Prop5": "एक्सडैग को अन्य टोकन या सिक्के के लिए स्वैप करें"
+  },
+  "SelectPage": {
+    "heading": "एक्सडैग वॉलेट का नया है?",
+    "title1": "हां, बनाएं!",
+    "desc1": "इससे एक नया वॉलेट और एक 12-शब्दीय रिकवरी वाक्यांश बनाया जाता है।",
+    "action1": "नया वॉलेट बनाएं",
+    "title2": "नहीं, मेरे पास पहले से ही है",
+    "desc2": "12-शब्दीय रिकवरी वाक्यांश दर्ज करके अपना मौजूदा वॉलेट आयात करें।",
+    "action2": "मौजूदा वॉलेट आयात करें"
+  },
+  "CreatePage": {
+    "headerCaption": "नया वॉलेट बनाएं",
+    "title": "इस वॉलेट के लिए पासवर्ड बनाएं",
+    "IReadAndAgreedToThe": "मैंने पढ़ा है और सहमत हूँ",
+    "TermsOfServices": "सेवा की शर्तें",
+    "CreateWallet": "वॉलेट बनाएं"
+  },
+  "PasswordFields": {
+    "CreatePassword": "पासवर्ड बनाएं",
+    "ConfirmPassword": "पासवर्ड की पुष्टि करें"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "वॉलेट सफलतापूर्वक आयात किया गया!",
+    "WalletCreatedSuccessfully": "वॉलेट सफलतापूर्वक बनाया गया!",
+    "BackupRecoveryPhrase": "पुनर्प्राप्ति वाक्यांश बैकअप करें",
+    "RecoveryPhrase": "पुनर्प्राप्ति वाक्यांश",
+    "BackupPlease": "आपकी पुनर्प्राप्ति वाक्यांश आपकी खाता को सहेजने और पुनर्स्थापित करने में सुविधाजनक बनाता है।",
+    "Warning": "चेतावनी",
+    "NeverDisclose": "अपना गुप्त पुनर्प्राप्ति वाक्यांश कभी न खोलें। कोई भी इसके साथ आपका खाता ले सकता है।",
+    "IHaveSavedIt": "मैंने अपना पुनर्प्राप्ति वाक्यांश संचित कर लिया है",
+    "OpenXDagWallet": "एक्सडैग वॉलेट खोलें"
+  },
+  "TokenDetails": {
+    "Buy": "खरीदें",
+    "Send": "भेजें",
+    "Swap": "स्वैप",
+    "SuitableForSmallAmount": "इस वॉलेट में थोड़ी सी मात्रा में सिक्कों के साथ एक्सडैग डैप्स के लिए उपयुक्त।"
+  },
+  "ImportPage": {
+    "WalletSetup": "वॉलेट सेटअप",
+    "ImportAnExistingWallet": "मौजूदा वॉलेट आयात करें",
+    "ResetPasswordForThisWallet": "इस वॉलेट के लिए पासवर्ड रीसेट करें"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "अपना 12-शब्दीय पुनर्प्राप्ति वाक्यांश दर्ज करें",
+    "Next": "आगे बढ़ें",
+    "Continue": "जारी रखें"
+  },
+  "StepTwo": {
+    "Back": "वापस",
+    "Import": "आयात",
+    "Reset": "रीसेट"
+  },
+  "Navigation": {
+    "Tokens": "टोकन",
+    "Coins": "सिक्के",
+    "Assets": "संपत्ति",
+    "Apps": "ऐप्स",
+    "Transactions": "लेन-देन"
+  },
+  "MenuList": {
+    "WalletSettings": "वॉलेट सेटिंग्स",
+    "Accounts": "खाते",
+    "ViewAccountOnXdagExplorer": "एक्सडैग एक्सप्लोरर पर खाता देखें",
+    "Network": "नेटवर्क",
+    "AutoLock": "ऑटो-लॉक",
+    "FAQ": "सामान्य प्रश्न",
+    "LockWallet": "वॉलेट लॉक करें",
+    "Logout": "लॉगआउट"
+  },
+  "AccountsSettings": {
+    "Accounts": "खाते",
+    "CreateNewAccount": "नया खाता बनाएं",
+    "ImportPrivateKey": "निजी कुंजी आयात करें"
+  },
+  "....0": { },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "मौजूदा खाता आयात करें",
+    "EnterPrivateKey": "निजी कुंजी दर्ज करें",
+    "Continue": "जारी रखें"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "जारी रखने के लिए वॉलेट पासवर्ड दर्ज करें",
+    "ThePasswordUseLockUnlockWallet": "यह वह पासवर्ड है जिसे आप वॉलेट को लॉक और अनलॉक करने के लिए उपयोग करते हैं।"
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "आपकी निजी कुंजी",
+    "DoNotShare": "अपनी निजी कुंजी को साझा न करें!",
+    "ItProvidesFullControl": "यह आपको खाते पर पूर्ण नियंत्रण प्रदान करता है।",
+    "PrivateKeyCopied": "निजी कुंजी कॉपी हुई",
+    "ExportPrivateKey": "निजी कुंजी निर्यात करें"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "निजी कुंजी निर्यात करें",
+    "ExportPassphrase": "पासवर्ड वाक्यांश निर्यात करें"
+  },
+  "AccountListItem": {
+    "AddressCopied": "पता कॉपी हुआ"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "नया खाता बनाया गया"
+  },
+  "AccountAddress": {
+    "AddressCopied": "पता कॉपी हुआ"
+  },
+  "AccountSelector": {
+    "AddressCopied": "पता कॉपी हुआ"
+  },
+  "Account": {
+    "AddressCopied": "पता कॉपी हुआ"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "स्वचालित लॉक",
+    "SetTheIdleTime": "अपने Xdag वॉलेट को स्वयं लॉक होने से पहले बेकार समय को मिनट में सेट करें।"
+  },
+  "AutoLockTimerSelector": {
+    "Save": "सहेजें"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "मंजूर करें",
+    "Reject": "अस्वीकार करें",
+    "ApproveTransaction": "लेन-देन को मंजूर करें",
+    "MightFailWarning": "यह लेन-देन आपके मुद्रा को स्थानांतरित करेगा और पंजीकरण में असफल हो सकता है। क्या आप फिर से वाकई क्या इस लेन-देन को मंजूर करना चाहते हैं?",
+    "ChargedGasFeeWarning": "आपको XDag प्रोटोकॉल के अनुसार इस लेन-देन के लिए एक गैस शुल्क भी लिया जाएगा।"
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "वेबसाइट देखें",
+    "ConnectedAccount": "कनेक्टेड खाता"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "अनुमानित गैस शुल्क",
+    "Sponsored": "प्रायोजित",
+    "Estimating": "अनुमान लगा रहा है...",
+    "GasEstimationFailed": "गैस अनुमान असफल हुआ",
+    "YouPay": "आपको भुगतान करना होगा"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "लेन-देन विवरण",
+    "GatheringData": "डेटा इकट्ठा कर रहा है...",
+    "CouldNotGatherData": "डेटा इकट्ठा नहीं कर सका",
+    "Transactions": "लेन-देन",
+    "Inputs": "इनपुट्स"
+  },
+  "SiteConnectPage": {
+    "Continue": "जारी रखें",
+    "Reject": "अस्वीकार करें",
+    "YourConnectionIsNotSecure": "कनेक्शन याद दिलाने वाली बात",
+    "WarningInfo": "आप अपने वॉलेट को इस साइट से कनेक्ट करेंगे। कृपया जोखिमों को ध्यान में रखें। इस साइट पर विश्वास नहीं है तो अस्वीकार पर क्लिक करें।",
+    "ContinueAtRisk": "जब आप जोखिमों के बारे में जागरूक हो तो जारी रखें।",
+    "Connect": "कनेक्ट करें",
+    "PermissionsRequested": "अनुमतियां मांगी गईं",
+    "ApproveConnection": "कनेक्शन मंजूर करें",
+    "ConnectAccounts": "खाते कनेक्ट करें",
+    "InsecureWebsite": "वेबसाइट चेतावनी"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "वॉलेट पता साझा करें",
+    "SuggestTransactionsToApprove": "मंजूर करने के लिए लेन-देन सुझाएं"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "आपके लेन-देन"
+  },
+  "PendingTransaction": {
+    "Pending": "प्रलंबित",
+    "Accepted": "स्वीकृत",
+    "Rejected": "अस्वीकृत",
+    "Amount": "राशि",
+    "From": "से",
+    "To": "को",
+    "Remark": "टिप्पणी"
+  },
+  "TransactionCard": {
+    "Remark": "टिप्पणी"
+  },
+  "OnRamp": {
+    "Buy": "खरीदें",
+    "CoinExExchange": "CoinEx विनिमय",
+    "MexcExchange": "Mexc विनिमय",
+    "UUbiterExchange": "UUbiter विनिमय"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "समीक्षा और भेजें",
+    "SendCoins": "सिक्के भेजें",
+    "Back": "वापस",
+    "SendNow": "अभी भेजें"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "भेजने के लिए मुद्रा राशि का चयन करें",
+    "InsufficientXDAGToCoverTransaction": "प्रारंभ करने के लिए पर्याप्त XDAG नहीं है",
+    "EnterRecipientAddress": "प्राप्तकर्ता का पता दर्ज करें",
+    "EnterRemark": "टिप्पणी दर्ज करें",
+    "Review": "समीक्षा",
+    "EnterAddress": "पता दर्ज करें",
+    "Limited32Chars": "32 वर्णों के लिए सीमित"
+  },
+  "CoinItem": {
+    "available": "उपलब्ध"
+  },
+  "----": {},
+  "ReceiptPage": {
+    "TransactionFailed": "लेन-देन विफल हुआ",
+    "SomethingWentWrong": "कुछ गड़बड़ हो गया",
+    "TransactionStatus": "लेन-देन की स्थिति"
+  },
+  "TransactionStatus": {
+    "Pending": "लंबित",
+    "Accepted": "स्वीकृत",
+    "Rejected": "अस्वीकृत",
+    "BlinkingUntilBlockchainAccepted": "लेन-देन को ब्लॉकचेन स्वीकृत करने तक चमकता हुआ",
+    "WillTakeAbout5Minutes": "लगभग 5 मिनट लगेंगे...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "यहाँ छोड़ सकते हैं, एक्सप्लोरर पर देख सकते हैं या यहाँ प्रतीक्षा कर सकते हैं"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "एक्सप्लोरर पर देखें"
+  },
+  "PreviewTransfer": {
+    "Sending": "भेज रहा है",
+    "From": "से",
+    "To": "को",
+    "Remark": "टिप्पणी",
+    "EstimatedGasFees": "अनुमानित गैस शुल्क"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "XDag ऐप्स",
+    "DoYouOwnResearch": "नीचे दी गई ऐप्स विशेष रूप से चयनित की जाती हैं, लेकिन इनका XDag वॉलेट के साथ कोई स्वीकृति या संबंध नहीं होता है। कृपया अपना अनुसंधान करें (क्या आप खुद खोज करते हैं - DYOR)।"
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "आपके XDag लेन-देन यहां दिखाए जाएंगे।"
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDag वॉलेट एपीआई",
+    "descriptionXDagWalletApi": "वेब3 ऐप्स के साथ वॉलेट कनेक्ट करने के लिए प्रोग्रामिंग गाइड और डेमो",
+    "nameXDagOffice": "XDag ऑफिस",
+    "descriptionXDagOffice": "आधिकारिक XDag वेबसाइट",
+    "nameXDagCommunity": "XDag समुदाय",
+    "descriptionXDagCommunity": "XDag उत्साहितों के लिए एक मंच।",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "एक रोचक XDag वॉलेट रैंकिंग वेबसाइट।",
+    "nameXDagMining": "XDag माइनिंग",
+    "descriptionXDagMining": "ओफ़ीशियल उपकरणों का उपयोग करके सीपीयू द्वारा XDag खदान करें",
+    "nameXDagNews": "XDag समाचार",
+    "descriptionXDagNews": "XDAG के बारे में आधिकारिक समाचार",
+    "nameXDagProWallet": "XDagPro वॉलेट",
+    "descriptionXDagProWallet": "Android या iOS स्मार्टफोनों के लिए एक पेशेवर वॉलेट"
+  }
+}

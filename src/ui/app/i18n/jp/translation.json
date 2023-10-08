@@ -1,0 +1,271 @@
+{
+  "title": "{{name}}さんへ、React-i18nextを使用してタイプセーフにReactを使いましょう",
+  "userMessagesUnread_one": "未読メッセージが{{count}}件あります。",
+  "userMessagesUnread_other": "未読メッセージが{{count}}件あります。",
+  "LanguageConfig":{
+    "followSystem": "Chrome"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag アプリのハブ（早期プレビュー）",
+    "title": "XDAG HUB",
+    "forgotPassword": "パスワードを忘れましたか？",
+    "enterPassword": "パスワードを入力してください",
+    "unlockWallet": "ウォレットを開く",
+    "incorrectPassword": "パスワードが正しくありません"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "XDAG HUBへようこそ",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "分散型WebとXDAGネットワークに接続しています。",
+    "GetStarted": "はじめに進む",
+    "Prop0": "XDAGコインを送受信する",
+    "Prop1": "XDAGブロックチェーン上のDappsを探索する",
+    "Prop2": "XDAGウォレットAPIを使用して、独自のDappを作成する",
+    "Prop3": "XDAGネットワークのアクティビティを追跡する",
+    "Prop4": "XDAGエコシステムの主なリソースを取得する",
+    "Prop5": "XDAGを他のトークンまたはコインと交換する"
+  },
+  "SelectPage": {
+    "heading": "XDagウォレットへようこそ！",
+    "title1": "はい、新しいウォレットを作成しましょう！",
+    "desc1": "これにより、新しいウォレットと12ワードの回復フレーズが作成されます。",
+    "action1": "新しいウォレットを作成する",
+    "title2": "いいえ、既にウォレットを持っています",
+    "desc2": "12ワードの回復フレーズを入力して既存のウォレットをインポートします。",
+    "action2": "既存のウォレットをインポートする"
+  },
+  "CreatePage": {
+    "headerCaption": "新しいウォレットを作成する",
+    "title": "このウォレットのパスワードを作成してください",
+    "IReadAndAgreedToThe": "次に同意いたします。",
+    "TermsOfServices": "利用規約",
+    "CreateWallet": "ウォレットを作成する"
+  },
+  "PasswordFields": {
+    "CreatePassword": "パスワードを作成する",
+    "ConfirmPassword": "パスワードを確認する"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "ウォレットが正常にインポートされました！",
+    "WalletCreatedSuccessfully": "ウォレットが正常に作成されました！",
+    "BackupRecoveryPhrase": "回復フレーズをバックアップする",
+    "RecoveryPhrase": "回復フレーズ",
+    "BackupPlease": "回復フレーズをバックアップすることで、アカウントのバックアップと復元が簡単になります。",
+    "Warning": "警告",
+    "NeverDisclose": "秘密の回復フレーズを他の人に開示しないでください。これにより、誰でもアカウントを乗っ取ることができます。",
+    "IHaveSavedIt": "回復フレーズを保存しました",
+    "OpenXDagWallet": "XDagウォレットを開く"
+  },
+  "TokenDetails": {
+    "Buy": "購入する",
+    "Send": "送信する",
+    "Swap": "交換する",
+    "SuitableForSmallAmount": "このウォレットに少額のコインがあるXDag Dappに適しています。"
+  },
+  "ImportPage": {
+    "WalletSetup": "ウォレットのセットアップ",
+    "ImportAnExistingWallet": "既存のウォレットをインポートする",
+    "ResetPasswordForThisWallet": "このウォレットのパスワードをリセットする"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "12ワードの回復フレーズを入力してください",
+    "Next": "次へ",
+    "Continue": "続ける"
+  },
+  "StepTwo": {
+    "Back": "戻る",
+    "Import": "インポート",
+    "Reset": "リセット"
+  },
+  "Navigation": {
+    "Tokens": "トークン",
+    "Coins": "コイン",
+    "Assets": "資産",
+    "Apps": "アプリ",
+    "Transactions": "取引"
+  },
+  "MenuList": {
+    "WalletSettings": "ウォレット設定",
+    "Accounts": "アカウント",
+    "ViewAccountOnXdagExplorer": "Xdagエクスプローラでアカウントを表示",
+    "Network": "ネットワーク",
+    "AutoLock": "自動ロック",
+    "FAQ": "よくある質問",
+    "LockWallet": "ウォレットをロックする",
+    "Logout": "ログアウト"
+  },
+  "AccountsSettings": {
+    "Accounts": "アカウント",
+    "CreateNewAccount": "新しいアカウントを作成する",
+    "ImportPrivateKey": "秘密鍵をインポートする"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "既存のアカウントをインポートする",
+    "EnterPrivateKey": "秘密鍵を入力してください",
+    "Continue": "続ける"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "ウォレットのパスワードを入力して続行してください",
+    "ThePasswordUseLockUnlockWallet": "XDagウォレットをロックおよびアンロックするために現在使用しているパスワードです。"
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "秘密鍵",
+    "DoNotShare": "秘密鍵を共有しないでください！",
+    "ItProvidesFullControl": "それはアカウントの完全な制御を提供します。",
+    "PrivateKeyCopied": "秘密鍵がコピーされました",
+    "ExportPrivateKey": "秘密鍵をエクスポートする"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "秘密鍵をエクスポートする",
+    "ExportPassphrase": "パスフレーズをエクスポートする"
+  },
+  "AccountListItem": {
+    "AddressCopied": "アドレスがコピーされました"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "新しいアカウントが作成されました"
+  },
+  "AccountAddress": {
+    "AddressCopied": "アドレスがコピーされました"
+  },
+  "AccountSelector": {
+    "AddressCopied": "アドレスがコピーされました"
+  },
+  "Account": {
+    "AddressCopied": "アドレスがコピーされました"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "自動ロック",
+    "SetTheIdleTime": "Xdagウォレットが自動的にロックされるまでのアイドル時間を設定します。"
+  },
+  "AutoLockTimerSelector": {
+    "Save": "保存"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "承認",
+    "Reject": "拒否",
+    "ApproveTransaction": "トランザクションを承認する",
+    "MightFailWarning": "このトランザクションはコインを転送しますが、失敗する可能性があります。トランザクションを承認しますか？",
+    "ChargedGasFeeWarning": "XDagプロトコルに基づき、このトランザクションに対してガス料金が課金されます。"
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "ウェブサイトを表示",
+    "ConnectedAccount": "接続済みアカウント"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "見積もりガス料金",
+    "Sponsored": "スポンサード",
+    "Estimating": "見積もり中...",
+    "GasEstimationFailed": "ガス料金の見積もりに失敗しました",
+    "YouPay": "支払う額"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "トランザクションの詳細",
+    "GatheringData": "データを取得中...",
+    "CouldNotGatherData": "データを取得できませんでした",
+    "Transactions": "トランザクション",
+    "Inputs": "入力"
+  },
+  "SiteConnectPage": {
+    "Continue": "続行",
+    "Reject": "拒否",
+    "YourConnectionIsNotSecure": "接続の注意喚起",
+    "WarningInfo": "ウォレットをこのサイトに接続します。リスクに留意してください。このサイトを信頼しない場合は拒否をクリックしてください。",
+    "ContinueAtRisk": "リスクを認識して続行してください。",
+    "Connect": "接続",
+    "PermissionsRequested": "要求された権限",
+    "ApproveConnection": "接続を承認する",
+    "ConnectAccounts": "アカウントを接続する",
+    "InsecureWebsite": "ウェブサイトの警告"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "ウォレットアドレスを共有する",
+    "SuggestTransactionsToApprove": "承認するトランザクションを提案する"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "あなたのトランザクション"
+  },
+  "PendingTransaction": {
+    "Pending": "保留中",
+    "Accepted": "承認済み",
+    "Rejected": "拒否済み",
+    "Amount": "金額",
+    "From": "送信元",
+    "To": "送信先",
+    "Remark": "備考"
+  },
+  "TransactionCard": {
+    "Remark": "備考"
+  },
+  "OnRamp": {
+    "Buy": "購入",
+    "CoinExExchange": "CoinEx 取引所",
+    "MexcExchange": "Mexc 取引所",
+    "UUbiterExchange": "UUbiter 取引所"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "確認および送信",
+    "SendCoins": "コインを送信",
+    "Back": "戻る",
+    "SendNow": "今すぐ送信"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "送信するコインの量を選択",
+    "InsufficientXDAGToCoverTransaction": "トランザクションをカバーするXDAGが不足しています",
+    "EnterRecipientAddress": "受信者のアドレスを入力",
+    "EnterRemark": "備考を入力",
+    "Review": "確認",
+    "EnterAddress": "アドレスを入力",
+    "Limited32Chars": "32文字まで"
+  },
+  "CoinItem": {
+    "available": "利用可能"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "トランザクションが失敗しました",
+    "SomethingWentWrong": "何かがうまくいきませんでした",
+    "TransactionStatus": "トランザクションの状態"
+  },
+  "TransactionStatus": {
+    "Pending": "保留中",
+    "Accepted": "承認済み",
+    "Rejected": "拒否済み",
+    "BlinkingUntilBlockchainAccepted": "ブロックチェーンで受け付けられるまで点滅します",
+    "WillTakeAbout5Minutes": "約5分かかります...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "ここから離れるか、エクスプローラーで表示またはここで待機できます"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "エクスプローラーで表示"
+  },
+  "PreviewTransfer": {
+    "Sending": "送信中",
+    "From": "送信元",
+    "To": "送信先",
+    "Remark": "備考",
+    "EstimatedGasFees": "見積もりガス料金"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "XDagアプリ",
+    "DoYouOwnResearch": "以下のリストされたアプリは特別に選ばれたものですが、XDagウォレットとは承認または関連付けられていません。ご自身の調査を行ってください（DYOR - Do Your Own Research）。"
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "XDagの取引履歴はここに表示されます。"
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDagウォレットAPI",
+    "descriptionXDagWalletApi": "ウォレットをWeb3アプリケーションに接続するためのプログラミングガイドとデモ",
+    "nameXDagOffice": "XDagオフィス",
+    "descriptionXDagOffice": "XDagの公式ウェブサイト",
+    "nameXDagCommunity": "XDagコミュニティ",
+    "descriptionXDagCommunity": "XDag愛好者のためのコミュニティ。",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "XDagウォレットのランキングのための興味深いウェブサイト。",
+    "nameXDagMining": "XDagマイニング",
+    "descriptionXDagMining": "CPUを使用してXDagをマイニングする公式ツールを使用する",
+    "nameXDagNews": "XDag ニュース",
+    "descriptionXDagNews": "XDAG の公式ニュース",
+    "nameXDagProWallet": "XDagProウォレット",
+    "descriptionXDagProWallet": "AndroidまたはiOSスマートフォン用のプロフェッショナルウォレット"
+  }
+}

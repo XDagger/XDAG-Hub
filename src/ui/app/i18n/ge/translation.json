@@ -1,0 +1,272 @@
+{
+  "title": "Willkommen {{name}}, um mit react-i18next vollständig typensicher zu reagieren",
+  "userMessagesUnread_one": "Sie haben {{count}} ungelesene Nachricht.",
+  "userMessagesUnread_other": "Sie haben {{count}} ungelesene Nachrichten.",
+  "LanguageConfig":{
+    "followSystem": "Chrome"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag Zentrale für Anwendungen (frühe Vorschau)",
+    "title": "XDAG HUB",
+    "forgotPassword": "Passwort vergessen?",
+    "enterPassword": "Passwort eingeben",
+    "unlockWallet": "Wallet entsperren",
+    "incorrectPassword": "Falsches Passwort"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "Willkommen bei XDAG HUB",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Verbinden Sie sich mit dem dezentralen Web und dem XDag-Netzwerk.",
+    "GetStarted": "Loslegen",
+    "Prop0": "XDAG-Münzen senden und empfangen",
+    "Prop1": "Dapps auf XDAG-Blockchain erkunden",
+    "Prop2": "Verwenden Sie XDAG Wallet API, um Ihre Dapp zu erstellen",
+    "Prop3": "Verfolgen Sie Ihre XDAG-Netzwerkaktivität",
+    "Prop4": "Erhalten Sie wichtige Ressourcen des XDAG-Ökosystems",
+    "Prop5": "XDAG gegen andere Token oder Münzen tauschen"
+  },
+  "SelectPage": {
+    "heading": "Sind Sie neu bei XDag Wallet?",
+    "title1": "Ja, lass uns eins erstellen!",
+    "desc1": "Damit wird eine neue Brieftasche und eine 12-Worte-Wiederherstellungsphrase erstellt.",
+    "action1": "Neue Brieftasche erstellen",
+    "title2": "Nein, ich habe bereits eine",
+    "desc2": "Importieren Sie Ihre vorhandene Brieftasche, indem Sie die 12-Worte-Wiederherstellungsphrase eingeben.",
+    "action2": "Vorhandene Brieftasche importieren"
+  },
+  "CreatePage": {
+    "headerCaption": "eine neue Brieftasche erstellen",
+    "title": "Passwort für diese Brieftasche erstellen",
+    "IReadAndAgreedToThe": "Ich habe die",
+    "TermsOfServices": "Nutzungsbedingungen",
+    "CreateWallet": "Brieftasche erstellen"
+  },
+  "PasswordFields": {
+    "CreatePassword": "Passwort erstellen",
+    "ConfirmPassword": "Passwort bestätigen"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "Brieftasche erfolgreich importiert!",
+    "WalletCreatedSuccessfully": "Brieftasche erfolgreich erstellt!",
+    "BackupRecoveryPhrase": "Wiederherstellungsphrase sichern",
+    "RecoveryPhrase": "Wiederherstellungsphrase",
+    "BackupPlease": "Ihre Wiederherstellungsphrase erleichtert das Sichern und Wiederherstellen Ihres Kontos.",
+    "Warning": "Warnung",
+    "NeverDisclose": "Teilen Sie Ihre geheime Wiederherstellungsphrase niemals mit anderen. Jeder kann Ihr Konto damit übernehmen.",
+    "IHaveSavedIt": "Ich habe meine Wiederherstellungsphrase gespeichert",
+    "OpenXDagWallet": "XDag Wallet öffnen"
+  },
+  "TokenDetails": {
+    "Buy": "Kaufen",
+    "Send": "Senden",
+    "Swap": "Tauschen",
+    "SuitableForSmallAmount": "Geeignet für XDag-Dapp mit geringer Menge an Münzen in dieser Brieftasche."
+  },
+  "ImportPage": {
+    "WalletSetup": "Brieftaschen-Setup",
+    "ImportAnExistingWallet": "Vorhandene Brieftasche importieren",
+    "ResetPasswordForThisWallet": "Passwort für diese Brieftasche zurücksetzen"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "Geben Sie Ihre 12-Wörter-Wiederherstellungsphrase ein",
+    "Next": "Weiter",
+    "Continue": "Fortsetzen"
+  },
+  "StepTwo": {
+    "Back": "Zurück",
+    "Import": "Importieren",
+    "Reset": "Zurücksetzen"
+  },
+  "Navigation": {
+    "Tokens": "Tokens",
+    "Coins": "Münzen",
+    "Assets": "Vermögenswerte",
+    "Apps": "Apps",
+    "Transactions": "Transaktionen"
+  },
+  "MenuList": {
+    "WalletSettings": "Brieftascheneinstellungen",
+    "Accounts": "Konten",
+    "ViewAccountOnXdagExplorer": "Konto im Xdag Explorer anzeigen",
+    "Network": "Netzwerk",
+    "AutoLock": "Automatische Sperrung",
+    "FAQ": "FAQ",
+    "LockWallet": "Brieftasche sperren",
+    "Logout": "Abmelden"
+  },
+  "AccountsSettings": {
+    "Accounts": "Konten",
+    "CreateNewAccount": "Neues Konto erstellen",
+    "ImportPrivateKey": "Privaten Schlüssel importieren"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "Bestehendes Konto importieren",
+    "EnterPrivateKey": "Privaten Schlüssel eingeben",
+    "Continue": "Weiter"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "Geben Sie das Brieftaschenpasswort ein, um fortzufahren",
+    "ThePasswordUseLockUnlockWallet": "Dies ist das Passwort, mit dem Sie Ihre Xdag-Brieftasche sperren und entsperren."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "Ihr privater Schlüssel",
+    "DoNotShare": "Teilen Sie Ihren privaten Schlüssel nicht!",
+    "ItProvidesFullControl": "Es ermöglicht die volle Kontrolle über Ihr Konto.",
+    "PrivateKeyCopied": "Privater Schlüssel kopiert",
+    "ExportPrivateKey": "Privaten Schlüssel exportieren"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "Privaten Schlüssel exportieren",
+    "ExportPassphrase": "Passphrase exportieren"
+  },
+  "AccountListItem": {
+    "AddressCopied": "Adresse kopiert"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "Neues Konto erstellt"
+  },
+  "AccountAddress": {
+    "AddressCopied": "Adresse kopiert"
+  },
+  "AccountSelector": {
+    "AddressCopied": "Adresse kopiert"
+  },
+  "Account": {
+    "AddressCopied": "Adresse kopiert"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "Automatische Sperre",
+    "SetTheIdleTime": "Legen Sie die Leerlaufzeit in Minuten fest, bevor sich Xdag Wallet automatisch sperrt."
+  },
+  "AutoLockTimerSelector": {
+    "Save": "Speichern"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "Genehmigen",
+    "Reject": "Ablehnen",
+    "ApproveTransaction": "Transaktion genehmigen",
+    "MightFailWarning": "Diese Transaktion wird Ihre Coins übertragen und könnte fehlschlagen. Sind Sie sicher, dass Sie die Transaktion dennoch genehmigen möchten?",
+    "ChargedGasFeeWarning": "Gemäß dem XDag-Protokoll werden Ihnen dennoch Gasgebühren für diese Transaktion berechnet."
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "Website anzeigen",
+    "ConnectedAccount": "Verbundenes Konto"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "Geschätzte Gasgebühren",
+    "Sponsored": "Gesponsert",
+    "Estimating": "Schätzung...",
+    "GasEstimationFailed": "Gas-Schätzung fehlgeschlagen",
+    "YouPay": "Sie zahlen"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "Transaktionsdetails",
+    "GatheringData": "Daten sammeln...",
+    "CouldNotGatherData": "Daten konnten nicht gesammelt werden",
+    "Transactions": "Transaktionen",
+    "Inputs": "Eingänge"
+  },
+  "SiteConnectPage": {
+    "Continue": "Weiter",
+    "Reject": "Ablehnen",
+    "YourConnectionIsNotSecure": "Verbindungs-Erinnerung",
+    "WarningInfo": "Sie werden Ihre Brieftasche mit dieser Website verbinden. Beachten Sie bitte die Risiken. Klicken Sie auf Ablehnen, wenn Sie dieser Website nicht vertrauen.",
+    "ContinueAtRisk": "Weiter, wenn Sie sich der Risiken bewusst sind.",
+    "Connect": "Verbinden",
+    "PermissionsRequested": "Berechtigungen angefordert",
+    "ApproveConnection": "Verbindung genehmigen",
+    "ConnectAccounts": "Konten verbinden",
+    "InsecureWebsite": "Website-Warnung"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "Brieftaschenadresse teilen",
+    "SuggestTransactionsToApprove": "Transaktionen zum Genehmigen vorschlagen"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "Ihre Transaktionen"
+  },
+  "PendingTransaction": {
+    "Pending": "Ausstehend",
+    "Accepted": "Akzeptiert",
+    "Rejected": "Abgelehnt",
+    "Amount": "Betrag",
+    "From": "Von",
+    "To": "An",
+    "Remark": "Bemerkung"
+  },
+  "TransactionCard": {
+    "Remark": "Bemerkung"
+  },
+  "OnRamp": {
+    "Buy": "Kaufen",
+    "CoinExExchange": "CoinEx Exchange",
+    "MexcExchange": "Mexc Exchange",
+    "UUbiterExchange": "UUbiter Börse"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "Überprüfen und senden",
+    "SendCoins": "Coins senden",
+    "Back": "Zurück",
+    "SendNow": "Jetzt senden"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "Wählen Sie den Münzbetrag zum Senden aus",
+    "InsufficientXDAGToCoverTransaction": "Unzureichendes XDAG, um die Transaktion abzudecken",
+    "EnterRecipientAddress": "Empfängeradresse eingeben",
+    "EnterRemark": "Bemerkung eingeben",
+    "Review": "Überprüfen",
+    "EnterAddress": "Adresse eingeben",
+    "Limited32Chars": "Begrenzung auf 32 Zeichen"
+  },
+  "CoinItem": {
+    "available": "verfügbar"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "Transaktion fehlgeschlagen",
+    "SomethingWentWrong": "Etwas ist schiefgelaufen",
+    "TransactionStatus": "Transaktionsstatus"
+  },
+  "TransactionStatus": {
+    "Pending": "Ausstehend",
+    "Accepted": "Akzeptiert",
+    "Rejected": "Abgelehnt",
+    "BlinkingUntilBlockchainAccepted": "Blinkt, bis es von der Blockchain akzeptiert wird",
+    "WillTakeAbout5Minutes": "Wird etwa 5 Minuten dauern...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "Sie können den Vorgang verlassen, auf den Explorer anzeigen oder hier warten"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "Im Explorer anzeigen"
+  },
+  "PreviewTransfer": {
+    "Sending": "Senden",
+    "From": "Von",
+    "To": "An",
+    "Remark": "Bemerkung",
+    "EstimatedGasFees": "Geschätzte Gasgebühren"
+  },
+  "AppsPlayGround": {
+    "XDagApps": "XDag-Anwendungen",
+    "DoYouOwnResearch": "Die unten aufgeführten Anwendungen werden aktiv ausgewählt, stellen jedoch keine Zustimmung oder Beziehung zum XDag Wallet dar. Bitte führen Sie Ihre eigene Recherche durch (DYOR)."
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "Ihre XDag-Transaktionen werden hier angezeigt."
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDag Wallet API",
+    "descriptionXDagWalletApi": "Programmierhandbuch und Demo zum Verbinden von Wallets mit Web3-Anwendungen",
+    "nameXDagOffice": "XDag Office",
+    "descriptionXDagOffice": "Offizielle XDag-Website",
+    "nameXDagCommunity": "XDag Community",
+    "descriptionXDagCommunity": "Ein Treffpunkt für XDag-Enthusiasten.",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "Eine interessante XDag-Wallet-Rangliste-Website.",
+    "nameXDagMining": "XDag-Mining",
+    "descriptionXDagMining": "Mit den offiziellen Tools XDag mit der CPU minen",
+    "nameXDagNews": "XDag Nachrichten",
+    "descriptionXDagNews": "Offizielle Nachrichten über XDAG",
+    "nameXDagProWallet": "XDagPro Wallet",
+    "descriptionXDagProWallet": "Eine professionelle Brieftasche für Android- oder iOS-Smartphones"
+
+  }
+}

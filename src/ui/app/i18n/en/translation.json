@@ -1,0 +1,272 @@
+{
+  "title": "Welcome {{name}}, to react using react-i18next fully type-safe",
+  "userMessagesUnread_one": "You have {{count}} unread message.",
+  "userMessagesUnread_other": "You have {{count}} unread messages.",
+  "LanguageConfig": {
+    "followSystem": "Chrome"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag Hub of Apps (early preview)",
+    "title": "XDAG HUB",
+    "forgotPassword": "Forgot password?",
+    "enterPassword": "Enter Password",
+    "unlockWallet": "Unlock Wallet",
+    "incorrectPassword": "Incorrect password"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "Welcome to XDAG HUB",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Connecting you to the decentralized web and Xdag network.",
+    "GetStarted": "Get Started",
+    "Prop0": "Send, Receive XDAG coins",
+    "Prop1": "Explore Dapps on XDAG blockchain",
+    "Prop2": "Use XDAG Wallet API to Build Your Dapp",
+    "Prop3": "Track your XDAG network activity",
+    "Prop4": "Get Major XDAG ecosystem resources",
+    "Prop5": "Swap XDAG to other token or coin"
+  },
+  "SelectPage": {
+    "heading": "New to XDag Wallet?",
+    "title1": "Yes, let’s create one!",
+    "desc1": "This creates a new wallet and a 12-word recovery phrase.",
+    "action1": "Create a New Wallet",
+    "title2": "No, I already have one",
+    "desc2": "Import your existing wallet by entering the 12-word recovery phrase.",
+    "action2": "Import an Existing Wallet"
+  },
+  "CreatePage": {
+    "headerCaption": "create a new wallet",
+    "title": "Create Password for This Wallet",
+    "IReadAndAgreedToThe": "I read and agreed to the",
+    "TermsOfServices": "Terms of Services",
+    "CreateWallet": "Create Wallet"
+  },
+  "PasswordFields": {
+    "CreatePassword": "Create Password",
+    "ConfirmPassword": "Confirm Password"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "Wallet Imported Successfully!",
+    "WalletCreatedSuccessfully": "Wallet Created Successfully!",
+    "BackupRecoveryPhrase": "Backup Recovery Phrase",
+    "RecoveryPhrase": "Recovery phrase",
+    "BackupPlease": "Your recovery phrase makes it easy to back up and restore your account.",
+    "Warning": "Warning",
+    "NeverDisclose": "Never disclose your secret recovery phrase. Anyone can take over your account with it.",
+    "IHaveSavedIt": "I saved my recovery phrase",
+    "OpenXDagWallet": "Open XDag Wallet"
+  },
+  "TokenDetails": {
+    "Buy": "Buy",
+    "Send": "Send",
+    "Swap": "Swap",
+    "SuitableForSmallAmount": "Suitable for XDag dapp with small amount coins in this wallet."
+  },
+  "ImportPage": {
+    "WalletSetup": "Wallet Setup",
+    "ImportAnExistingWallet": "Import an Existing Wallet",
+    "ResetPasswordForThisWallet": "Reset Password for This Wallet"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "Enter your 12-word Recovery Phrase",
+    "Next": "Next",
+    "Continue": "Continue"
+  },
+  "StepTwo": {
+    "Back": "Back",
+    "Import": "Import",
+    "Reset": "Reset"
+  },
+  "Navigation": {
+    "Tokens": "Tokens",
+    "Coins": "Coins",
+    "Assets": "Assets",
+    "Apps": "Apps",
+    "Transactions": "Transactions"
+  },
+  "MenuList": {
+    "WalletSettings": "Wallet Settings",
+    "Accounts": "Accounts",
+    "ViewAccountOnXdagExplorer": "View account on Xdag Explorer",
+    "Network": "Network",
+    "AutoLock": "Auto-lock",
+    "FAQ": "FAQ",
+    "LockWallet": "Lock Wallet",
+    "Logout": "Logout"
+  },
+  "AccountsSettings": {
+    "Accounts": "Accounts",
+    "CreateNewAccount": "Create New Account",
+    "ImportPrivateKey": "Import Private Key"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "Import Existing Account",
+    "EnterPrivateKey": "Enter Private Key",
+    "Continue": "Continue"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "Enter Wallet Password to Continue",
+    "ThePasswordUseLockUnlockWallet": "This is the password you currently use to lock and unlock your Xdag wallet."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "Your Private Key",
+    "DoNotShare": "Do not share your Private Key!",
+    "ItProvidesFullControl": "It provides full control of your account.",
+    "PrivateKeyCopied": "Private key copied",
+    "ExportPrivateKey": "Export Private Key"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "Export Private Key",
+    "ExportPassphrase": "Export Passphrase"
+  },
+  "AccountListItem": {
+    "AddressCopied": "Address Copied"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "New account created"
+  },
+  "AccountAddress": {
+    "AddressCopied": "Address copied"
+  },
+  "AccountSelector": {
+    "AddressCopied": "Address copied"
+  },
+  "Account": {
+    "AddressCopied": "Address copied"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "Auto Lock",
+    "SetTheIdleTime": "Set the idle time in minutes before Xdag Wallet locks itself."
+  },
+  "AutoLockTimerSelector": {
+    "Save": "Save"
+  },
+  "...1": {},
+  "TransactionRequest": {
+    "Approve": "Approve",
+    "Reject": "Reject",
+    "ApproveTransaction": "Approve Transaction",
+    "MightFailWarning": "This transaction will transfer your coins and might fail. Are you sure you still want to approve the transaction?",
+    "ChargedGasFeeWarning": "You will still be charged a gas fee for this transaction according to XDag protocol."
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "View Website",
+    "ConnectedAccount": "Connected account"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "Estimated Gas Fees",
+    "Sponsored": "Sponsored",
+    "Estimating": "Estimating...",
+    "GasEstimationFailed": "Gas estimation failed",
+    "YouPay": "You Pay"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "Transaction Details",
+    "GatheringData": "Gathering data...",
+    "CouldNotGatherData": "Couldn't gather data",
+    "Transactions": "Transactions",
+    "Inputs": "Inputs"
+  },
+  "SiteConnectPage": {
+    "Continue": "Continue",
+    "Reject": "Reject",
+    "YourConnectionIsNotSecure": "Connection Reminder",
+    "WarningInfo": "You will connect your wallet to this site. Please note the risks. Click **Reject** if you don't trust this site.",
+    "ContinueAtRisk": "Continue If you are aware of the risks.",
+    "Connect": "Connect",
+    "PermissionsRequested": "Permissions requested",
+    "ApproveConnection": "Approve Connection",
+    "ConnectAccounts": "Connect Accounts",
+    "InsecureWebsite": "Website Warning"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "Share wallet address",
+    "SuggestTransactionsToApprove": "Suggest transactions to approve"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "Your Transactions"
+  },
+  "PendingTransaction": {
+    "Pending": "PEN",
+    "Accepted": "ACC",
+    "Rejected": "REJ",
+    "Amount": "Amount",
+    "From": "Fr",
+    "To": "To",
+    "Remark": "Remark"
+  },
+  "TransactionCard": {
+    "Remark": "Remark"
+  },
+  "OnRamp": {
+    "Buy": "Buy",
+    "CoinExExchange": "CoinEx Exchange",
+    "MexcExchange": "Mexc Exchange",
+    "UUbiterExchange": "UUbiter Exchange"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "Review & Send",
+    "SendCoins": "Send Coins",
+    "Back": "Back",
+    "SendNow": "Send Now"
+  },
+  "...2": {},
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "Select Coin Amount to Send",
+    "InsufficientXDAGToCoverTransaction": "Insufficient XDAG to cover transaction",
+    "EnterRecipientAddress": "Enter Recipient Address",
+    "EnterRemark": "Enter Remark",
+    "Review": "Review",
+    "EnterAddress": "Enter Address",
+    "Limited32Chars": "Limited to 32 chars"
+  },
+  "CoinItem": {
+    "available": "available"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "Transaction Failed",
+    "SomethingWentWrong": "Something went wrong",
+    "TransactionStatus": "Transaction Status"
+  },
+  "TransactionStatus": {
+    "Pending": "Pending",
+    "Accepted": "Accepted",
+    "Rejected": "Rejected",
+    "BlinkingUntilBlockchainAccepted": "Blinking until Accepted by blockchain ",
+    "WillTakeAbout5Minutes": "Will take about 5 minutes...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "Can Leave or View on explorer or Wait here"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "View on Explorer"
+  },
+  "PreviewTransfer": {
+    "Sending": "Sending",
+    "From": "From",
+    "To": "To",
+    "Remark": "Remark",
+    "EstimatedGasFees": "Estimated Gas Fees"
+  },
+  "......new": {},
+  "AppsPlayGround": {
+    "XDagApps": "XDag Apps",
+    "DoYouOwnResearch": "Apps below are actively curated but do not indicate any endorsement or relationship with XDag Wallet. Please DYOR."
+  },
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "Your XDag transactions will show up here."
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDag Wallet Api",
+    "descriptionXDagWalletApi": "Programming guide and demo for connecting wallets to web3 app",
+    "nameXDagOffice": "XDag Office",
+    "descriptionXDagOffice": "XDag official website",
+    "nameXDagCommunity": "XDag Community",
+    "descriptionXDagCommunity": "A gathering place for XDAG enthusiasts.",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "An interesting XDag wallet ranking website.",
+    "nameXDagMining": "XDag Mining",
+    "descriptionXDagMining": "Using the official tools to mine XDag by CPU",
+    "nameXDagNews": "XDag News",
+    "descriptionXDagNews": "Official news about XDAG",
+    "nameXDagProWallet": "XDagPro Wallet",
+    "descriptionXDagProWallet": "A professional wallet for Android or iOS phones"
+  }
+}
