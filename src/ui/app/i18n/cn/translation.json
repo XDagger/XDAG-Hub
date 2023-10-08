@@ -1,0 +1,274 @@
+{
+  "title": "Welcome {{name}}, to react using react-i18next fully type-safe",
+  "userMessagesUnread_one": "You have {{count}} unread message.",
+  "userMessagesUnread_other": "You have {{count}} unread messages.",
+  "LanguageConfig": {
+    "followSystem": "语言跟随"
+  },
+  "lockedPage": {
+    "headerCaption": "XDag 应用中心（早期预览版）",
+    "title": "XDAG HUB",
+    "forgotPassword": "忘记密码?",
+    "enterPassword": "输入密码",
+    "unlockWallet": "解锁钱包",
+    "incorrectPassword": "密码错误"
+  },
+  "WelcomePage": {
+    "welcomeToXDagWallet": "欢迎使用XDAG HUB",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "由此进入XDAG去中心化和生态环境应用.",
+    "GetStarted": "开始使用",
+    "Prop0": "发送、接收XDAG代币",
+    "Prop1": "在XDAG区块链上探索Dapps",
+    "Prop2": "使用XDAG钱包API构建您的Dapp",
+    "Prop3": "追踪您在XDAG网络上的活动",
+    "Prop4": "获取主要的XDAG生态系统资源",
+    "Prop5": "将XDAG与其他代币或货币进行交换"
+  },
+  "SelectPage": {
+    "heading": "创建新钱包吗?",
+    "title1": "是的哦, 我要创建一个!",
+    "desc1": "这会创建一个新钱包和12个助记词，请务必抄写备份好助记词哦！",
+    "action1": "创建新钱包",
+    "title2": "不，我已经有助记词了",
+    "desc2": "导入我自已备份的12个助记词来恢复钱包.",
+    "action2": "导入助记词恢复钱包"
+  },
+  "CreatePage": {
+    "headerCaption": "创建一个新钱包及12个助记词",
+    "title": "设置密码并创建新钱包",
+    "IReadAndAgreedToThe": "我已充分阅读并且同意",
+    "TermsOfServices": "服务条款",
+    "CreateWallet": "创建钱包"
+  },
+  "PasswordFields": {
+    "CreatePassword": "输入新密码",
+    "ConfirmPassword": "确认新密码"
+  },
+  "BackupPage": {
+    "WalletImportedSuccessfully": "钱包导入成功!",
+    "WalletCreatedSuccessfully": "钱包创建成功!",
+    "BackupRecoveryPhrase": "备份助记词",
+    "RecoveryPhrase": "助记词",
+    "BackupPlease": "您的恢复短语(助记词)可以轻松备份和恢复您的账号。所以请使用纸质媒介记录好您钱包的助记词!",
+    "Warning": "警告",
+    "NeverDisclose": "切勿泄露您的恢复短语!!! 任何人都可以用它接管您的账号。一旦遗失任何人(包括开发团队)都无法为您恢复钱包。",
+    "IHaveSavedIt": "我保存好了我的恢复短语[助记词]",
+    "OpenXDagWallet": "打开XDAG钱包"
+  },
+  "TokenDetails": {
+    "Buy": "购买",
+    "Send": "发送",
+    "Swap": "Swap",
+    "SuitableForSmallAmount": "浏览器插件钱包适用于存储小额数量XDAG以便与生态应用交互使用"
+  },
+  "ImportPage": {
+    "WalletSetup": "钱包创建",
+    "ImportAnExistingWallet": "导入一个既有钱包",
+    "ResetPasswordForThisWallet": "重置本钱包密码"
+  },
+  "StepOne": {
+    "EnterYourRecoveryPhrase": "输入或者粘贴你曾经备份的12个钱包助记词",
+    "Next": "下一步",
+    "Continue": "继续"
+  },
+  "StepTwo": {
+    "Back": "返回",
+    "Import": "导入",
+    "Reset": "重置"
+  },
+  "Navigation": {
+    "Tokens": "代币",
+    "Coins": "钱包",
+    "Assets": "资产",
+    "Apps": "应用",
+    "Transactions": "交易单"
+  },
+  "MenuList": {
+    "WalletSettings": "钱包设置",
+    "Accounts": "账号集",
+    "ViewAccountOnXdagExplorer": "在区块链器上查看账号",
+    "Network": "网络",
+    "AutoLock": "自动锁定",
+    "FAQ": "常见问题",
+    "LockWallet": "锁定钱包",
+    "Logout": "退出"
+  },
+  "AccountsSettings": {
+    "Accounts": "账号集",
+    "CreateNewAccount": "创建新账号",
+    "ImportPrivateKey": "导入私钥"
+  },
+  "ImportPrivateKey": {
+    "ImportExistingAccount": "导入既有账号",
+    "EnterPrivateKey": "输入私钥",
+    "Continue": "继续"
+  },
+  "PasswordInputDialog": {
+    "EnterWalletPasswordToContinue": "输入钱包密码再继续",
+    "ThePasswordUseLockUnlockWallet": "这是你当前用来锁定和解锁钱包的密码."
+  },
+  "ExportAccount": {
+    "YourPrivateKey": "您的私钥",
+    "DoNotShare": "不要分享您的私钥！！!",
+    "ItProvidesFullControl": "私钥能完全控制您账号.",
+    "PrivateKeyCopied": "私钥已经复制",
+    "ExportPrivateKey": "导出私钥"
+  },
+  "AccountActions": {
+    "ExportPrivateKey": "导出私钥",
+    "ExportPassphrase": "导出助记词"
+  },
+  "AccountListItem": {
+    "AddressCopied": "地址已复制"
+  },
+  "useDeriveNextAccountMutation": {
+    "NewAccountCreated": "已创建新账号"
+  },
+  "AccountAddress": {
+    "AddressCopied": "地址已复制"
+  },
+  "AccountSelector": {
+    "AddressCopied": "地址已复制"
+  },
+  "Account": {
+    "AddressCopied": "地址已复制"
+  },
+  "AutoLockSettings": {
+    "AutoLock": "自动锁定",
+    "SetTheIdleTime": "设置钱包自我锁定前的空闲时间"
+  },
+  "AutoLockTimerSelector": {
+    "Save": "保存"
+  },
+  "TransactionRequest": {
+    "Approve": "批准",
+    "Reject": "拒绝",
+    "ApproveTransaction": "批准交易",
+    "MightFailWarning": "此交易会转移货币但也可能会失败。您确定还要批准该交易吗？",
+    "ChargedGasFeeWarning": "在此交易中，您有可能会根据XDAG区块链要求支付额外的燃料费用。"
+  },
+  "DAppInfoCard": {
+    "ViewWebsite": "查看发起站点",
+    "ConnectedAccount": "交易使用账号"
+  },
+  "GasFees": {
+    "EstimatedGasFees": "燃料费估算",
+    "Sponsored": "捐赠",
+    "Estimating": "正估算中...",
+    "GasEstimationFailed": "燃料费估算失败",
+    "YouPay": "燃料费需支付"
+  },
+  "TransactionDetails": {
+    "TransactionDetails": "交易细节",
+    "GatheringData": "获取数据...",
+    "CouldNotGatherData": "无法获取数据",
+    "Transactions": "交易",
+    "Inputs": "输入"
+  },
+  "SiteConnectPage": {
+    "Continue": "继续",
+    "Reject": "拒绝",
+    "YourConnectionIsNotSecure": "连接须知",
+    "WarningInfo": "您将连接您的钱包到该网站。请注意风险。如果您不信任该网站，请点击***拒绝***",
+    "ContinueAtRisk": "如果您已经了解风险请继续",
+    "Connect": "连接",
+    "PermissionsRequested": "请求的权限",
+    "ApproveConnection": "批准连接",
+    "ConnectAccounts": "连接账号",
+    "InsecureWebsite": "不安全的站点"
+  },
+  "DAppPermissionsList": {
+    "ShareWalletAddress": "分享钱包地址",
+    "SuggestTransactionsToApprove": "建议批准的交易"
+  },
+  "TransactionBlocksPage": {
+    "YourTransactions": "您的交易"
+  },
+  "PendingTransaction": {
+    "Pending": "待接受",
+    "Accepted": "已接受",
+    "Rejected": "已拒绝",
+    "Amount": "数量",
+    "From": "从",
+    "To": "到",
+    "Remark": "备注"
+  },
+  "TransactionCard": {
+    "Remark": "备注"
+  },
+  "OnRamp": {
+    "Buy": "购买",
+    "CoinExExchange": "CoinEx 交易所",
+    "MexcExchange": "Mexc 交易所",
+    "UUbiterExchange": "UUbiter 交易所"
+  },
+  "TransferCoinPage": {
+    "ReviewSend": "审查 & 发送",
+    "SendCoins": "发送",
+    "Back": "后退",
+    "SendNow": "现在发送"
+  },
+  "SendTokenForm": {
+    "SelectCoinAmountToSend": "填入要发送的币数量",
+    "InsufficientXDAGToCoverTransaction": "XDag余额不足以支付交易费用",
+    "EnterRecipientAddress": "填入接收人地址",
+    "EnterRemark": "填入备注",
+    "Review": "审查",
+    "EnterAddress": "填入地址",
+    "Limited32Chars": "限制32个英文字符或8个中文字符内"
+  },
+  "CoinItem": {
+    "available": "可用余额"
+  },
+  "ReceiptPage": {
+    "TransactionFailed": "Transaction Failed",
+    "SomethingWentWrong": "Something went wrong"
+  },
+  "----": {},
+  "ReceiptPage": {
+    "TransactionFailed": "交易失败",
+    "SomethingWentWrong": "发生了一些错误",
+    "TransactionStatus": "交易状态"
+  },
+  "TransactionStatus": {
+    "Pending": "待接受",
+    "Accepted": "已接受",
+    "Rejected": "已拒绝",
+    "BlinkingUntilBlockchainAccepted": "会一直闪动到被区块链确认接受",
+    "WillTakeAbout5Minutes": "将花费5分钟左右...",
+    "CanLeaveOrViewOnExplorerOrWaitHere": "可以等待也可以离开或者去区块链上浏览器上查看"
+  },
+  "ExplorerLinkCard": {
+    "ViewOnExplorer": "在区块链浏览器上查看"
+  },
+  "PreviewTransfer": {
+    "Sending": "发送中",
+    "From": "从",
+    "To": "到",
+    "Remark": "备注",
+    "EstimatedGasFees": "预估燃料费用"
+  },
+  "AppsPlayGround": {
+  "XDagApps": "XDag应用",
+  "DoYouOwnResearch": "以下应用程序经过积极筛选，但并不代表本钱包对其任何认可或有任何关系。请自行了解(DYOR)"
+},
+  "CompletedTransactions": {
+    "transactionsWillShowHere": "您的XDag交易将显示在此处。"
+  },
+  "appsConfig": {
+    "nameXDagWalletApi": "XDag钱包API",
+    "descriptionXDagWalletApi": "连接钱包到Web3应用的编程指南和示例",
+    "nameXDagOffice": "XDag官网",
+    "descriptionXDagOffice": "XDag的官方网站",
+    "nameXDagCommunity": "XDag社区",
+    "descriptionXDagCommunity": "XDAG爱好者的聚集地",
+    "nameXDagFun": "XDagFun",
+    "descriptionXDagFun": "一个有趣的XDag钱包排名网站",
+    "nameXDagMining": "XDag挖矿",
+    "descriptionXDagMining": "使用官方工具在CPU上挖掘XDag",
+    "nameXDagNews": "XDag 新闻",
+    "descriptionXDagNews": "关于XDag的官方新闻",
+    "nameXDagProWallet": "XDagPro 钱包",
+    "descriptionXDagProWallet": "用于安卓或者平果手机上的专业钱包"
+  }
+}
