@@ -1,4 +1,4 @@
-# XDag Chrome Extension
+# XDag Hub
 
 This is a browser extension for XDAG blockchain, aimed at providing APIs for ecosystem application development. It also aims to collect and categorize ecosystem applications related to XDAG, and promote them to XDAG enthusiasts through the community. In short, this is the Hub of XDAG's ecosystem applications.
 
