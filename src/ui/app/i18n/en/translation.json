@@ -91,7 +91,11 @@
     "AutoLock": "Auto-lock",
     "FAQ": "FAQ",
     "LockWallet": "Lock Wallet",
-    "Logout": "Logout"
+    "Logout": "Logout",
+    "Cancel": "Cancel",
+    "HubVersion": "Hub Version v",
+    "logoutConfirmTitle": "Logout will Reset Everything",
+    "logoutConfirmHint": "You will RESET the Hub. Please ensure that you have backed up the 12-word Recovery Passphrase!"
   },
   "AccountsSettings": {
     "Accounts": "Accounts",
@@ -267,6 +271,18 @@
     "nameXDagNews": "XDag News",
     "descriptionXDagNews": "Official news about XDAG",
     "nameXDagProWallet": "XDagPro Wallet",
-    "descriptionXDagProWallet": "A professional wallet for Android or iOS phones"
+    "descriptionXDagProWallet": "A professional wallet for Android or iOS phones",
+    "nameEasternFootballTeam": "Eastern Football Team",
+    "descriptionEasternFootballTeamByFoundation": "The Hong Kong football team sponsored by XDAG Foundation."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "Invalid address. Please check again."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "The value provided is not valid.",
+    "isRequired": "This field is required",
+    "ShouldBeGreaterThan0": "Must be greater than 0 {{_Symbol}}",
+    "MustBeLessThan": " must be less than {{_BalanceText}}",
+    "ExceedsMaximumDecimals": "The value exceeds the maximum decimals {{_Decimals}}"
   }
 }

@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import * as Yup from "yup";
 import { useRpcClient } from "_src/xdag/api";
 import { isValidXDagAddress } from "_src/xdag/typescript/types";
+import i18next from "i18next";
 
 export function createXDagAddressValidation() {
 	return Yup.string()
@@ -10,7 +11,7 @@ export function createXDagAddressValidation() {
 		.required()
 		.test(
 			"is-xDag-address",
-			"Invalid address. Please check again.",
+			i18next.t("createXDagAddressValidation.InvalidAddress"),
 			async ( value ) => {
 				return isValidXDagAddress( value );
 			},
@@ -20,6 +21,6 @@ export function createXDagAddressValidation() {
 
 export function useXDagAddressValidation() {
 	return useMemo( () => {
-		return createXDagAddressValidation( );
+		return createXDagAddressValidation();
 	}, [] );
 }

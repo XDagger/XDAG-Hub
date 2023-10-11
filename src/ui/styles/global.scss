@@ -47,7 +47,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 360px;
+  min-width: 324px;
+  width: 100vw;
   height: 100vh;
   background: url("_assets/images/primary_wallet_bg.svg") no-repeat center center;
   background-size: cover;

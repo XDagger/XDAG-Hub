@@ -91,7 +91,11 @@
     "AutoLock": "자동 잠금",
     "FAQ": "FAQ",
     "LockWallet": "지갑 잠금",
-    "Logout": "로그아웃"
+    "Logout": "로그아웃",
+    "Cancel": "취소",
+    "HubVersion": "허브 버전 v",
+    "logoutConfirmTitle": "로그아웃하면 모든 것이 초기화됩니다",
+    "logoutConfirmHint": "허브를 초기화합니다. 12 단어 복구 암호를 백업했는지 확인해주세요!"
   },
   "AccountsSettings": {
     "Accounts": "계정",
@@ -266,6 +270,18 @@
     "nameXDagNews": "XDag 뉴스",
     "descriptionXDagNews": "XDAG에 대한 공식 뉴스",
     "nameXDagProWallet": "XDagPro 지갑",
-    "descriptionXDagProWallet": "안드로이드 또는 iOS 스마트폰용 전문적인 지갑"
+    "descriptionXDagProWallet": "안드로이드 또는 iOS 스마트폰용 전문적인 지갑",
+    "nameEasternFootballTeam": "동부 축구 팀",
+    "descriptionEasternFootballTeamByFoundation": "XDAG 재단이 후원하는 홍콩 축구 팀입니다."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "잘못된 주소입니다. 다시 확인해주세요."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "제공된 값이 유효하지 않습니다.",
+    "isRequired": "이 필드는 필수입니다",
+    "ShouldBeGreaterThan0": "0보다 커야합니다. {{_Symbol}}",
+    "MustBeLessThan": " {{_BalanceText}}보다 작아야합니다",
+    "ExceedsMaximumDecimals": "값이 최대 소수점 자리 수를 초과합니다 {{_Decimals}}"
   }
 }

@@ -91,7 +91,11 @@
     "AutoLock": "Verrouillage automatique",
     "FAQ": "FAQ",
     "LockWallet": "Verrouiller le portefeuille",
-    "Logout": "Déconnexion"
+    "Logout": "Déconnexion",
+    "Cancel": "Annuler",
+    "HubVersion": "Version du hub v",
+    "logoutConfirmTitle": "La déconnexion réinitialisera tout",
+    "logoutConfirmHint": "Vous allez RÉINITIALISER le hub. Veuillez vous assurer d'avoir sauvegardé la phrase de récupération de 12 mots !"
   },
   "AccountsSettings": {
     "Accounts": "Comptes",
@@ -265,6 +269,18 @@
     "nameXDagNews": "Nouvelles XDag",
     "descriptionXDagNews": "Actualités officielles sur XDAG",
     "nameXDagProWallet": "Portefeuille XDagPro",
-    "descriptionXDagProWallet": "Un portefeuille professionnel pour smartphones Android ou iOS"
+    "descriptionXDagProWallet": "Un portefeuille professionnel pour smartphones Android ou iOS",
+    "nameEasternFootballTeam": "Équipe de football de l'Est",
+    "descriptionEasternFootballTeamByFoundation": "L'équipe de football de Hong Kong parrainée par la Fondation XDAG."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "Adresse invalide. Veuillez vérifier à nouveau."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "La valeur fournie n'est pas valide.",
+    "isRequired": "Ce champ est obligatoire",
+    "ShouldBeGreaterThan0": "Doit être supérieur à 0 {{_Symbol}}",
+    "MustBeLessThan": " doit être inférieur à {{_BalanceText}}",
+    "ExceedsMaximumDecimals": "La valeur dépasse le nombre maximal de décimales autorisées {{_Decimals}}"
   }
 }

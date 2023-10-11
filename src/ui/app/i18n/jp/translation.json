@@ -91,7 +91,11 @@
     "AutoLock": "自動ロック",
     "FAQ": "よくある質問",
     "LockWallet": "ウォレットをロックする",
-    "Logout": "ログアウト"
+    "Logout": "ログアウト",
+    "Cancel": "キャンセル",
+    "HubVersion": "ハブバージョン v",
+    "logoutConfirmTitle": "ログアウトするとすべてがリセットされます",
+    "logoutConfirmHint": "ハブをリセットします。12単語リカバリーパスフレーズをバックアップしたことを確認してください！"
   },
   "AccountsSettings": {
     "Accounts": "アカウント",
@@ -266,6 +270,18 @@
     "nameXDagNews": "XDag ニュース",
     "descriptionXDagNews": "XDAG の公式ニュース",
     "nameXDagProWallet": "XDagProウォレット",
-    "descriptionXDagProWallet": "AndroidまたはiOSスマートフォン用のプロフェッショナルウォレット"
+    "descriptionXDagProWallet": "AndroidまたはiOSスマートフォン用のプロフェッショナルウォレット",
+    "nameEasternFootballTeam": "東方サッカーチーム",
+    "descriptionEasternFootballTeamByFoundation": "XDAG財団がスポンサーする香港のサッカーチーム。"
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "無効なアドレスです。再度確認してください。"
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "提供された値が無効です。",
+    "isRequired": "このフィールドは必須です",
+    "ShouldBeGreaterThan0": "{{_Symbol}}より大きい必要があります",
+    "MustBeLessThan": "{{_BalanceText}}より小さくする必要があります",
+    "ExceedsMaximumDecimals": "値が最大小数点以下桁数を超えています {{_Decimals}}"
   }
 }

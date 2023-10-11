@@ -136,16 +136,17 @@ function MenuList() {
 						weight="semibold"
 					/>
 					<Text variant="bodySmall" weight="medium" color="steel">
-						Wallet Version v{ version }
+						Wallet Version v{ t( "MenuList.HubVersion" )+version }
 					</Text>
 				</div>
 			</MenuLayout>
 			<ConfirmationModal
 				isOpen={ isLogoutDialogOpen }
-				confirmText="Logout"
+				confirmText={ t( "MenuList.Logout" ) }
+				cancelText={ t( "MenuList.Cancel" ) }
 				confirmStyle="outlineWarning"
-				title="Are you sure you want to Logout?"
-				hint="You will need the 12-word Recovery Passphrase that was created when you first set up the wallet to log back in."
+				title={ t( "MenuList.logoutConfirmTitle" ) }
+				hint={ t( "MenuList.logoutConfirmHint" ) }
 				onResponse={ async ( confirmed ) => {
 					setIsLogoutDialogOpen( false );
 					if ( confirmed ) {

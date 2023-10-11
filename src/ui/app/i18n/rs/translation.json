@@ -91,7 +91,11 @@
     "AutoLock": "Автоматическая блокировка",
     "FAQ": "Часто задаваемые вопросы",
     "LockWallet": "Заблокировать кошелек",
-    "Logout": "Выйти"
+    "Logout": "Выйти",
+    "Cancel": "Отмена",
+    "HubVersion": "Версия хаба v",
+    "logoutConfirmTitle": "Выход сбросит все настройки",
+    "logoutConfirmHint": "Вы сбрасываете хаб. Пожалуйста, убедитесь, что вы сохранили 12-словную фразу для восстановления!"
   },
   "AccountsSettings": {
     "Accounts": "Аккаунты",
@@ -265,6 +269,18 @@
     "nameXDagNews": "Новости XDag",
     "descriptionXDagNews": "Официальные новости о XDAG",
     "nameXDagProWallet": "Кошелек XDagPro",
-    "descriptionXDagProWallet": "Профессиональный кошелек для смартфонов на Android или iOS"
+    "descriptionXDagProWallet": "Профессиональный кошелек для смартфонов на Android или iOS",
+    "nameEasternFootballTeam": "Восточная футбольная команда",
+    "descriptionEasternFootballTeamByFoundation": "Футбольная команда Гонконга, спонсируемая Фондом XDAG."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "Неверный адрес. Пожалуйста, проверьте еще раз."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "Предоставленное значение недопустимо.",
+    "isRequired": "Это поле обязательно для заполнения",
+    "ShouldBeGreaterThan0": "Должно быть больше 0 {{_Symbol}}",
+    "MustBeLessThan": " должно быть меньше {{_BalanceText}}",
+    "ExceedsMaximumDecimals": "Значение превышает максимально допустимое количество десятичных знаков {{_Decimals}}"
   }
 }
