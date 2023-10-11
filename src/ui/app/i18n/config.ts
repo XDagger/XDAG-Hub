@@ -1,6 +1,5 @@
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
 import cnTranslation from './cn/translation.json';
 import enTranslation from './en/translation.json';
 import frTranslation from './fr/translation.json';
@@ -11,7 +10,6 @@ import rsTranslation from './rs/translation.json';
 import araTranslation from './ara/translation.json';
 import jpTranslation from './jp/translation.json';
 import krTranslation from './kr/translation.json';
-
 import Browser from "webextension-polyfill";
 
 export const supportLanguages:Record<string, string> = {

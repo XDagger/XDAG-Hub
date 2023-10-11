@@ -91,7 +91,11 @@
     "AutoLock": "الغلق التلقائي",
     "FAQ": "أسئلة شائعة",
     "LockWallet": "قفل المحفظة",
-    "Logout": "تسجيل الخروج"
+    "Logout": "تسجيل الخروج",
+    "Cancel": "إلغاء",
+    "HubVersion": "إصدار المحور v",
+    "logoutConfirmTitle": "تسجيل الخروج سيعيد كل شيء",
+    "logoutConfirmHint": "ستعيد ضبط المحور. يرجى التأكد من أنك قمت بنسخ احتياطي لجملة الاستعادة المؤلفة من 12 كلمة!"
   },
   "AccountsSettings": {
     "Accounts": "الحسابات",
@@ -266,6 +270,18 @@
     "nameXDagNews": "أخبار XDag",
     "descriptionXDagNews": "الأخبار الرسمية حول XDAG",
     "nameXDagProWallet": "محفظة XDagPro",
-    "descriptionXDagProWallet": "محفظة متخصصة لهواتف الأندرويد أو iOS"
+    "descriptionXDagProWallet": "محفظة متخصصة لهواتف الأندرويد أو iOS",
+    "nameEasternFootballTeam": "فريق كرة القدم الشرقي",
+    "descriptionEasternFootballTeamByFoundation": "فريق كرة القدم في هونغ كونغ الذي يتم تمويله من قبل مؤسسة XDAG."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "عنوان غير صالح. يرجى التحقق مرة أخرى."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "القيمة المقدمة غير صالحة.",
+    "isRequired": "هذا الحقل مطلوب",
+    "ShouldBeGreaterThan0": "يجب أن يكون أكبر من 0 {{_Symbol}}",
+    "MustBeLessThan": " يجب أن يكون أقل من {{_BalanceText}}",
+    "ExceedsMaximumDecimals": "القيمة تتجاوز الحد الأقصى للأرقام العشرية {{_Decimals}}"
   }
 }

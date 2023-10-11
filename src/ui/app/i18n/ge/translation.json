@@ -2,7 +2,7 @@
   "title": "Willkommen {{name}}, um mit react-i18next vollständig typensicher zu reagieren",
   "userMessagesUnread_one": "Sie haben {{count}} ungelesene Nachricht.",
   "userMessagesUnread_other": "Sie haben {{count}} ungelesene Nachrichten.",
-  "LanguageConfig":{
+  "LanguageConfig": {
     "followSystem": "Chrome"
   },
   "lockedPage": {
@@ -91,7 +91,11 @@
     "AutoLock": "Automatische Sperrung",
     "FAQ": "FAQ",
     "LockWallet": "Brieftasche sperren",
-    "Logout": "Abmelden"
+    "Logout": "Abmelden",
+    "Cancel": "Abbrechen",
+    "HubVersion": "Hub-Version v",
+    "logoutConfirmTitle": "Die Abmeldung setzt alles zurück",
+    "logoutConfirmHint": "Sie setzen den Hub zurück. Bitte stellen Sie sicher, dass Sie das 12-Wort-Wiederherstellungspasswort gesichert haben!"
   },
   "AccountsSettings": {
     "Accounts": "Konten",
@@ -266,7 +270,18 @@
     "nameXDagNews": "XDag Nachrichten",
     "descriptionXDagNews": "Offizielle Nachrichten über XDAG",
     "nameXDagProWallet": "XDagPro Wallet",
-    "descriptionXDagProWallet": "Eine professionelle Brieftasche für Android- oder iOS-Smartphones"
-
+    "descriptionXDagProWallet": "Eine professionelle Brieftasche für Android- oder iOS-Smartphones",
+    "nameEasternFootballTeam": "Östliches Fußballteam",
+    "descriptionEasternFootballTeamByFoundation": "Das von der XDAG-Stiftung gesponserte Fußballteam Hongkongs."
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "Ungültige Adresse. Bitte überprüfen Sie erneut."
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "Der eingegebene Wert ist ungültig.",
+    "isRequired": "Dieses Feld ist erforderlich",
+    "ShouldBeGreaterThan0": "Muss größer als 0 sein {{_Symbol}}",
+    "MustBeLessThan": " muss kleiner als {{_BalanceText}} sein",
+    "ExceedsMaximumDecimals": "Der Wert überschreitet die maximal zulässige Anzahl von Dezimalstellen {{_Decimals}}"
   }
 }

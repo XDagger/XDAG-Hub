@@ -9,13 +9,27 @@ import { useAppSelector } from "_hooks";
 import { prepareLinkToCompare } from "_src/shared/utils";
 import { useTranslation } from "react-i18next";
 import { XDagApp } from "_components/xdag-apps/XdagApp";
-import {appsArr} from "./appsConfig"
+import { XDagAppConfig } from "_pages/home/apps";
 
-function AppsPlayGround() {
+type Props = {
+	xDagAppsConfigs: XDagAppConfig[];
+};
 
-	const filteredEcosystemApps = appsArr;
+const AppsPlayGround: React.FC<Props> = ( { xDagAppsConfigs } ) => {
+
+	const { tagName } = useParams();
 	const allPermissions = useAppSelector( permissionsSelectors.selectAll );
 	const { t } = useTranslation();
+
+	const filteredEcosystemApps = useMemo(() => {
+		if (!xDagAppsConfigs) {
+			return [];
+		} else if (tagName) {
+			return xDagAppsConfigs.filter((app) => app.tags.includes(tagName));
+		}
+		return xDagAppsConfigs;
+	}, [xDagAppsConfigs, tagName]);
+
 
 	const linkToPermissionID = useMemo( () => {
 		const map = new Map<string, string>();
@@ -50,9 +64,7 @@ function AppsPlayGround() {
 						<XDagApp
 							key={ app.link }
 							{ ...app }
-							permissionID={ linkToPermissionID.get(
-								prepareLinkToCompare( app.link ),
-							) }
+							permissionID={ linkToPermissionID.get( prepareLinkToCompare( app.link ), ) }
 							displayType="full"
 							openAppSite
 						/>

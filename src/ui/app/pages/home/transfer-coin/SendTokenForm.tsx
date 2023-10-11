@@ -80,15 +80,13 @@ export function SendTokenForm( { coinType, onSubmit, initialAmount = "", initial
 	);
 	const XDagNSEnabled = false;
 
-	const validationSchemaStepOne = useMemo(
-		() => createValidationSchemaStepOne(
+	const validationSchemaStepOne = useMemo( () => createValidationSchemaStepOne(
 			rpc,
 			XDagNSEnabled,
 			coinBalance,
 			symbol,
 			coinDecimals,
-		),
-		[ rpc, coinBalance, symbol, coinDecimals, XDagNSEnabled ],
+		), [ rpc, coinBalance, symbol, coinDecimals, XDagNSEnabled ],
 	);
 
 	// remove the comma from the token balance

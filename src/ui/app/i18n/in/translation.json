@@ -91,14 +91,18 @@
     "AutoLock": "ऑटो-लॉक",
     "FAQ": "सामान्य प्रश्न",
     "LockWallet": "वॉलेट लॉक करें",
-    "Logout": "लॉगआउट"
+    "Logout": "लॉगआउट",
+    "Cancel": "रद्द करें",
+    "HubVersion": "हब संस्करण v",
+    "logoutConfirmTitle": "लॉगआउट सब कुछ रीसेट कर देगा",
+    "logoutConfirmHint": "आप हब को रीसेट करेंगें। कृपया सुनिश्चित करें कि आपने 12 शब्दों के रिकवरी फ्रेज़ का बैकअप ले लिया है!"
   },
   "AccountsSettings": {
     "Accounts": "खाते",
     "CreateNewAccount": "नया खाता बनाएं",
     "ImportPrivateKey": "निजी कुंजी आयात करें"
   },
-  "....0": { },
+  "....0": {},
   "ImportPrivateKey": {
     "ImportExistingAccount": "मौजूदा खाता आयात करें",
     "EnterPrivateKey": "निजी कुंजी दर्ज करें",
@@ -268,6 +272,18 @@
     "nameXDagNews": "XDag समाचार",
     "descriptionXDagNews": "XDAG के बारे में आधिकारिक समाचार",
     "nameXDagProWallet": "XDagPro वॉलेट",
-    "descriptionXDagProWallet": "Android या iOS स्मार्टफोनों के लिए एक पेशेवर वॉलेट"
+    "descriptionXDagProWallet": "Android या iOS स्मार्टफोनों के लिए एक पेशेवर वॉलेट",
+    "nameEasternFootballTeam": "पूर्वी फुटबॉल टीम",
+    "descriptionEasternFootballTeamByFoundation": "XDAG फाउंडेशन द्वारा प्रायोजित हॉंगकॉंग फुटबॉल टीम।"
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "अमान्य पता। कृपया फिर से जांचें।"
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "दिए गए मान मान्य नहीं है।",
+    "isRequired": "यह फ़ील्ड आवश्यक है",
+    "ShouldBeGreaterThan0": "शून्य से अधिक होना चाहिए {{_Symbol}}",
+    "MustBeLessThan": " {{_BalanceText}} से कम होना चाहिए",
+    "ExceedsMaximumDecimals": "मान सर्वाधिक दशमलवों की सीमा से अधिक है {{_Decimals}}"
   }
 }

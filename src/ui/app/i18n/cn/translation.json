@@ -91,7 +91,11 @@
     "AutoLock": "自动锁定",
     "FAQ": "常见问题",
     "LockWallet": "锁定钱包",
-    "Logout": "退出"
+    "Logout": "注销",
+    "Cancel": "取消",
+    "HubVersion": "Hub 版本 v",
+    "logoutConfirmTitle": "注销将重置一切",
+    "logoutConfirmHint": "您将重置 Hub。请确保已备份了包含 12 个单词的密钥！"
   },
   "AccountsSettings": {
     "Accounts": "账号集",
@@ -269,6 +273,18 @@
     "nameXDagNews": "XDag 新闻",
     "descriptionXDagNews": "关于XDag的官方新闻",
     "nameXDagProWallet": "XDagPro 钱包",
-    "descriptionXDagProWallet": "用于安卓或者平果手机上的专业钱包"
+    "descriptionXDagProWallet": "用于安卓或者平果手机上的专业钱包",
+    "nameEasternFootballTeam": "东方足球队",
+    "descriptionEasternFootballTeamByFoundation": "由XDAG基金会赞助的香港足球队。"
+  },
+  "createXDagAddressValidation": {
+    "InvalidAddress": "无效的地址。请再次检查。"
+  },
+  "createTokenValidation": {
+    "ValueIsInvalid": "提供的值无效",
+    "isRequired": "此字段为必填项",
+    "ShouldBeGreaterThan0": "必须大于0 {{_Symbol}}",
+    "MustBeLessThan": "必须小于 {{_BalanceText}}",
+    "ExceedsMaximumDecimals": "值超过最大小数位数 {{_Decimals}}"
   }
 }
