@@ -78,15 +78,13 @@ export function SendTokenForm( { coinType, onSubmit, initialAmount = "", initial
 		coinType,
 		CoinFormat.FULL,
 	);
-	const XDagNSEnabled = false;
 
 	const validationSchemaStepOne = useMemo( () => createValidationSchemaStepOne(
 			rpc,
-			XDagNSEnabled,
 			coinBalance,
 			symbol,
 			coinDecimals,
-		), [ rpc, coinBalance, symbol, coinDecimals, XDagNSEnabled ],
+		), [ rpc, coinBalance, symbol, coinDecimals ],
 	);
 
 	// remove the comma from the token balance
@@ -127,101 +125,105 @@ export function SendTokenForm( { coinType, onSubmit, initialAmount = "", initial
 			>
 
 
-				{ ( { isValid, isSubmitting, setFieldValue, values, submitForm, validateField } ) => {
-					const newPayXDagAll = parseAmount( values.amount, coinDecimals ) === coinBalance && coinType === XDAG_TYPE_ARG;
-					if ( values.isPayAllXDag !== newPayXDagAll ) {
-						setFieldValue( "isPayAllXDag", newPayXDagAll );
+				{
+					( { isValid, isSubmitting, setFieldValue, values, submitForm, validateField } ) => {
+
+						const newPayXDagAll = parseAmount( values.amount, coinDecimals ) === coinBalance && coinType === XDAG_TYPE_ARG;
+						if ( values.isPayAllXDag !== newPayXDagAll ) {
+							setFieldValue( "isPayAllXDag", newPayXDagAll );
+						}
+						const enough = hasEnoughBalance( values );
+
+						return (
+							<BottomMenuLayout>
+								<Content>
+									<Form autoComplete="off" noValidate>
+										<div className="w-full flex flex-col flex-grow">
+											<div className="px-2 mb-2.5">
+												<Text variant="caption" color="steel" weight="semibold">
+													{ t( "SendTokenForm.SelectCoinAmountToSend" ) }
+												</Text>
+											</div>
+											<InputWithAction
+												data-testid="coin-amount-input"
+												type="numberInput"
+												name="amount"
+												placeholder="0.00"
+												prefix={ values.isPayAllXDag ? "~ " : "" }
+												actionText="Max"
+												suffix={ ` ${ symbol }` }
+												actionType="button"
+												allowNegative={ false }
+												decimals
+												rounded="lg"
+												dark
+												onActionClicked={ async () => {
+													// using await to make sure the value is set before the validation
+													await setFieldValue( "amount", formattedTokenBalance );
+													validateField( "amount" );
+												} }
+												actionDisabled={ parseAmount( values?.amount, coinDecimals ) === coinBalance || queryResult.isLoading || !coinBalance }
+											/>
+										</div>
+
+										{ !enough ? (
+											<div className="mt-3">
+												<Alert>{ t( "SendTokenForm.InsufficientXDAGToCoverTransaction" ) }</Alert>
+											</div>
+										) : null }
+
+										{/*{ coins ? (<GasBudgetEstimation coinDecimals={ coinDecimals } coins={ coins }/>) : null }*/ }
+
+										<div className="w-full flex gap-2.5 flex-col mt-7.5">
+											<div className="px-2 tracking-wider">
+												<Text variant="caption" color="steel" weight="semibold">
+													{ t( "SendTokenForm.EnterRecipientAddress" ) }
+												</Text>
+											</div>
+											<div className="w-full flex relative items-center flex-col">
+												<Field
+													component={ AddressInput }
+													name="to"
+													placeholder={ t( "SendTokenForm.EnterAddress" ) }
+												/>
+											</div>
+										</div>
+
+
+										<div className="w-full flex gap-2.5 flex-col mt-7.5">
+											<div className="px-2 tracking-wider">
+												<Text variant="caption" color="steel" weight="semibold">
+													{ t( "SendTokenForm.EnterRemark" ) }
+												</Text>
+											</div>
+											<div className="w-full flex relative items-center flex-col">
+												<Field
+													component={ RemarkInput }
+													name="remark"
+													placeholder={ t( "SendTokenForm.Limited32Chars" ) }
+												/>
+											</div>
+										</div>
+									</Form>
+								</Content>
+
+
+								<Menu stuckClass="sendCoin-cta" className="w-full px-0 pb-0 mx-0 gap-2.5">
+									<Button
+										type="submit"
+										onClick={ submitForm }
+										variant="primary"
+										loading={ isSubmitting }
+										disabled={ !isValid || isSubmitting || !enough }
+										size="tall"
+										text={ t( "SendTokenForm.Review" ) }
+										after={ <ArrowRight16/> }
+									/>
+								</Menu>
+							</BottomMenuLayout>
+						);
 					}
-					const enough = hasEnoughBalance( values );
-					return (
-						<BottomMenuLayout>
-							<Content>
-								<Form autoComplete="off" noValidate>
-									<div className="w-full flex flex-col flex-grow">
-										<div className="px-2 mb-2.5">
-											<Text variant="caption" color="steel" weight="semibold">
-												{ t( "SendTokenForm.SelectCoinAmountToSend" ) }
-											</Text>
-										</div>
-										<InputWithAction
-											data-testid="coin-amount-input"
-											type="numberInput"
-											name="amount"
-											placeholder="0.00"
-											prefix={ values.isPayAllXDag ? "~ " : "" }
-											actionText="Max"
-											suffix={ ` ${ symbol }` }
-											actionType="button"
-											allowNegative={ false }
-											decimals
-											rounded="lg"
-											dark
-											onActionClicked={ async () => {
-												// using await to make sure the value is set before the validation
-												await setFieldValue( "amount", formattedTokenBalance );
-												validateField( "amount" );
-											} }
-											actionDisabled={ parseAmount( values?.amount, coinDecimals ) === coinBalance || queryResult.isLoading || !coinBalance }
-										/>
-									</div>
-
-									{ !enough ? (
-										<div className="mt-3">
-											<Alert>{ t( "SendTokenForm.InsufficientXDAGToCoverTransaction" ) }</Alert>
-										</div>
-									) : null }
-
-									{/*{ coins ? (<GasBudgetEstimation coinDecimals={ coinDecimals } coins={ coins }/>) : null }*/ }
-
-									<div className="w-full flex gap-2.5 flex-col mt-7.5">
-										<div className="px-2 tracking-wider">
-											<Text variant="caption" color="steel" weight="semibold">
-												{ t( "SendTokenForm.EnterRecipientAddress" ) }
-											</Text>
-										</div>
-										<div className="w-full flex relative items-center flex-col">
-											<Field
-												component={ AddressInput }
-												name="to"
-												placeholder={ t( "SendTokenForm.EnterAddress" ) }
-											/>
-										</div>
-									</div>
-
-
-									<div className="w-full flex gap-2.5 flex-col mt-7.5">
-										<div className="px-2 tracking-wider">
-											<Text variant="caption" color="steel" weight="semibold">
-												{ t( "SendTokenForm.EnterRemark" ) }
-											</Text>
-										</div>
-										<div className="w-full flex relative items-center flex-col">
-											<Field
-												component={ RemarkInput }
-												name="remark"
-												placeholder={ t( "SendTokenForm.Limited32Chars" ) }
-											/>
-										</div>
-									</div>
-								</Form>
-							</Content>
-
-
-							<Menu stuckClass="sendCoin-cta" className="w-full px-0 pb-0 mx-0 gap-2.5">
-								<Button
-									type="submit"
-									onClick={ submitForm }
-									variant="primary"
-									loading={ isSubmitting }
-									disabled={ !isValid || isSubmitting || !enough }
-									size="tall"
-									text={ t( "SendTokenForm.Review" ) }
-									after={ <ArrowRight16/> }
-								/>
-							</Menu>
-						</BottomMenuLayout>
-					);
-				} }
+				}
 			</Formik>
 		</Loading>
 	);

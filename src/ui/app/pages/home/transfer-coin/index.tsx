@@ -30,7 +30,6 @@ function TransferCoinPage() {
 	const address = useActiveAddress();
 	const queryClient = useQueryClient();
 	const { t } = useTranslation();
-	// const { clientIdentifier, notificationModal } = useQredoTransaction();
 
 	const transactionBlock = useMemo( () => {
 		if ( !coinType || !signer || !formData || !address ) {

@@ -37,13 +37,5 @@ export function createTokenValidation( coinBalance: BigNumber, coinSymbol: strin
 				return amount ? amount <= coinBalance : false
 			},
 		)
-		.test(
-			"max-decimals",
-			i18next.t( "createTokenValidation.ExceedsMaximumDecimals", {_Decimals} ),
-			// `The value exceeds the maximum decimals (${ decimals }).`,
-			( amount?: BigNumber ) => {
-				return amount ? amount.shiftedBy( decimals ).isInteger() : false;
-			},
-		)
 		.label( "Amount" );
 }
