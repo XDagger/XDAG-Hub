@@ -153,7 +153,7 @@
   },
   "DAppInfoCard": {
     "ViewWebsite": "查看发起站点",
-    "ConnectedAccount": "交易使用账号"
+    "ConnectedAccount": "交易账号"
   },
   "GasFees": {
     "EstimatedGasFees": "燃料费估算",

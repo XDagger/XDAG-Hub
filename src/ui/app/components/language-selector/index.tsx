@@ -68,7 +68,6 @@ export function LanguageSelector() {
 								<LanguageList
 									onLanguageSelected={ async ( language ) => {
 										if ( language !== activeLanguage ) {
-											console.log(' will set storage .local:' , language )
 											setActiveLanguage(language);
 										}
 									} }

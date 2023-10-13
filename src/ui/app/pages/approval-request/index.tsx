@@ -25,9 +25,6 @@ export function ApprovalRequestPage() {
 	const requestsLoading = useAppSelector( ( { transactionRequests } ) => !transactionRequests.initialized, );
 
 	const allReq = useAppSelector(txRequestsSelectors.selectAll);
-	console.log('request:',request, requestsLoading)
-	console.log('anythingtxRequestsSelectors:\n', allReq)
-
 	useEffect( () => {
 		if ( !requestsLoading && (!request || (request && request.approved !== null)) ) {
 			console.log('window will close!!!!!!!!!!!!')

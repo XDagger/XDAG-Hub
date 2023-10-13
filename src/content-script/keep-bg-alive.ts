@@ -14,7 +14,6 @@ function doConnect() {
     try {
       bgPort = Browser.runtime.connect({ name: KEEP_ALIVE_BG_PORT_NAME });
     } catch (e) {
-      console.log('failed connect:\n', e)
       // usually fails when extension gets updated and context is invalidated
     }
   }

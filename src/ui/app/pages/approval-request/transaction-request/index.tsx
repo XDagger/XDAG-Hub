@@ -108,7 +108,6 @@ export function TransactionRequest( { txRequest }: TransactionRequestProps ) {
 						} ),
 					);
 					const txAddress = (result as any)?.payload?.txResponse?.address;
-					console.log('tx txAddress:',txAddress)
 					const receiptUrl = `/receipt?blockAddress=${ encodeURIComponent( txAddress ) }&from=transactions`;
 					setConfirmationVisible( false );
 
