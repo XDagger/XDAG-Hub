@@ -6,7 +6,6 @@ import i18next from 'i18next';
 
 const getLanguageFromChrome = (): string => {
 	const chromeLanguage = Browser.i18n.getUILanguage()
-	console.log(' language from chrome Setting:', chromeLanguage );
 	let lan = "en";
 	if ( chromeLanguage === "zh-CN" ) lan = "cn"
 	return lan;
@@ -30,7 +29,6 @@ export const useActiveLanguage = (): string => {
 
 	useEffect( () => {
 		Browser.storage.local.get( { activeLanguage: "follow" } ).then( ( result ) => {
-			console.log( '...............:\n', result )
 			updateValue(result[key])
 		} )
 

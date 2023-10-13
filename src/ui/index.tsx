@@ -34,8 +34,6 @@ function renderApp() {
   }
   const root = createRoot(rootDom);
 
-  console.log('............root:\n', root)
-
   root.render(
     <StrictMode>
       <Provider store={store}>

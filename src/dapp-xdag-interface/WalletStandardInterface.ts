@@ -194,7 +194,6 @@ export class XDagWallet implements Wallet
 
 	// #signAndExecuteTransactionBlock: XdagSignAndExecuteTransactionBlockMethod =
 	#signAndExecuteTransactionBlock = async ( input: { toAddress: string, amount: number, remark: string } ) => {
-		console.log('########signAndExecuteTransactionBlock:\n', input)
 		if ( !input.toAddress && input.toAddress.length < 5 ) {
 			throw new Error( "invalid parameter when call signAndExecuteTransactionBlock " );
 		}
