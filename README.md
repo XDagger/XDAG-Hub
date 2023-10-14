@@ -1,25 +1,11 @@
 # XDag Hub
 
-This is a browser extension for XDAG blockchain, aimed at providing APIs for ecosystem application development. It also aims to collect and categorize ecosystem applications related to XDAG, and promote them to XDAG enthusiasts through the community. In short, this is the Hub of XDAG's ecosystem applications.
+### XDag Hub Chrome Extension
+XDag Hub is a browser extension for XDAG blockchain, aimed at providing some APIs for ecosystem application development. It also aims to collect and categorize ecosystem applications related to XDAG, and promote them to XDAG enthusiasts through the community. In short, this is the Hub of XDAG's ecosystem applications.
 
-## Set Up and build for develop mode
+### XDag Portal
+XDag Portal is a developing web app,  will try to be a portal of XDAG ecosystem.
 
-**Requirements**: Node 18.15.0 or later.
-```
-$  pnpm upgrade
-$  pnpm install
-$  pnpm run dev
-```
-The output directory is the same [dist/](./dist/), all build artifacts will go there
+## Set Up and build 
 
-## Build once in prod mode
-
-```
- pnpm run prod
-```
-
-Same as above the output is [dist/](./dist/).
-
-## Install the extension to Chrome
-
-After building the app, the extension needs to be installed to Chrome. Follow the steps to [load an unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked) and install the app from the [dist/](./dist/) directory.
+Please refer to the Readme.md documentation of the respective submodules for building instructions.
