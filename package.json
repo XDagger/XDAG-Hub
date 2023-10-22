@@ -4,7 +4,8 @@
   "description": "XDag Hub of Ecosystem Apps",
   "scripts": {
     "hub": "pnpm --filter ./XDagHubChromeExtension",
-    "portal": "pnpm --filter ./XDagPortal"
+    "portal": "pnpm --filter ./XDagPortal",
+    "buildPortal": "cd ./XDagPorta && pnpm install && pnpm run build && mv dist .."
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
     "tokens",
     "balance"
   ],
-  "author": "bourgesMind & lulianovic",
+  "author": "lulianovic & Mind",
   "pnpm": {
     "overrides": {
       "node-notifier": "10.0.0",

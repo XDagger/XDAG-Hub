@@ -27,7 +27,7 @@
     "tokens",
     "balance"
   ],
-  "author": "bourgesMind & lulianovic",
+  "author": "lulianovic & Mind",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/core": "7.22.9",

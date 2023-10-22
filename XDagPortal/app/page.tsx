@@ -1,10 +1,16 @@
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
-import { allBlogs } from 'contentlayer/generated'
+import { allDApps } from 'contentlayer/generated'
 import Main from './Main'
 
 export default async function Page() {
-  const sortedPosts = sortPosts(allBlogs)
-  const posts = allCoreContent(sortedPosts)
-  console.log('posts:\n', posts)
-  return <Main posts={posts} />
+
+	const sortedPosts = sortPosts( allDApps ?? [] )
+	const posts = allCoreContent( sortedPosts )
+
+	return (
+		<>
+			<Main posts={ posts }/>
+		</>
+	)
+
 }
