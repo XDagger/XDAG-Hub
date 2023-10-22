@@ -139,6 +139,12 @@ export const Community = defineDocumentType( () => ({
 		linkedin: { type: 'string' },
 		github: { type: 'string' },
 		layout: { type: 'string' },
+		date: { type: 'date' },
+		lastMod: { type: 'date' },
+		draft: { type: 'boolean' },
+		summary: { type: 'string' },
+		bibliography: { type: 'string' },
+		title: { type: 'string' },
 	},
 	computedFields,
 }) )

@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'XDag portal',
-  author: 'Mind',
-  headerTitle: 'XDag Ecosystem Portal',
+  author: 'Lulianovic & Mind',
+  headerTitle: 'XDag Portal',
   description: 'Ecosystem portal of XDag block chain',
   language: 'en-us',
   theme: 'system', // system, dark or light

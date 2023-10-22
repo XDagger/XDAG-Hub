@@ -14,5 +14,9 @@ pnpm run portal dev
 ```
 
 ## Set Up and build 
+```
+pnpm run portal build  
+
+```
 
 Please refer to the Readme.md documentation of the respective submodules for building instructions.
