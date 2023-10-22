@@ -6,6 +6,17 @@ XDag Hub is a browser extension for XDAG blockchain, aimed at providing some API
 ### XDag Portal
 XDag Portal is a developing web app,  will try to be a portal of XDAG ecosystem.
 
+**Requirements**: Node 18.15.0 or later.
+```
+pnpm upgrade
+pnpm portal install
+pnpm run portal dev
+```
+
 ## Set Up and build 
+```
+pnpm run portal build  
+
+```
 
 Please refer to the Readme.md documentation of the respective submodules for building instructions.

@@ -6,9 +6,9 @@ This is a browser extension for XDAG blockchain, aimed at providing APIs for eco
 
 **Requirements**: Node 18.15.0 or later.
 ```
-$  pnpm upgrade
-$  pnpm install
-$  pnpm run dev
+pnpm upgrade
+pnpm install
+pnpm run dev
 ```
 The output directory is the same [dist/](./dist/), all build artifacts will go there
 
