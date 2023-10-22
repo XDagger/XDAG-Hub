@@ -22,8 +22,10 @@ import rehypePresetMinify from 'rehype-preset-minify'
 import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 
+// const root = "file://" + process.cwd();
 const root = process.cwd()
 const isProduction = process.env.NODE_ENV === 'production'
+// console.log( '.....root:', root )
 
 const computedFields: ComputedFields = {
 	readingTime: { type: 'json', resolve: ( doc ) => readingTime( doc.body.raw ) },
@@ -36,20 +38,21 @@ const computedFields: ComputedFields = {
 /**
  * Count the occurrences of all tags across blog posts and write to json file
  */
-function createTagCount( allBlogs ) {
+function createTagCount( allApps ) {
 	const tagCount: Record<string, number> = {}
-	allBlogs.forEach( ( file ) => {
-		if ( file.tags && (!isProduction || file.draft !== true) ) {
-			file.tags.forEach( ( tag ) => {
-				const formattedTag = GithubSlugger.slug( tag )
-				if ( formattedTag in tagCount ) {
-					tagCount[ formattedTag ] += 1
-				} else {
-					tagCount[ formattedTag ] = 1
-				}
-			} )
+	allApps.forEach( ( file ) => {
+			if ( file.tags && (!isProduction || file.draft !== true) ) {
+				file.tags.forEach( ( tag ) => {
+					const formattedTag = GithubSlugger.slug( tag )
+					if ( formattedTag in tagCount ) {
+						tagCount[ formattedTag ] += 1
+					} else {
+						tagCount[ formattedTag ] = 1
+					}
+				} )
+			}
 		}
-	} )
+	)
 	writeFileSync( './app/tag-data.json', JSON.stringify( tagCount ) )
 }
 
@@ -149,33 +152,42 @@ export const Community = defineDocumentType( () => ({
 	computedFields,
 }) )
 
+// const pathCwd = "file://" +  process.cwd().replace(/\\/g, "/");
+// const pathCwd = "file:///D:/code/LulianovicCode/XDAG-Hub/XDagPortal/";
+// console.log( 'absolute apth:<<<>>>>>>\n', pathCwd )
 
+const source = makeSource( {
+		contentDirPath: 'data',
+		documentTypes: [ Author, DApp, Community ],
+		mdx: {
+			// "file:///" + cwd: process.cwd(),
+			cwd: process.cwd(),
+			// cwd: pathCwd,
+			remarkPlugins: [
+				remarkExtractFrontmatter,
+				remarkGfm,
+				remarkCodeTitles,
+				remarkMath,
+				remarkImgToJsx,
+			],
+			rehypePlugins: [
+				rehypeSlug,
+				rehypeAutolinkHeadings,
+				rehypeKatex,
+				[ rehypeCitation, { path: path.join( root, 'data' ) } ],
+				[ rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true } ],
+				rehypePresetMinify,
+			],
+		},
+		// onSuccess: async ( importData ) => {
+		// 	console.log('.......1:.....')
+		// 	const { allDApps } = await importData();
+		// 	console.log('.......2:.....')
+		// 	createTagCount( allDApps );
+		// 	createSearchIndex( allDApps );
+		// },
+	}
+)
 
+export default source;
 
-export default makeSource( {
-	contentDirPath: 'data',
-	documentTypes: [ Author, DApp, Community ],
-	mdx: {
-		cwd: process.cwd(),
-		remarkPlugins: [
-			remarkExtractFrontmatter,
-			remarkGfm,
-			remarkCodeTitles,
-			remarkMath,
-			remarkImgToJsx,
-		],
-		rehypePlugins: [
-			rehypeSlug,
-			rehypeAutolinkHeadings,
-			rehypeKatex,
-			[ rehypeCitation, { path: path.join( root, 'data' ) } ],
-			[ rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true } ],
-			rehypePresetMinify,
-		],
-	},
-	onSuccess: async ( importData ) => {
-		const { allDApps } = await importData();
-		createTagCount( allDApps );
-		createSearchIndex( allDApps );
-	},
-} )

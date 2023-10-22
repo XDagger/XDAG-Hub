@@ -1,6 +1,7 @@
 
 .idea/
 pnpm-lock.yaml
+node_modules/
 
 XDagHubChromeExtension/node_modules/
 XDagHubChromeExtension/yarn.lock
