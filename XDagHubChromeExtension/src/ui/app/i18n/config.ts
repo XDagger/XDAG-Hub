@@ -10,6 +10,7 @@ import rsTranslation from './rs/translation.json';
 import araTranslation from './ara/translation.json';
 import jpTranslation from './jp/translation.json';
 import krTranslation from './kr/translation.json';
+import brTranslation from './br/translation.json';
 import Browser from "webextension-polyfill";
 
 export const supportLanguages:Record<string, string> = {
@@ -23,7 +24,8 @@ export const supportLanguages:Record<string, string> = {
 	"ge": "Deutsch",
 	"ara": "العربية",
 	"jp": "日本語",
-	"kr": "한국어"
+	"kr": "한국어",
+	"br": "Português"
 };
 
 
@@ -58,6 +60,7 @@ await i18next
 			ara: { translation: araTranslation },
 			jp: { translation: jpTranslation },
 			kr: { translation: krTranslation },
+			br: { translation: brTranslation },
 		},
 		// if you see an error like: "Argument of type 'DefaultTFuncReturn' is not assignable to parameter of type xyz"
 		// set returnNull to false (and also in the i18next.d.ts options)
