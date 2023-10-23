@@ -6,16 +6,16 @@
     "followSystem": "Chrome"
   },
   "lockedPage": {
-    "headerCaption": "XDag Hub des applications (aperçu précoce)",
-    "title": "XDAG HUB",
+    "headerCaption": "Portefeuille XDAG basé sur la communauté et la technologie DAG",
+    "title": "ÉCOSYSTÈME XDAG",
     "forgotPassword": "Mot de passe oublié ?",
-    "enterPassword": "Entrez le mot de passe",
+    "enterPassword": "Entrer le mot de passe",
     "unlockWallet": "Déverrouiller le portefeuille",
     "incorrectPassword": "Mot de passe incorrect"
   },
   "WelcomePage": {
-    "welcomeToXDagWallet": "Bienvenue sur XDAG HUB",
-    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Connecting you to the decentralized web and Xdag network.",
+    "welcomeToXDagWallet": "Bienvenue dans le portefeuille XDAG",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Connexion au web décentralisé et au réseau XDAG.",
     "GetStarted": "Commencer",
     "Prop0": "Envoyer, recevoir des coins XDAG",
     "Prop1": "Explorer les Dapps sur la blockchain XDAG",
@@ -25,8 +25,8 @@
     "Prop5": "Échanger XDAG contre d'autres jetons ou pièces"
   },
   "SelectPage": {
-    "heading": "Nouveau sur XDag Wallet ?",
-    "title1": "Oui, en créons un !",
+    "heading": "Nouveau dans le portefeuille XDAG ?",
+    "title1": "Oui, créons-en un !",
     "desc1": "Cela crée un nouveau portefeuille et une phrase de récupération de 12 mots.",
     "action1": "Créer un nouveau portefeuille",
     "title2": "Non, j'en ai déjà un",
@@ -34,11 +34,11 @@
     "action2": "Importer un portefeuille existant"
   },
   "CreatePage": {
-    "headerCaption": "créer un nouveau portefeuille",
+    "headerCaption": "Créer un nouveau portefeuille",
     "title": "Créer un mot de passe pour ce portefeuille",
-    "IReadAndAgreedToThe": "J'ai lu et accepté les",
+    "IReadAndAgreedToThe": "J'ai lu et accepte les",
     "TermsOfServices": "Conditions de service",
-    "CreateWallet": "Créer un portefeuille"
+    "CreateWallet": "Créer le portefeuille"
   },
   "PasswordFields": {
     "CreatePassword": "Créer un mot de passe",
@@ -47,24 +47,24 @@
   "BackupPage": {
     "WalletImportedSuccessfully": "Portefeuille importé avec succès !",
     "WalletCreatedSuccessfully": "Portefeuille créé avec succès !",
-    "BackupRecoveryPhrase": "Sauvegarder la phrase de récupération",
+    "BackupRecoveryPhrase": "Sauvegardez la phrase de récupération",
     "RecoveryPhrase": "Phrase de récupération",
     "BackupPlease": "Votre phrase de récupération facilite la sauvegarde et la restauration de votre compte.",
-    "Warning": "Attention",
+    "Warning": "Avertissement",
     "NeverDisclose": "Ne révélez jamais votre phrase de récupération secrète. Quiconque peut prendre le contrôle de votre compte avec celle-ci.",
     "IHaveSavedIt": "J'ai sauvegardé ma phrase de récupération",
-    "OpenXDagWallet": "Ouvrir XDag Wallet"
+    "OpenXDagWallet": "Ouvrir le portefeuille XDAG"
   },
   "TokenDetails": {
     "Buy": "Acheter",
     "Send": "Envoyer",
     "Swap": "Échanger",
-    "SuitableForSmallAmount": "Convient aux Dapps XDag avec une petite quantité de coins dans ce portefeuille."
+    "SuitableForSmallAmount": "Adapté aux dApps XDAG avec de petites quantités de jetons dans ce portefeuille."
   },
   "ImportPage": {
     "WalletSetup": "Configuration du portefeuille",
     "ImportAnExistingWallet": "Importer un portefeuille existant",
-    "ResetPasswordForThisWallet": "Réinitialiser le mot de passe pour ce portefeuille"
+    "ResetPasswordForThisWallet": "Réinitialiser le mot de passe de ce portefeuille"
   },
   "StepOne": {
     "EnterYourRecoveryPhrase": "Entrez votre phrase de récupération de 12 mots",
@@ -86,7 +86,7 @@
   "MenuList": {
     "WalletSettings": "Paramètres du portefeuille",
     "Accounts": "Comptes",
-    "ViewAccountOnXdagExplorer": "Voir le compte sur Xdag Explorer",
+    "ViewAccountOnXdagExplorer": "Voir le compte sur l'explorateur XDAG",
     "Network": "Réseau",
     "AutoLock": "Verrouillage automatique",
     "FAQ": "FAQ",
@@ -104,15 +104,15 @@
   },
   "ImportPrivateKey": {
     "ImportExistingAccount": "Importer un compte existant",
-    "EnterPrivateKey": "Entrez la clé privée",
+    "EnterPrivateKey": "Entrer la clé privée",
     "Continue": "Continuer"
   },
   "PasswordInputDialog": {
     "EnterWalletPasswordToContinue": "Entrez le mot de passe du portefeuille pour continuer",
-    "ThePasswordUseLockUnlockWallet": "Il s'agit du mot de passe que vous utilisez actuellement pour verrouiller et déverrouiller votre portefeuille Xdag."
+    "ThePasswordUseLockUnlockWallet": "C'est le mot de passe que vous utilisez actuellement pour verrouiller et déverrouiller votre portefeuille XDAG."
   },
   "ExportAccount": {
-    "YourPrivateKey": "Votre clé privée",
+    "YourPrivateKey":"Votre clé privée",
     "DoNotShare": "Ne partagez pas votre clé privée !",
     "ItProvidesFullControl": "Elle donne un contrôle total sur votre compte.",
     "PrivateKeyCopied": "Clé privée copiée",
@@ -120,7 +120,7 @@
   },
   "AccountActions": {
     "ExportPrivateKey": "Exporter la clé privée",
-    "ExportPassphrase": "Exporter la phrase de passe"
+    "ExportPassphrase": "Exporter la phrase secrète"
   },
   "AccountListItem": {
     "AddressCopied": "Adresse copiée"
@@ -139,7 +139,7 @@
   },
   "AutoLockSettings": {
     "AutoLock": "Verrouillage automatique",
-    "SetTheIdleTime": "Définissez le temps d'inactivité en minutes avant que XDag Wallet ne se verrouille automatiquement."
+    "SetTheIdleTime": "Définissez le temps d'inactivité en minutes avant que le portefeuille XDAG se verrouille automatiquement."
   },
   "AutoLockTimerSelector": {
     "Save": "Enregistrer"

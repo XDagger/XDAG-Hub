@@ -1,4 +1,4 @@
-const { withContentlayer } = require('next-contentlayer')
+const {withContentlayer} = require('next-contentlayer')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
@@ -81,8 +81,10 @@ module.exports = () => {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
       })
-
       return config
+    },
+    publicRuntimeConfig: { // 在这里添加新的变量
+      tagCount: {}
     },
   })
 }

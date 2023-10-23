@@ -6,17 +6,18 @@
     "followSystem": "Chrome"
   },
   "lockedPage": {
-    "headerCaption": "XDag Центр приложений (предварительный просмотр)",
-    "title": "XDAG HUB",
+    "headerCaption": "Управляемый сообществом и основанный на DAG",
+    "title": "Экосистема XDAG",
     "forgotPassword": "Забыли пароль?",
     "enterPassword": "Введите пароль",
     "unlockWallet": "Разблокировать кошелек",
-    "incorrectPassword": "Неправильный пароль"
+    "incorrectPassword": "Неверный пароль"
   },
   "WelcomePage": {
-    "welcomeToXDagWallet": "Добро пожаловать в XDAG HUB",
-    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Соединение с децентрализованным вебом и сетью XDag.",
-    "GetStarted": "Начать",
+    "welcomeToXDagWallet": "Кошелек XDAG приветствует Вас",
+    "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Подключение Вас к децентрализованному интернету и сети XDAG.",
+    "GetStarted": "Начать"
+  },
     "Prop0": "Отправка и получение монет XDAG",
     "Prop1": "Исследование Dapp на блокчейне XDAG",
     "Prop2": "Используйте XDAG Wallet API для создания своего Dapp",
@@ -34,42 +35,42 @@
     "action2": "Импортировать существующий кошелек"
   },
   "CreatePage": {
-    "headerCaption": "создать новый кошелек",
-    "title": "Создать пароль для этого кошелька",
-    "IReadAndAgreedToThe": "Я прочитал и согласен с",
-    "TermsOfServices": "Условиями обслуживания",
-    "CreateWallet": "Создать кошелек"
+  "headerCaption": "Создать новый кошелек",
+  "title": "Создать пароль для кошелька",
+  "IReadAndAgreedToThe": "Прочитано, я выражаю согласие с",
+  "TermsOfServices": "Условиями предоставления услуг",
+  "CreateWallet": "Создать кошелек"
   },
   "PasswordFields": {
-    "CreatePassword": "Создайте пароль",
-    "ConfirmPassword": "Подтвердите пароль"
+ "CreatePassword": "Создать пароль",
+ "ConfirmPassword": "Подтвердить пароль"
   },
   "BackupPage": {
-    "WalletImportedSuccessfully": "Кошелек успешно импортирован!",
-    "WalletCreatedSuccessfully": "Кошелек успешно создан!",
-    "BackupRecoveryPhrase": "Создайте резервную копию фразы для восстановления",
-    "RecoveryPhrase": "Фраза для восстановления",
-    "BackupPlease": "Ваша фраза для восстановления позволяет легко создать резервную копию и восстановить ваш аккаунт.",
-    "Warning": "Предупреждение",
-    "NeverDisclose": "Никогда не раскрывайте секретную фразу для восстановления. По ней кто угодно может получить доступ к вашему аккаунту.",
-    "IHaveSavedIt": "Я сохранил мою фразу для восстановления",
-    "OpenXDagWallet": "Открыть XDag Wallet"
+ "WalletImportedSuccessfully": "Кошелек успешно импортирован!",
+ "WalletCreatedSuccessfully": "Кошелек успешно создан!",
+ "BackupRecoveryPhrase": "Копия секретной фразы",
+ "RecoveryPhrase": "Секретная фраза",
+ "BackupPlease": "Ваша секретная фраза упрощает резервное копирование и восстановление счёта.",
+ "Warning": "Предупреждение",
+ "NeverDisclose": "Никогда не раскрывайте секретную фразу. С её помощью любой может завладеть Вашим счётом.",
+ "IHaveSavedIt": "Секретная фраза сохранена мной",
+ "OpenXDagWallet": "Открыть кошелек XDAG"
   },
   "TokenDetails": {
-    "Buy": "Купить",
-    "Send": "Отправить",
-    "Swap": "Обменять",
-    "SuitableForSmallAmount": "Подходит для XDag-приложений с небольшим количеством монет в этом кошельке."
+ "Buy": "Купить",
+ "Send": "Отправить",
+ "Swap": "Обмен",
+ "SuitableForSmallAmount": "Подходит для XDAG DApp с небольшим количеством монет в кошельке."
   },
   "ImportPage": {
-    "WalletSetup": "Установка кошелька",
-    "ImportAnExistingWallet": "Импортировать существующий кошелек",
-    "ResetPasswordForThisWallet": "Сбросить пароль для этого кошелька"
+  "WalletSetup": "Настройка кошелька",
+  "ImportAnExistingWallet": "Импорт существующего кошелька",
+  "ResetPasswordForThisWallet": "Сброс пароля для этого кошелька"
   },
   "StepOne": {
-    "EnterYourRecoveryPhrase": "Введите вашу 12-словную фразу для восстановления",
-    "Next": "Далее",
-    "Continue": "Продолжить"
+  "EnterYourRecoveryPhrase": "Введите секретную фразу (12 слов)",
+  "Next": "Далее",
+  "Continue": "Продолжить"
   },
   "StepTwo": {
     "Back": "Назад",
@@ -85,143 +86,145 @@
   },
   "MenuList": {
     "WalletSettings": "Настройки кошелька",
-    "Accounts": "Аккаунты",
-    "ViewAccountOnXdagExplorer": "Просмотреть аккаунт на Xdag Explorer",
+    "Accounts": "Счета",
+    "ViewAccountOnXdagExplorer": "Просмотр счёта в обозревателе XDAG",
     "Network": "Сеть",
-    "AutoLock": "Автоматическая блокировка",
-    "FAQ": "Часто задаваемые вопросы",
-    "LockWallet": "Заблокировать кошелек",
-    "Logout": "Выйти",
+    "AutoLock": "Автоблокировка",
+    "FAQ": "FAQ",
+    "LockWallet": "Блокировка кошелька",
+    "Logout": "Выход"
     "Cancel": "Отмена",
     "HubVersion": "Версия хаба v",
     "logoutConfirmTitle": "Выход сбросит все настройки",
     "logoutConfirmHint": "Вы сбрасываете хаб. Пожалуйста, убедитесь, что вы сохранили 12-словную фразу для восстановления!"
   },
   "AccountsSettings": {
-    "Accounts": "Аккаунты",
-    "CreateNewAccount": "Создать новый аккаунт",
-    "ImportPrivateKey": "Импортировать приватный ключ"
-  },
+  "Accounts": "Счета",
+  "CreateNewAccount": "Создать новый счёт",
+  "ImportPrivateKey": "Импорт закрытого ключа"
+
+},
   "ImportPrivateKey": {
-    "ImportExistingAccount": "Импортировать существующий аккаунт",
-    "EnterPrivateKey": "Введите приватный ключ",
-    "Continue": "Продолжить"
+  "ImportExistingAccount": "Импорт существующего счёта",
+  "EnterPrivateKey": "Ввод закрытого ключа",
+  "Continue": "Продолжить"
   },
   "PasswordInputDialog": {
-    "EnterWalletPasswordToContinue": "Введите пароль кошелька для продолжения",
-    "ThePasswordUseLockUnlockWallet": "Это пароль, который вы используете для блокировки и разблокировки вашего кошелька XDag."
-  },
+  "EnterWalletPasswordToContinue": "Введите пароль от кошелька, чтобы продолжить",
+  "ThePasswordUseLockUnlockWallet": "Это пароль, который Вы используете для блокировки и разблокировки кошелька XDAG."
+},
   "ExportAccount": {
-    "YourPrivateKey": "Ваш приватный ключ",
-    "DoNotShare": "Не делитесь вашим приватным ключом!",
-    "ItProvidesFullControl": "Он дает полный контроль над вашим аккаунтом.",
-    "PrivateKeyCopied": "Приватный ключ скопирован",
-    "ExportPrivateKey": "Экспорт приватного ключа"
-  },
+  "YourPrivateKey": "Ваш закрытый ключ",
+  "DoNotShare": "Не делитесь своим закрытым ключом!",
+  "ItProvidesFullControl": "Он обеспечивает полный контроль над Вашим счётом.",
+  "PrivateKeyCopied": "Закрытый ключ скопирован",
+  "ExportPrivateKey": "Экспорт закрытого ключа"
+},
   "AccountActions": {
-    "ExportPrivateKey": "Экспорт приватного ключа",
-    "ExportPassphrase": "Экспорт парольной фразы"
-  },
+  "ExportPrivateKey": "Экспорт закрытого ключа",
+  "ExportPassphrase": "Экспорт секретной фразы"
+},
   "AccountListItem": {
-    "AddressCopied": "Адрес скопирован"
-  },
+  "AddressCopied": "Адрес скопирован"
+},
   "useDeriveNextAccountMutation": {
-    "NewAccountCreated": "Создан новый аккаунт"
-  },
+  "NewAccountCreated": "Новый счёт создан"
+},
   "AccountAddress": {
-    "AddressCopied": "Адрес скопирован"
-  },
+  "AddressCopied": "Адрес скопирован"
+},
   "AccountSelector": {
-    "AddressCopied": "Адрес скопирован"
-  },
+  "AddressCopied": "Адрес скопирован"
+},
   "Account": {
-    "AddressCopied": "Адрес скопирован"
-  },
+  "AddressCopied": "Адрес скопирован"
+},
   "AutoLockSettings": {
-    "AutoLock": "Автоматическая блокировка",
-    "SetTheIdleTime": "Установите время бездействия в минутах перед блокировкой кошелька XDag."
-  },
+  "AutoLock": "Автоблокировка",
+  "SetTheIdleTime": "Установите время бездействия в минутах до блокировки кошелька XDAG."
+},
   "AutoLockTimerSelector": {
     "Save": "Сохранить"
   },
-  "...1": {},"TransactionRequest": {
-  "Approve": "Утвердить",
+"------": {},
+  "TransactionRequest": {
+  "Approve": "Одобрить",
   "Reject": "Отклонить",
-  "ApproveTransaction": "Утвердить транзакцию",
+  "ApproveTransaction": "Одобрить транзакцию"
   "MightFailWarning": "Эта транзакция переведет ваши монеты и может завершиться неудачно. Вы уверены, что все равно хотите утвердить транзакцию?",
   "ChargedGasFeeWarning": "Вам все равно будет взиматься плата за газ по протоколу XDag."
 },
   "DAppInfoCard": {
-    "ViewWebsite": "Просмотреть веб-сайт",
-    "ConnectedAccount": "Подключенный аккаунт"
-  },
+  "ViewWebsite": "Посмотреть сайт",
+  "ConnectedAccount": "Подключенный счёт"
+},
   "GasFees": {
-    "EstimatedGasFees": "Расчетная плата за газ",
-    "Sponsored": "Спонсированная",
-    "Estimating": "Оценивается...",
-    "GasEstimationFailed": "Ошибка оценки газа",
-    "YouPay": "Вы платите"
-  },
+  "EstimatedGasFees": "Примерная плата за газ",
+  "Sponsored": "Sponsored",
+  "Estimating": "Оценка...",
+  "GasEstimationFailed": "Оценка газа не выполнена",
+  "YouPay": "You Pay"
+},
   "TransactionDetails": {
-    "TransactionDetails": "Детали транзакции",
-    "GatheringData": "Сбор данных...",
-    "CouldNotGatherData": "Не удалось собрать данные",
-    "Transactions": "Транзакции",
-    "Inputs": "Входы"
-  },
+  "TransactionDetails": "Детали транзакции",
+  "GatheringData": "Сбор данных...",
+  "CouldNotGatherData": "Не удалось собрать данные",
+  "Transactions": "Транзакции",
+  "Inputs": "Inputs"
+},
   "SiteConnectPage": {
-    "Continue": "Продолжить",
-    "Reject": "Отклонить",
-    "YourConnectionIsNotSecure": "Напоминание о подключении",
-    "WarningInfo": "Вы будете подключать свой кошелек к этому сайту. Пожалуйста, примите к сведению возможные риски. Нажмите Отклонить, если вы не доверяете этому сайту.",
-    "ContinueAtRisk": "Продолжать, если вы осведомлены о рисках.",
-    "Connect": "Подключиться",
-    "PermissionsRequested": "Запрошенные разрешения",
-    "ApproveConnection": "Утвердить подключение",
-    "ConnectAccounts": "Подключить аккаунты",
-    "InsecureWebsite": "Предупреждение о веб-сайте"
-  },
+  "Continue": "Продолжить",
+  "Reject": "Отклонить",
+  "YourConnectionIsNotSecure": "Ваше соединение небезопасно",
+  "WarningInfo": "Ваши данные могут быть переданы злоумышленникам, если Вы подключите кошелек к этому сайту. Нажмите **Отклонить**, если Вы не доверяете ему.",
+  "ContinueAtRisk": "Продолжить на свой страх и риск.",
+  "Connect": "Подключить",
+  "PermissionsRequested": "Permissions requested",
+  "ApproveConnection": "Одобрить соединение",
+  "ConnectAccounts": "Подключить счета",
+  "InsecureWebsite": "Небезопасный сайт"
+},
   "DAppPermissionsList": {
-    "ShareWalletAddress": "Поделиться адресом кошелька",
-    "SuggestTransactionsToApprove": "Предлагать транзакции для утверждения"
-  },
+  "ShareWalletAddress": "Поделиться адресом",
+  "SuggestTransactionsToApprove": "Предложить транзакции для одобрения"
+},
   "TransactionBlocksPage": {
-    "YourTransactions": "Ваши транзакции"
-  },
+  "YourTransactions": "Ваши транзакции"
+},
   "PendingTransaction": {
-    "Pending": "Ожидание",
-    "Accepted": "Принято",
-    "Rejected": "Отклонено",
-    "Amount": "Сумма",
-    "From": "От",
-    "To": "Кому",
-    "Remark": "Примечание"
-  },
+  "Pending": "PEN",
+  "Accepted": "ACC",
+  "Rejected": "REJ",
+  "Amount": "Сумма",
+  "From": "От",
+  "To": "К",
+   "Remark": "Ремарка"
+},
   "TransactionCard": {
-    "Remark": "Примечание"
-  },
+   "Remark": "Ремарка"
+},
   "OnRamp": {
-    "Buy": "Купить",
-    "CoinExExchange": "Биржа CoinEx",
-    "MexcExchange": "Биржа Mexc",
-    "UUbiterExchange": "Биржа UUbiter"
+  "Buy":"Купить",
+  "CoinExExchange": "CoinEx Exchange",
+  "MexcExchange": "Mexc Exchange"
+  "UUbiterExchange": "UUbiter Exchange"
   },
   "TransferCoinPage": {
-    "ReviewSend": "Проверить и отправить",
+    "ReviewSend": "Просмотр и отправка",
     "SendCoins": "Отправить монеты",
     "Back": "Назад",
-    "SendNow": "Отправить сейчас"
+    "SendNow": "Отправить"
   },
   "...2": {},
   "SendTokenForm": {
-    "SelectCoinAmountToSend": "Выберите количество монет для отправки",
-    "InsufficientXDAGToCoverTransaction": "Недостаточно XDAG для покрытия транзакции",
-    "EnterRecipientAddress": "Введите адрес получателя",
-    "EnterRemark": "Введите примечание",
-    "Review": "Просмотр",
-    "EnterAddress": "Введите адрес",
-    "Limited32Chars": "Ограничено 32 символами"
-  },
+  "SelectCoinAmountToSend": "Количество монет для отправки",
+  "InsufficientXDAGToCoverTransaction": "Недостаточно XDAG для покрытия транзакции",
+  "EnterRecipientAddress": "Адрес получателя",
+  "EnterRemark": "Ремарка",
+  "Review": "Просмотр",
+  "EnterAddress": "Адрес",
+  "Limited32Chars": "Ограничено 32 символами"
+},
   "CoinItem": {
     "available": "доступно"
   },

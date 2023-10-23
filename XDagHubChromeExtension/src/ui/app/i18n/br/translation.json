@@ -1,0 +1,288 @@
+{
+    "title": "Bem-vindo {{name}}, para reagir usando react-i18next totalmente seguro para digitação",
+    "userMessagesUnread_one": "Você tem {{count}} mensagem não lida.",
+    "userMessagesUnread_other": "Você tem {{count}} mensagens não lidas.",
+    "LanguageConfig": {
+        "followSystem": "Chrome"
+    },
+    "lockedPage": {
+        "headerCaption": "Ponto central de aplicativos XDAG (visualização inicial)",
+        "title": "Ponto central XDAG",
+        "forgotPassword": "Esqueceu sua senha?",
+        "enterPassword": "Digite a senha",
+        "unlockWallet": "Desbloquear carteira",
+        "incorrectPassword": "Senha incorreta"
+    },
+    "WelcomePage": {
+        "welcomeToXDagWallet": "Bem-vindo ao XDAG HUB",
+        "ConnectingYouToTheDecentralizedWebAndXDagNetwork": "Conectando você à web descentralizada e à rede XDAG.",
+        "GetStarted": "Iniciar",
+        "Prop0": "Envie, receba moedas XDAG",
+        "Prop1": "Explore aplicativos descentralizados na rede XDAG",
+        "Prop2": "Use a interface de aplicativos da carteira XDAG para construir seus aplicativos descentralizados",
+        "Prop3": "Rastreie sua atividade de rede XDAG",
+        "Prop4": "Obtenha os principais recursos do ecossistema XDAG",
+        "Prop5": "Troque XDAG por outro token ou moeda"
+    },
+    "SelectPage": {
+        "heading": "Novo na carteira XDag?",
+        "title1": "Sim, vamos criar uma carteira!",
+        "desc1": "Isso cria uma nova carteira e uma frase de recuperação de 12 palavras.",
+        "action1": "Crie uma nova carteira",
+        "title2": "Não, eu já tenho uma carteira",
+        "desc2": "Importe sua carteira existente inserindo a frase de recuperação de 12 palavras.",
+        "action2": "Importe uma carteira existente"
+    },
+    "CreatePage": {
+        "headerCaption": "Criar uma nova carteira",
+        "title": "Crie uma senha para esta carteira",
+        "IReadAndAgreedToThe": "Eu li e concordei com o",
+        "TermsOfServices": "Termos de serviços",
+        "CreateWallet": "Criar carteira"
+    },
+    "PasswordFields": {
+        "CreatePassword": "Criar senha",
+        "ConfirmPassword": "Confirmar senha"
+    },
+    "BackupPage": {
+        "WalletImportedSuccessfully": "Carteira importada com sucesso!",
+        "WalletCreatedSuccessfully": "Carteira criada com sucesso!",
+        "BackupRecoveryPhrase": "Backup de frase de recuperação",
+        "RecoveryPhrase": "Frase de restauração",
+        "BackupPlease": "Sua frase de recuperação facilita o backup e a restauração da sua conta.",
+        "Warning": "Aviso",
+        "NeverDisclose": "Nunca divulgue sua frase secreta de recuperação. Qualquer pessoa pode assumir o controle de sua conta com ela.",
+        "IHaveSavedIt": "Salvei minha frase de recuperação",
+        "OpenXDagWallet": "Abrir carteira XDAG"
+    },
+    "TokenDetails": {
+        "Buy": "Comprar",
+        "Send": "Enviar",
+        "Swap": "Trocar",
+        "SuitableForSmallAmount": "Adequado para aplicativos descentralizados XDag com pequenas quantidades de moedas nesta carteira."
+    },
+    "ImportPage": {
+        "WalletSetup": "Configuração da carteira",
+        "ImportAnExistingWallet": "Importe uma carteira existente",
+        "ResetPasswordForThisWallet": "Redefinir senha desta carteira"
+    },
+    "StepOne": {
+        "EnterYourRecoveryPhrase": "Digite sua frase de recuperação de 12 palavras",
+        "Next": "Próximo",
+        "Continue": "Continue"
+    },
+    "StepTwo": {
+        "Back": "Voltar",
+        "Import": "Importar",
+        "Reset": "Redefinir"
+    },
+    "Navigation": {
+        "Tokens": "Fichas",
+        "Coins": "Moedas",
+        "Assets": "Ativos",
+        "Apps": "Aplicativos",
+        "Transactions": "Transações"
+    },
+    "MenuList": {
+        "WalletSettings": "Configurações da carteira",
+        "Accounts": "Contas",
+        "ViewAccountOnXdagExplorer": "Ver conta no explorador XDAG ",
+        "Network": "Rede",
+        "AutoLock": "Bloqueio automático",
+        "FAQ": "FAQ",
+        "LockWallet": "Bloquear carteira",
+        "Logout": "Sair",
+        "Cancel": "Cancelar",
+        "HubVersion": "Ponto central versão v",
+        "logoutConfirmTitle": "Sair irá redefinir tudo",
+        "logoutConfirmHint": "Você irá REINICIAR o ponto central. Certifique-se de ter feito backup da senha de recuperação de 12 palavras!"
+    },
+    "AccountsSettings": {
+        "Accounts": "Contas",
+        "CreateNewAccount": "Criar nova conta",
+        "ImportPrivateKey": "Importar chave privada"
+    },
+    "ImportPrivateKey": {
+        "ImportExistingAccount": "Importar conta existente",
+        "EnterPrivateKey": "Insira a chave privada",
+        "Continue": "Continue"
+    },
+    "PasswordInputDialog": {
+        "EnterWalletPasswordToContinue": "Digite a senha da carteira para continuar",
+        "ThePasswordUseLockUnlockWallet": "Esta é a senha que você usa atualmente para bloquear e desbloquear sua carteira XDAG."
+    },
+    "ExportAccount": {
+        "YourPrivateKey": "Sua chave privada",
+        "DoNotShare": "Não compartilhe sua chave privada!",
+        "ItProvidesFullControl": "Ela fornece controle total da sua conta.",
+        "PrivateKeyCopied": "Chave privada copiada",
+        "ExportPrivateKey": "Exportar chave privada"
+    },
+    "AccountActions": {
+        "ExportPrivateKey": "Exportar chave privada",
+        "ExportPassphrase": "Exportar senha"
+    },
+    "AccountListItem": {
+        "AddressCopied": "Endereço copiado"
+    },
+    "useDeriveNextAccountMutation": {
+        "NewAccountCreated": "Nova conta criada"
+    },
+    "AccountAddress": {
+        "AddressCopied": "Endereço copiado"
+    },
+    "AccountSelector": {
+        "AddressCopied": "Endereço copiado"
+    },
+    "Account": {
+        "AddressCopied": "Endereço copiado"
+    },
+    "AutoLockSettings": {
+        "AutoLock": "Bloqueio automático",
+        "SetTheIdleTime": "Defina o tempo ocioso em minutos antes que a carteira XDAG seja bloqueada."
+    },
+    "AutoLockTimerSelector": {
+        "Save": "Salvar"
+    },
+    "...1": {},
+    "TransactionRequest": {
+        "Approve": "Aprovar",
+        "Reject": "Rejeitar",
+        "ApproveTransaction": "Aprovar transação",
+        "MightFailWarning": "Esta transação transferirá suas moedas e poderá falhar. Tem certeza de que ainda deseja aprovar a transação?",
+        "ChargedGasFeeWarning": "Ainda será cobrada uma taxa de gás por esta transação de acordo com o protocolo XDAG."
+    },
+    "DAppInfoCard": {
+        "ViewWebsite": "Ver site",
+        "ConnectedAccount": "Conta conectada"
+    },
+    "GasFees": {
+        "EstimatedGasFees": "Taxas estimadas da transação",
+        "Sponsored": "Patrocinados",
+        "Estimating": "Estimando...",
+        "GasEstimationFailed": "Falha na estimativa de gás",
+        "YouPay": "Você paga"
+    },
+    "TransactionDetails": {
+        "TransactionDetails": "Detalhes da transação",
+        "GatheringData": "Juntando dados...",
+        "CouldNotGatherData": "Não foi possível coletar dados",
+        "Transactions": "Transações",
+        "Inputs": "Entradas"
+    },
+    "SiteConnectPage": {
+        "Continue": "Continuar",
+        "Reject": "Rejeitar",
+        "YourConnectionIsNotSecure": "Lembrete de conexão",
+        "WarningInfo": "Você conectará sua carteira a este site. Observe os riscos. Clique em **Rejeitar** se você não confia neste site.",
+        "ContinueAtRisk": "Continuar SE você estiver ciente dos riscos.",
+        "Connect": "Conectar",
+        "PermissionsRequested": "Permissões solicitadas",
+        "ApproveConnection": "Aprovar conexão",
+        "ConnectAccounts": "Conectar contas",
+        "InsecureWebsite": "Aviso do site"
+    },
+    "DAppPermissionsList": {
+        "ShareWalletAddress": "Compartilhar endereço da carteira",
+        "SuggestTransactionsToApprove": "Sugerir transações para aprovar"
+    },
+    "TransactionBlocksPage": {
+        "YourTransactions": "Suas transações"
+    },
+    "PendingTransaction": {
+        "Pending": "Pendente",
+        "Accepted": "Aceito",
+        "Rejected": "Rejeitado",
+        "Amount": "Quantidade",
+        "From": "De",
+        "To": "Para",
+        "Remark": "Remark"
+    },
+    "TransactionCard": {
+        "Remark": "Remark"
+    },
+    "OnRamp": {
+        "Buy": "Buy",
+        "CoinExExchange": "CoinEx Exchange",
+        "MexcExchange": "Mexc Exchange",
+        "UUbiterExchange": "UUbiter Exchange"
+    },
+    "TransferCoinPage": {
+        "ReviewSend": "Revise e envie",
+        "SendCoins": "Enviar moedas",
+        "Back": "Voltar",
+        "SendNow": "Enviar agora"
+    },
+    "...2": {},
+    "SendTokenForm": {
+        "SelectCoinAmountToSend": "Selecione o valor da moeda para enviar",
+        "InsufficientXDAGToCoverTransaction": "XDAG insuficiente para cobrir a transação",
+        "EnterRecipientAddress": "Insira o endereço do destinatário",
+        "EnterRemark": "Insira o Remark",
+        "Review": "Análise",
+        "EnterAddress": "Insira o endereço",
+        "Limited32Chars": "Limitado a 32 caracteres"
+    },
+    "CoinItem": {
+        "available": "Disponível"
+    },
+    "ReceiptPage": {
+        "TransactionFailed": "Falha na transação",
+        "SomethingWentWrong": "Algo deu errado",
+        "TransactionStatus": "Status da transação"
+    },
+    "TransactionStatus": {
+        "Pending": "Pendente",
+        "Accepted": "Aceito",
+        "Rejected": "Rejeitado",
+        "BlinkingUntilBlockchainAccepted": "Piscando até ser aceito pela rede",
+        "WillTakeAbout5Minutes": "Demorará cerca de 5 minutos...",
+        "CanLeaveOrViewOnExplorerOrWaitHere": "Você pode sair, visualizar no explorer ou esperar aqui"
+    },
+    "ExplorerLinkCard": {
+        "ViewOnExplorer": "Ver no Explorer"
+    },
+    "PreviewTransfer": {
+        "Sending": "Enviando",
+        "From": "De",
+        "To": "Para",
+        "Remark": "Remark",
+        "EstimatedGasFees": "Taxas estimadas da tarsanção"
+    },
+    "......new": {},
+    "AppsPlayGround": {
+        "XDagApps": "Aplicativos XDAG",
+        "DoYouOwnResearch": "Os aplicativos abaixo são selecionados ativamente, mas não indicam qualquer endosso ou relacionamento com a carteira XDAG. Please DYOR."
+    },
+    "CompletedTransactions": {
+        "transactionsWillShowHere": "Suas transações XDAG aparecerão aqui."
+    },
+    "appsConfig": {
+        "nameXDagWalletApi": "Interface de programação de aplicativos da carteira XDAG",
+        "descriptionXDagWalletApi": "Guia de programação e demonstração para conectar carteiras ao aplicativo web3",
+        "nameXDagOffice": "Escritório XDAG",
+        "descriptionXDagOffice": "Site oficial do XDAG",
+        "nameXDagCommunity": "Comunidade XDAG",
+        "descriptionXDagCommunity": "Um ponto de encontro para entusiastas do XDAG.",
+        "nameXDagFun": "XDagFun",
+        "descriptionXDagFun": "Um site interessante de classificação de carteiras XDAG.",
+        "nameXDagMining": "Mineração XDAG",
+        "descriptionXDagMining": "Usando as ferramentas oficiais para minerar XDAG por CPU",
+        "nameXDagNews": "Notícias XDAG",
+        "descriptionXDagNews": "Notícias oficiais sobre XDAG",
+        "nameXDagProWallet": "Carteira XDAGPro",
+        "descriptionXDagProWallet": "Uma carteira profissional para telefones Android ou iOS",
+        "nameEasternFootballTeam": "Seleção Oriental de Futebol",
+        "descriptionEasternFootballTeamByFoundation": "O time de futebol de Hong Kong patrocinado pela Fundação XDAG."
+    },
+    "createXDagAddressValidation": {
+        "InvalidAddress": "Endereço inválido. Por favor cheque novamente."
+    },
+    "createTokenValidation": {
+        "ValueIsInvalid": "O valor fornecido não é válido.",
+        "isRequired": "Este campo é obrigatório",
+        "ShouldBeGreaterThan0": "Deve ser maior que 0 {{_Symbol}}",
+        "MustBeLessThan": "Deve ser menor que {{_BalanceText}}",
+        "ExceedsMaximumDecimals": "O valor excede o máximo de decimais {{_Decimals}}"
+    }
+}
