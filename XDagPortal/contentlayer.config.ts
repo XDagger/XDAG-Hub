@@ -36,7 +36,7 @@ const computedFields: ComputedFields = {
 }
 
 /**
- * Count the occurrences of all tags across blog posts and write to json file
+ * Count the occurrences of all tags across dapp posts and write to json file
  */
 function createTagCount( allApps ) {
 	const tagCount: Record<string, number> = {}
@@ -56,14 +56,14 @@ function createTagCount( allApps ) {
 	writeFileSync( './app/tag-data.json', JSON.stringify( tagCount ) )
 }
 
-function createSearchIndex( allBlogs ) {
+function createSearchIndex( addDapps ) {
 	if (
 		siteMetadata?.search?.provider === 'kbar' &&
 		siteMetadata.search.kbarConfig.searchDocumentsPath
 	) {
 		writeFileSync(
 			`public/${ siteMetadata.search.kbarConfig.searchDocumentsPath }`,
-			JSON.stringify( allCoreContent( sortPosts( allBlogs ) ) )
+			JSON.stringify( allCoreContent( sortPosts( addDapps ) ) )
 		)
 		console.log( 'Local search index generated...' )
 	}

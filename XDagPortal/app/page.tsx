@@ -13,7 +13,7 @@ export default async function Page() {
 	const posts = allCoreContent( sortedPosts )
 
 	/**
-	 * Count the occurrences of all tags across blog posts and write to json file
+	 * Count the occurrences of all tags across dapp posts and write to json file
 	 */
 	const createTagCount = ( allApps ) => {
 		console.log( publicRuntimeConfig.tagCount );

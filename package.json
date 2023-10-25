@@ -4,7 +4,7 @@
   "description": "XDag Hub of Ecosystem Apps",
   "scripts": {
     "hub": "pnpm --filter ./XDagHubChromeExtension",
-    "portal": "pnpm --filter ./XDagPortal",
+    "portal": "pnpm --filter ./XDagPortal run build ",
     "buildPortal": "cd ./XDagPorta && pnpm install && pnpm run build && mv dist .."
   },
   "repository": {
