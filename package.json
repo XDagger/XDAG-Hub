@@ -16,7 +16,10 @@
     "contentlayer": "0.3.4",
     "next-contentlayer": "0.3.4",
     "reading-time": "1.5.0",
-    "github-slugger": "^1.4.0"
+    "github-slugger": "^1.4.0",
+    "remark": "^14.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1"
   },
   "devDependencies": {
     "ts-node": "10.9.1",
