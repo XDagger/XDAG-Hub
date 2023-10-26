@@ -7,37 +7,6 @@
     "portal/build": "pnpm --filter ./XDagPortal run build && pnpm run portal/copyFolder ",
     "portal/start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "github.com:Lulianovic/xdagChromeWallet.git"
-  },
-  "keywords": [
-    "xdag",
-    "wallet",
-    "hub",
-    "coins",
-    "tokens",
-    "balance"
-  ],
-  "author": "lulianovic & Mind",
-  "pnpm": {
-    "overrides": {
-      "node-notifier": "10.0.0",
-      "async": "3.2.2",
-      "nth-check": "2.0.1",
-      "yaml@<2.2.2": ">=2.2.2",
-      "semver@<7.5.2": ">=7.5.2"
-    }
-  },
-  "engines": {
-    "pnpm": ">=8.6.5"
-  },
-  "manypkg": {
-    "ignoredRules": [
-      "INTERNAL_MISMATCH",
-      "ROOT_HAS_DEV_DEPENDENCIES"
-    ]
-  },
   "dependencies": {
     "@next/bundle-analyzer": "13.5.3",
     "next": "13.5.3",
