@@ -22,10 +22,13 @@ import rehypePresetMinify from 'rehype-preset-minify'
 import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 
-// const root = "file://" + process.cwd();
-const root = process.cwd()
+let pathCwd = process.cwd().replace( /\\/g, "/" );
+if ( !pathCwd.includes( "XDagPortal" ) ) {
+	pathCwd += "XDagPortal/"
+}
+const root = pathCwd
+console.log('....cwd:', pathCwd)
 const isProduction = process.env.NODE_ENV === 'production'
-// console.log( '.....root:', root )
 
 const computedFields: ComputedFields = {
 	readingTime: { type: 'json', resolve: ( doc ) => readingTime( doc.body.raw ) },
@@ -152,17 +155,13 @@ export const Community = defineDocumentType( () => ({
 	computedFields,
 }) )
 
-// const pathCwd = "file://" +  process.cwd().replace(/\\/g, "/");
-// const pathCwd = "file:///D:/code/LulianovicCode/XDAG-Hub/XDagPortal/";
-// console.log( 'absolute apth:<<<>>>>>>\n', pathCwd )
 
 const source = makeSource( {
 		contentDirPath: 'data',
 		documentTypes: [ Author, DApp, Community ],
 		mdx: {
-			// "file:///" + cwd: process.cwd(),
-			cwd: process.cwd(),
-			// cwd: pathCwd,
+			// cwd: process.cwd(),
+			cwd: pathCwd,
 			remarkPlugins: [
 				remarkExtractFrontmatter,
 				remarkGfm,
