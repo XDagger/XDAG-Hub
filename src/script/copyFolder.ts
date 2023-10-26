@@ -1,7 +1,7 @@
 import { copySync, moveSync, removeSync } from 'fs-extra';
 
 const sourcePath = './XDagPortal/.next';
-const destinationPath = './.next';
+const destinationPath = './out';
 
 function removeFolder(folderPath: string) {
 	removeSync(folderPath);
