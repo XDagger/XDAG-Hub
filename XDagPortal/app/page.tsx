@@ -15,9 +15,9 @@ export default async function Page() {
 	/**
 	 * Count the occurrences of all tags across dapp posts and write to json file
 	 */
-	const createTagCount = ( allApps ) => {
+	const createTagCount = ( allDocs ) => {
 		console.log( publicRuntimeConfig.tagCount );
-		allApps.forEach( ( file ) => {
+		allDocs.forEach( ( file ) => {
 				if ( file.tags && (file.draft !== true) ) {
 					file.tags.forEach( ( tag ) => {
 						const formattedTag = GithubSlugger.slug( tag )
@@ -31,12 +31,12 @@ export default async function Page() {
 			}
 		)
 
-		console.log( '.............', publicRuntimeConfig.tagCount )
 		writeFileSync( './app/tag-data.json', JSON.stringify( publicRuntimeConfig.tagCount ) )
 	}
 
 	if ( Object.keys( publicRuntimeConfig.tagCount ).length <= 1 ) {
 		createTagCount( allCommunities );
+		createTagCount(allDApps);
 	}
 
 

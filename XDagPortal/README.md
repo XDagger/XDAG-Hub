@@ -6,3 +6,5 @@
 
 This subject module is under development.
 
+XDag Portal based on nextjs and react, so the project should run in normal server with nodejs, it can't run in static website. 
+

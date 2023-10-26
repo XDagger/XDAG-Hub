@@ -74,9 +74,9 @@ export default function Home( { posts } ) {
 					<Link
 						href="/dapp"
 						className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-						aria-label="All posts"
+						aria-label="All Apps"
 					>
-						All Posts &rarr;
+						All Apps &rarr;
 					</Link>
 				</div>
 			) }

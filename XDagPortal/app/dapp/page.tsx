@@ -27,7 +27,7 @@ export default function DAppPage() {
       posts={dapps}
       initialDisplayPosts={initialDisplayPosts}
       pagination={pagination}
-      title="All Posts"
+      title="All Apps"
     />
   )
 }
