@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { slug } from 'github-slugger'
 import { formatDate } from 'pliny/utils/formatDate'
 import { CoreContent } from 'pliny/utils/contentlayer'
-import type { Blog } from 'contentlayer/generated'
+import type { DApp } from 'contentlayer/generated'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
@@ -16,9 +16,9 @@ interface PaginationProps {
   currentPage: number
 }
 interface ListLayoutProps {
-  posts: CoreContent<Blog>[]
+  posts: CoreContent<DApp>[]
   title: string
-  initialDisplayPosts?: CoreContent<Blog>[]
+  initialDisplayPosts?: CoreContent<DApp>[]
   pagination?: PaginationProps
 }
 
@@ -86,14 +86,14 @@ export default function ListLayoutWithTags({
         <div className="flex sm:space-x-24">
           <div className="hidden max-h-screen h-full sm:flex flex-wrap bg-gray-50 dark:bg-gray-900/70 shadow-md pt-5 dark:shadow-gray-800/40 rounded min-w-[280px] max-w-[280px] overflow-auto">
             <div className="py-4 px-6">
-              {pathname.startsWith('/blog') ? (
-                <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
+              {pathname.startsWith('/dapp') ? (
+                <h3 className="text-primary-500 font-bold uppercase">All Apps</h3>
               ) : (
                 <Link
-                  href={`/blog`}
+                  href={`/dapp`}
                   className="font-bold uppercase text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                 >
-                  All Posts
+                  All Apps
                 </Link>
               )}
               <ul>

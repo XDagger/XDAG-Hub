@@ -22,10 +22,13 @@ import rehypePresetMinify from 'rehype-preset-minify'
 import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 
-// const root = "file://" + process.cwd();
-const root = process.cwd()
+let pathCwd = process.cwd().replace( /\\/g, "/" );
+if ( !pathCwd.includes( "XDagPortal" ) ) {
+	pathCwd += "XDagPortal/"
+}
+const root = pathCwd
+console.log('....cwd:', pathCwd)
 const isProduction = process.env.NODE_ENV === 'production'
-// console.log( '.....root:', root )
 
 const computedFields: ComputedFields = {
 	readingTime: { type: 'json', resolve: ( doc ) => readingTime( doc.body.raw ) },
@@ -36,7 +39,7 @@ const computedFields: ComputedFields = {
 }
 
 /**
- * Count the occurrences of all tags across blog posts and write to json file
+ * Count the occurrences of all tags across dapp posts and write to json file
  */
 function createTagCount( allApps ) {
 	const tagCount: Record<string, number> = {}
@@ -56,14 +59,14 @@ function createTagCount( allApps ) {
 	writeFileSync( './app/tag-data.json', JSON.stringify( tagCount ) )
 }
 
-function createSearchIndex( allBlogs ) {
+function createSearchIndex( addDapps ) {
 	if (
 		siteMetadata?.search?.provider === 'kbar' &&
 		siteMetadata.search.kbarConfig.searchDocumentsPath
 	) {
 		writeFileSync(
 			`public/${ siteMetadata.search.kbarConfig.searchDocumentsPath }`,
-			JSON.stringify( allCoreContent( sortPosts( allBlogs ) ) )
+			JSON.stringify( allCoreContent( sortPosts( addDapps ) ) )
 		)
 		console.log( 'Local search index generated...' )
 	}
@@ -152,17 +155,13 @@ export const Community = defineDocumentType( () => ({
 	computedFields,
 }) )
 
-// const pathCwd = "file://" +  process.cwd().replace(/\\/g, "/");
-// const pathCwd = "file:///D:/code/LulianovicCode/XDAG-Hub/XDagPortal/";
-// console.log( 'absolute apth:<<<>>>>>>\n', pathCwd )
 
 const source = makeSource( {
 		contentDirPath: 'data',
 		documentTypes: [ Author, DApp, Community ],
 		mdx: {
-			// "file:///" + cwd: process.cwd(),
-			cwd: process.cwd(),
-			// cwd: pathCwd,
+			// cwd: process.cwd(),
+			cwd: pathCwd,
 			remarkPlugins: [
 				remarkExtractFrontmatter,
 				remarkGfm,

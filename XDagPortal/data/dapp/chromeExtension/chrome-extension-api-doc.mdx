@@ -1,52 +1,86 @@
 ---
 name: 'wallet api'
-title: 'New features in v1'
-date: 2021-08-07T15:32:14Z
-lastMod: '2021-02-01'
-tags: ['next-js', 'tailwind', 'guide']
+title: 'XDag Hub Wallet API'
+date: 2023-10-30T15:32:14Z
+lastMod: '2023-12-01'
+tags: ['api', 'wallet', 'hub']
 draft: false
-summary: 'An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more'
+summary: 'The Chrome Extension Wallet usage instructions, including documentation on importing dependency packages and using extension for signing.'
 layout: PostSimple
 bibliography: references-data.bib
 ---
 
 ## Overview
 
-A post on the new features introduced in v1.0. New features:
+A guide on how to use chrome wallet (XDag Hub) in web app development.
 
 <TOCInline toc={props.toc} exclude="Overview" toHeading={2} />
 
-First load JS decreased from 43kB to 39kB despite all the new features added! [^1]
 
-[^1]: With the new changes in Nextjs 12, first load JS increase to 45kB.
+WEB applications have various frameworks, and here we will only focus on  React[^1] / typescript web application framework.
+Then we will provide a code description of the using of XDag hub wallet.
 
-See [upgrade guide](#upgrade-guide) below if you are migrating from v0 version of the template.
+[^1]: React: https://zh-hans.react.dev/.
 
-## Theme colors
 
-You can easily modify the theme color by changing the primary attribute in the tailwind config file:
+## Chrome Web Store
 
-```js:tailwind.config.js
-theme: {
-    colors: {
-      primary: colors.teal,
-      gray: colors.neutral,
-      ...
-    }
-  ...
-}
+The XDag Hub wallet has been published in the Chrome Web Store.
+Therefore, you can install it in the Chrome Extension Manager by opening the following URL in your Chrome browser.
+
+```js
+chrome://extensions/
 ```
 
-The primary color attribute should be assigned an object with keys from 50, 100, 200 ... 900 and the corresponding color code values.
+Alternatively, you can directly visit the web store URL.
 
-Tailwind includes great default color palettes that can be used for theming your own website. Check out [customizing colors documentation page](https://tailwindcss.com/docs/customizing-colors) for the full range of options.
+```js
+https://chrome.google.com/webstore/category/extensions
+```
 
-Migrating from v1? You can revert to the previous theme by setting `primary` to `colors.sky` (Tailwind 2.2.2 and above, otherwise `colors.lightBlue`) and changing gray to `colors.gray`.
+Enter the name "XDag Hub" in the search bar to find it.
 
-From v1.1.2+, you can also customize the style of your code blocks easily by modifying the `css/prism.css` stylesheet. Token classnames are compatible with prismjs
-so you can copy and adapt token styles from a prismjs stylesheet e.g. [prism themes](https://github.com/PrismJS/prism-themes).
+```js
+xdag hub
+```
 
-## Xdm MDX compiler
+
+## MircoSoft Edge
+
+You can also install the XDag Hub wallet in the Microsoft Edge browser by searching for it in the Edge URL bar.
+
+Navigate to the following URL:
+
+
+```js
+https://chrome.google.com/webstore/category/extensions
+```
+
+Enter the name "XDag Hub" in the search bar to find it.
+
+```js
+xdag hub
+```
+
+## Dependencies
+
+In a web application, there will be a package.json file that is used to describe the project's dependencies.
+We can utilize package managers such as npm, yarn, or pnpm to manage these dependencies.
+
+```json:package.json
+  "dependencies": {
+    "@wallet-standard/core": "^1.0.3",
+    "@wallet-standard/react": "^0.1.4"
+  },
+```
+
+the XDag Hub wallet based on the wallet-standard[^2]
+So, In the project, if you want to use XDAG Hub wallet, you will need to depend on at least the two packages mentioned above.
+
+[^2]: wallet-standard:  https://github.com/wallet-standard/wallet-standard
+
+
+##
 
 We switched the MDX bundler from [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote) to [mdx-bundler](https://github.com/kentcdodds/mdx-bundler).
 This uses [xdm](https://github.com/wooorm/xdm) under the hood, the latest micromark 3 and remark, rehype libraries.
