@@ -3,11 +3,13 @@ import Browser from "webextension-polyfill";
 import i18next from 'i18next';
 
 
-
 const getLanguageFromChrome = (): string => {
-	const chromeLanguage = Browser.i18n.getUILanguage()
+	const chromeLanguage = Browser.i18n.getUILanguage();
+	console.log( 'current language:', chromeLanguage );
 	let lan = "en";
-	if ( chromeLanguage === "zh-CN" ) lan = "cn"
+	if ( chromeLanguage.includes( 'en-' ) ) lan = "en";
+	if ( chromeLanguage.includes( 'zh-' ) ) lan = "cn";
+
 	return lan;
 }
 
@@ -17,25 +19,25 @@ export const useActiveLanguage = (): string => {
 	const defaultValue = "en";
 	const [ value, setValue ] = useState<string>( defaultValue );
 
-	const updateValue = (newValue:string) =>{
+	const updateValue = ( newValue: string ) => {
 		if ( newValue === "follow" ) {
 			let lan = getLanguageFromChrome();
-			i18next.changeLanguage(lan)
-		}else{
-			i18next.changeLanguage(newValue );
+			i18next.changeLanguage( lan )
+		} else {
+			i18next.changeLanguage( newValue );
 		}
-		setValue(newValue);
+		setValue( newValue );
 	}
 
 	useEffect( () => {
 		Browser.storage.local.get( { activeLanguage: "follow" } ).then( ( result ) => {
-			updateValue(result[key])
+			updateValue( result[ key ] )
 		} )
 
 		const listener = function ( changes: any, areaName: string ) {
 			if ( areaName === 'local' && Object.prototype.hasOwnProperty.call( changes, key ) ) {
 				const newValue = changes[ key ].newValue || defaultValue;
-				updateValue(newValue);
+				updateValue( newValue );
 			}
 		};
 		Browser.storage.onChanged.addListener( listener );
