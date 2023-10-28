@@ -1,11 +1,8 @@
-import type { FC, ReactNode } from 'react';
-import React, { useEffect, useState } from 'react';
+import type { FC } from 'react';
+import React, { useEffect } from 'react';
 import { useConnect, useWallet, useWallets } from "@wallet-standard/react";
 import { useIsConnected } from "../hooks/useIsConnected";
 import { Wallet } from "@wallet-standard/core";
-import { codeString, packageJson } from "./codeString";
-import SyntaxHighlighter from "react-syntax-highlighter"
-import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 
 const walletApi: FC = () => {
@@ -16,6 +13,7 @@ const walletApi: FC = () => {
 	const { connect } = useConnect();
 
 	const doConnect = async ( wallet: Wallet ) => {
+		console.log('will connect XDag wallet. connect: ', connect)
 		connect && await connect();
 	}
 
@@ -97,25 +95,10 @@ const walletApi: FC = () => {
 				<a
 					className=" mt-3 underline text-blue-500 hover:underline hover:text-blue-700 cursor-pointer"
 					href={ undefined }
-					onClick={ () => xDagTransaction( 'chromeUWXkE33m8GUzdfoGtuRPXrNWMH', 1, 'donate to chrome wallet' ) }
+					onClick={ () => xDagTransaction( 'xDAGhub2spqwn3c2Nku7siTnqWuCGzmy', 1, 'donate to XDag Hub' ) }
 				>
-					donate 1 XDag to chromeUWXkE33m8GUzdfoGtuRPXrNWMH
+					donate 1 XDag to XDag Hub
 				</a>
-			</div>
-
-			<div className=" mt-20 ">
-				<div>
-					<text>following code shows a package.json of a react typescript project</text>
-				</div>
-				<SyntaxHighlighter language="javascript" style={ docco }>
-					{ packageJson }
-				</SyntaxHighlighter>
-				<div>
-					<text>following code shows how to implement the feature upstairs</text>
-				</div>
-				<SyntaxHighlighter language="javascript" style={ docco }>
-					{ codeString }
-				</SyntaxHighlighter>
 			</div>
 
 		</>
