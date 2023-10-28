@@ -13,10 +13,5 @@ npm run portal-build
 npm run portal-start
 ```
 
-## Set Up and build 
-```
-pnpm run portal build  
-
-```
 
 For detailed instructions on how to build, please refer to the Readme.md documentation of the respective submodules
