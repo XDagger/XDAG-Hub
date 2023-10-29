@@ -9,6 +9,17 @@ const getLanguageFromChrome = (): string => {
 	let lan = "en";
 	if ( chromeLanguage.includes( 'en-' ) ) lan = "en";
 	if ( chromeLanguage.includes( 'zh-' ) ) lan = "cn";
+	if ( chromeLanguage.includes( 'ar' ) ) lan = "ara";
+	if ( chromeLanguage.includes( 'fr' ) ) lan = "fr";
+	if ( chromeLanguage.includes( 'ru' ) ) lan = "rs";
+	if ( chromeLanguage.includes( 'hi' ) ) lan = "in";
+	if ( chromeLanguage.includes( 'it' ) ) lan = "it";
+	if ( chromeLanguage.includes( 'de' ) ) lan = "de";
+	if ( chromeLanguage.includes( 'ja' ) ) lan = "jp";
+	if ( chromeLanguage.includes( 'pt-' ) ) lan = "br";
+	if ( chromeLanguage.includes( 'ko' ) ) lan = "kr";
+
+
 
 	return lan;
 }
