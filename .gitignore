@@ -6,6 +6,10 @@ node_modules/
 out/
 package-lock.json
 
+*/**/pnpm-lock.yaml
+*/**/node_modules/
+*/**/package-lock.json
+
 XDagHubChromeExtension/node_modules/
 XDagHubChromeExtension/yarn.lock
 XDagHubChromeExtension/package-lock.json

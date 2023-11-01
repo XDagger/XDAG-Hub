@@ -79,20 +79,7 @@ export function Onramp() {
 				</button>
 
 
-				<button className="w-full p-6 bg-Xdag/10 rounded-2xl flex items-center border-0 cursor-pointer mb-3.5"
-								onClick={ () => onClickItem( "https://www.coinex.com/en/exchange/xdag-usdt" ) }
-				>
-					<img src={ coinexImg } alt={ "coinex exchange" } style={ { width: '35px', height: '35px' } }/>
-					<Heading variant="heading6" weight="semibold" color="hero-dark">
-						{ t( "OnRamp.CoinExExchange" ) }
-					</Heading>
-					<div className=" flex flex-col items-start ml-2 ">
-						<Text weight="bold" color={ coinexDeal?.type === "sell" ? "issue-dark" : "success-dark" } mono nowrap>{ coinexDeal?.price }</Text>
-						<Text weight="bold" color="hero-dark" variant="captionSmall">{ coinexDeal?.type } </Text>
-						<Text weight="bold" color="hero-dark" variant="captionSmall">{ parseInt(coinexDeal?.amount??"0") } </Text>
-						<Text weight="bold" color="issue-dark" variant="captionSmall">HACKED</Text>
-					</div>
-				</button>
+
 
 
 				<button className="w-full p-6 bg-Xdag/10 rounded-2xl flex items-center border-0 cursor-pointer mb-3.5"

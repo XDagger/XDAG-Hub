@@ -1,0 +1,297 @@
+---
+name: 'wallet api'
+title: 'XDag Hub Wallet API'
+date: 2023-10-30T15:32:14Z
+lastMod: '2023-12-01'
+tags: ['api', 'doc','development', 'wallet' ]
+draft: false
+summary: 'The Chrome Extension Wallet usage instructions, including documentation on importing dependency packages and using extension for signing.'
+layout: PostSimple
+bibliography: references-data.bib
+---
+
+## Overview
+
+This document will elucidate some internal architecture, and some features of wallet software.
+And importantly is a guide on how to use chrome wallet (XDag Hub) to develop web app about XDag Chain.
+
+<TOCInline toc={props.toc} exclude="Overview" toHeading={2} />
+
+
+WEB applications have various frameworks, and here we will only focus on  React[^1] / typescript web application framework.
+Then we will provide a code description of the using of XDag hub wallet.
+
+[^1]: React: https://zh-hans.react.dev/.
+
+
+##  XDag Hub Wallet Inside
+
+For XDag wallets, each wallet is associated with a specific set of mnemonic words.
+This means that when you want to create a new wallet, it will generate a unique set of mnemonic words.
+On the other hand, if you possess a set of mnemonic words, you can use them to restore your wallet.
+
+XDAG HUB Wallet is a browser wallet, which means that due to the nature of browsers, when the wallet is uninstalled from the browser, all data will be lost.
+If you haven't backed up your mnemonic phrase in advance, the wallet cannot be recovered.
+XDAG HUB Wallet conformed to the BIP39 protocol, using a mnemonic phrase to recover the account.
+Therefore, it is crucial to back up the mnemonic phrase immediately after creating the wallet.
+This way, in any situation, the wallet data can be restored using the mnemonic phrase.
+
+XDAG HUB Wallet follows and uses the BIP32 protocol, where the mnemonic phrase generates the first account, and multiple accounts can be derived continuously from it. You only need to remember the mnemonic phrase, and all accounts can be recovered.
+
+The wallet password is used to encrypt the mnemonic phrase, so the password plays a unique and critically important role in the wallet.
+
+If the wallet password is forgotten, the wallet can be recovered using the mnemonic phrase and setting a new password.
+
+If the wallet mnemonic phrase is lost, but the wallet is still installed, you can log in with the password and then back up the mnemonic phrase.However, if the wallet has been uninstalled, it cannot be recovered.
+
+If both the password and the mnemonic phrase are lost, no one will be able to recover the wallet.
+
+
+
+
+## Install Wallet In Chrome
+
+The XDag Hub wallet has been published in the Chrome Web Store.
+Therefore, you can install it in the Chrome Extension Manager by opening the following URL in your Chrome browser.
+
+```js
+chrome://extensions/
+```
+
+Alternatively, you can directly visit the web store URL.
+
+```js
+https://chrome.google.com/webstore/category/extensions
+```
+
+Enter the name "XDag Hub" in the search bar to find it.
+
+```js
+xdag hub
+```
+
+
+## Install Wallet In MircoSoft Edge
+
+You can also install the XDag Hub wallet in the Microsoft Edge browser by searching for it in the Edge URL bar.
+
+Navigate to the following URL:
+
+
+```js
+https://chrome.google.com/webstore/category/extensions
+```
+
+Enter the name "XDag Hub" in the search bar to find it.
+
+```js
+xdag hub
+```
+
+
+## The Direct Way
+
+You can use the previous method to install the XDag Hub wallet. However, the most direct way is to enter the following URL into your browser:
+
+
+````js
+https://chrome.google.com/webstore/detail/xdag-wallet/ilboijfdpoiokmioeiceibgpbnemlkeb
+`````
+
+
+## Dependencies
+
+In a web application, there will be a package.json file that is used to describe the project's dependencies.
+We can utilize package managers such as npm, yarn, or pnpm to manage these dependencies.
+
+```json:package.json
+  "dependencies": {
+    "@wallet-standard/core": "^1.0.3",
+    "@wallet-standard/react": "^0.1.4"
+  },
+```
+
+the XDag Hub wallet based on the `wallet-standard`[^2]
+So, In the project, if you want to use XDAG Hub wallet, you will need to depend on at least the two packages mentioned above.
+
+[^2]: wallet-standard:  https://github.com/wallet-standard/wallet-standard
+
+ the latest version of the dependency packages can be searched in the npm repository.[^3] [^4]
+
+[^3]: @wallet-standard/core in npm :https://www.npmjs.com/package/@wallet-standard/core
+
+[^4]: @wallet-standard/react in npm: https://www.npmjs.com/package/@wallet-standard/react
+
+
+
+## Get All Connected Wallet
+
+We can retrieve all the wallets that conform to the `@wallet-standard/core` package.
+Only the wallets that have implemented the @wallet-standard/core protocol can be recognized.
+The XDag Hub wallet has successfully implemented this protocol.
+
+In react, use @wallet-standard/react to obtain all wallets conform to the @wallet-standard/core package.
+
+```js
+import { useWallets } from "@wallet-standard/react";
+
+const walletDemo: FC = () => {
+	const { wallets } = useWallets();
+
+    return <></>
+  }
+
+```
+
+
+## Look up XDag Wallet
+
+Once have obtained all the wallets conformed to **@wallet-standard/core** package
+we can proceed to search for the XDag Hub wallet within them.
+
+The useEffect hook in React is a appropriate place to implement the search functionality.
+
+```tsx
+import { useWallets } from "@wallet-standard/react";
+import { useEffect } from 'react';
+
+const walletDemo = () => {
+	const { wallets } = useWallets();
+
+	useEffect( () => {
+		if ( wallets ) {
+			wallets.map( ( walletObj, index ) => {
+				if ( walletObj.name.toLowerCase().includes( "xdag" ) )
+					console.log(" find XDag wallet now:\n", walletObj);
+			} )
+		}
+	}, [ wallets ] )
+
+  return <></>
+
+  }
+
+```
+
+in the given code snippet, the useWallet hook is utilized alongside the useEffect hook. Inside the useEffect callback, we check if the wallets data is available.
+If it is, we iterate through each wallet object in the wallets array. By examining the name property of each wallet object,
+we determine if it includes the substring "xdag". If such a match is found, it implies that the wallet object represents an XDag hub wallet.
+
+## Set Currently Used Wallet
+
+The useWallet hook is a custom hook provided by the @wallet-standard/react package.
+It returns an object that contains the current selected wallet (wallet), the associated accounts (accounts), and a function to set the selected wallet (setWallet).
+
+we sets it as the selected wallet using the setWallet function.
+
+Overall, this code is using the useWallet hook to handle wallet-related data and perform actions based on the available wallets.
+
+```tsx
+import { useWallets, useWallet } from "@wallet-standard/react";
+import { useEffect } from 'react';
+
+const walletDemo = () => {
+	const { wallets } = useWallets();
+	const { setWallet, wallet, accounts } = useWallet();
+
+	useEffect( () => {
+		if ( wallets ) {
+			wallets.map( ( walletObj, index ) => {
+				if ( walletObj.name.toLowerCase().includes( "xdag" ) )
+					console.log(" find XDag wallet now:\n", walletObj);
+				  setWallet( walletObj );
+			} )
+		}
+	}, [ wallets ] )
+
+  return <></>
+
+  }
+
+```
+
+Now ,Once setWallet(walletObj ),  We get the XDag Hub wallet Object and the currently accounts in this wallet.
+
+
+## Get Wallet Account and Format It
+
+Once we have connected the XDag Hub wallet and set it to useWallet Hooks as described in the previous step, we will be able to obtain an active account.
+
+```tsx
+import { useWallets, useWallet } from "@wallet-standard/react";
+import { useEffect } from 'react';
+
+const walletDemo = () => {
+	const { wallets } = useWallets();
+	const { setWallet, wallet, accounts } = useWallet();
+
+	useEffect( () => {
+		if ( wallets ) {
+			wallets.map( ( walletObj, index ) => {
+				if ( walletObj.name.toLowerCase().includes( "xdag" ) )
+					console.log(" find XDag wallet now:\n", walletObj);
+				  setWallet( walletObj );
+			} )
+		}
+	}, [ wallets ] )
+
+  return <>
+          <div>
+            {
+							wallet && accounts.length >0  && accounts[ 0 ]  && (
+									<div>
+										 now we use XDag wallet { accounts[ 0 ].address }
+									</div>
+              )
+            }
+					</div>
+      </>
+}
+
+```
+
+Sometimes, we need to use the abbreviated form of an address.
+We can write a function like this
+
+```tsx
+	const formatAddress = ( address: string ) :string => {
+		if ( address.length <= 6 ) {
+			return address;
+		}
+		const ELLIPSIS = "\u{2026}";
+		return address.slice( 0, 0 + 3 ) + ELLIPSIS + address.slice( -9, );
+	}
+
+```
+
+
+## Send a Transaction With XDag Hub wallet
+
+By connecting to the XDAG wallet, we can access its transaction functions. Here is a simplified wrapper for this function:
+
+```tsx
+	const xDagTransaction = ( toAddress: string, amount: number, remark: string ) => {
+		const signAndExecute = (wallet?.features[ "XDag:signAndExecuteTransactionBlock" ] as any)?.signAndExecuteTransactionBlock;
+		if ( !signAndExecute ) return;
+		signAndExecute( { toAddress, amount, remark } );
+	}
+
+```
+the wallet has get in previous step.
+
+and we can call this function as following code snippet
+
+```tsx
+			<button
+        onClick={ () => xDagTransaction( '4duPWMbYUgAifVYkKDCWxLvRRkSByf5gb', 1, 'donate to community' ) }
+			>
+				Donate 1 XDag to community
+			</button>
+```
+
+## View the Example
+
+There is an example demonstrating how to connect to the XDag Hub wallet and perform transactions using code.
+The example code can be found at the following URL: https://github.com/XDagger/XDAG-Hub."
+
+
