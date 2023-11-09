@@ -61,7 +61,7 @@ export const xDagAppsConfigs: XDagAppConfig[] = [
 	{
 		"name": "nameEasternFootballTeam",
 		"description": "descriptionEasternFootballTeamByFoundation",
-		"link": "https://m.weibo.cn/u/7809677742?luicode=10000011&lfid=1005057809677742",
+		"link": "http://easternsportsclub.com/",
 		"icon": "https://cdn.footballkitarchive.com/2023/09/19/erKteYGfV6gziVB.jpg",
 		"tags": [ "Foundation" ]
 	}
