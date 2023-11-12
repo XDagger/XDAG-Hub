@@ -1,8 +1,4 @@
-import {
-	createAsyncThunk,
-	createEntityAdapter,
-	createSlice,
-} from "@reduxjs/toolkit";
+import {createAsyncThunk, createEntityAdapter, createSlice,} from "@reduxjs/toolkit";
 import { type WalletSigner } from "_src/ui/app/WalletSigner";
 import { getSignerOperationErrorMessage } from "_src/ui/app/helpers/errorMessages";
 import {
@@ -12,9 +8,6 @@ import {
 	type SignedMessage,
 	type SignedTransaction
 } from "_src/xdag/typescript/signers";
-import {
-	TransactionBlock
-} from "_src/xdag/typescript/builder";
 import { fromB64 } from "_src/xdag/bcs";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { ApprovalRequest } from "_payloads/transactions/ApprovalRequest";
