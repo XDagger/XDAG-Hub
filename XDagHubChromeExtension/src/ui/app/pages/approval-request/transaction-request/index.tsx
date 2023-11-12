@@ -59,14 +59,11 @@ export function TransactionRequest( { txRequest }: TransactionRequestProps ) {
 					if ( approved ) {
 						setConfirmationVisible( true );
 						return;
+					}else {
+						window.close();
 					}
 					await dispatch(
-						respondToTransactionRequest( {
-							approved,
-							txRequestID: txRequest.id,
-							signer,
-							// clientIdentifier,
-						} ),
+						respondToTransactionRequest( {approved, txRequestID: txRequest.id, signer, /* clientIdentifier,*/	} ),
 					);
 				} }
 				address={ addressForTransaction }
@@ -102,6 +99,9 @@ export function TransactionRequest( { txRequest }: TransactionRequestProps ) {
 				cancelText={ t( "TransactionRequest.Reject" ) }
 				cancelStyle="warning"
 				onResponse={ async ( isConfirmed ) => {
+					if( !isConfirmed ){
+						window.close();
+					}
 					const result = await dispatch( respondToTransactionRequest( {
 							approved: isConfirmed, txRequestID: txRequest.id, signer,
 							// clientIdentifier,
@@ -110,7 +110,6 @@ export function TransactionRequest( { txRequest }: TransactionRequestProps ) {
 					const txAddress = (result as any)?.payload?.txResponse?.address;
 					const receiptUrl = `/receipt?blockAddress=${ encodeURIComponent( txAddress ) }&from=transactions`;
 					setConfirmationVisible( false );
-
 					return navigate( receiptUrl );
 				}
 				}

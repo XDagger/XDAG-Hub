@@ -115,8 +115,7 @@ const TransactionTypes = [
 	SplitCoinsTransaction,
 	MergeCoinsTransaction,
 	PublishTransaction,
-	UpgradeTransaction,
-	// MakeMoveVecTransaction,
+	UpgradeTransaction
 ] as const;
 
 export const TransactionType = union( [ ...TransactionTypes ] );
