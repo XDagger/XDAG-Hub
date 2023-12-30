@@ -39,7 +39,8 @@ const XDagWalletTopRight: FC = () => {
     }
 
     const xDagTransaction = (toAddress: string, amount: number, remark: string) => {
-        const signAndExecute = (wallet?.features["XDag:signAndExecuteTransactionBlock"] as any)?.signAndExecuteTransactionBlock;
+        //使用了any,暂时无法确定类型
+        const signAndExecute:any = (wallet?.features["XDag:signAndExecuteTransactionBlock"] as any)?.signAndExecuteTransactionBlock;
         if (!signAndExecute) return;
         signAndExecute({toAddress, amount, remark});
     }
