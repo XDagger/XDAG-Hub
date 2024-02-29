@@ -273,7 +273,9 @@
     "nameXDagProWallet": "XDagPro Wallet",
     "descriptionXDagProWallet": "A professional wallet for Android or iOS phones",
     "nameEasternFootballTeam": "Eastern Football Team",
-    "descriptionEasternFootballTeamByFoundation": "The Hong Kong football team sponsored by XDAG Foundation."
+    "descriptionEasternFootballTeamByFoundation": "The Hong Kong football team sponsored by XDAG Foundation.",
+    "nameXDagMeta": "Community Mini Game",
+    "descriptionNameXDagMeta": "A small scene for social interaction among community members."
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "Invalid address. Please check again."

@@ -272,7 +272,9 @@
     "nameXDagProWallet": "محفظة XDagPro",
     "descriptionXDagProWallet": "محفظة متخصصة لهواتف الأندرويد أو iOS",
     "nameEasternFootballTeam": "فريق كرة القدم الشرقي",
-    "descriptionEasternFootballTeamByFoundation": "فريق كرة القدم في هونغ كونغ الذي يتم تمويله من قبل مؤسسة XDAG."
+    "descriptionEasternFootballTeamByFoundation": "فريق كرة القدم في هونغ كونغ الذي يتم تمويله من قبل مؤسسة XDAG.",
+    "nameXDagMeta": "لعبة صغيرة للمجتمع",
+    "descriptionNameXDagMeta": "مشهد صغير للتواصل الاجتماعي لأعضاء المجتمع."
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "عنوان غير صالح. يرجى التحقق مرة أخرى."

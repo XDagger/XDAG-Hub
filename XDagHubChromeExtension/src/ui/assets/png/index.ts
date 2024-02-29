@@ -6,6 +6,7 @@ import newsImg from "./news.png"
 import walletImg from "./wallet.png"
 import xDagImg from "./Xdag.png"
 import uubiterImg from "./uubiter.png"
+import metaverse from "./metaverse.png"
 export {
 	apiImg,
 	coinexImg,
@@ -14,6 +15,7 @@ export {
 	xDagLogoWithTextImg,
 	newsImg,
 	walletImg,
-	uubiterImg
+	uubiterImg,
+	metaverse
 }
 
