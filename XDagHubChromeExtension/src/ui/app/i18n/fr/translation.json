@@ -271,7 +271,9 @@
     "nameXDagProWallet": "Portefeuille XDagPro",
     "descriptionXDagProWallet": "Un portefeuille professionnel pour smartphones Android ou iOS",
     "nameEasternFootballTeam": "Équipe de football de l'Est",
-    "descriptionEasternFootballTeamByFoundation": "L'équipe de football de Hong Kong parrainée par la Fondation XDAG."
+    "descriptionEasternFootballTeamByFoundation": "L'équipe de football de Hong Kong parrainée par la Fondation XDAG.",
+    "nameXDagMeta": "Jeu Communautaire",
+    "descriptionNameXDagMeta": "Petite scène pour l'interaction sociale entre les membres de la communauté."
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "Adresse invalide. Veuillez vérifier à nouveau."

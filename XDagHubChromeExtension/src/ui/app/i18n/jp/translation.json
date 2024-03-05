@@ -272,7 +272,9 @@
     "nameXDagProWallet": "XDagProウォレット",
     "descriptionXDagProWallet": "AndroidまたはiOSスマートフォン用のプロフェッショナルウォレット",
     "nameEasternFootballTeam": "東方サッカーチーム",
-    "descriptionEasternFootballTeamByFoundation": "XDAG財団がスポンサーする香港のサッカーチーム。"
+    "descriptionEasternFootballTeamByFoundation": "XDAG財団がスポンサーする香港のサッカーチーム。",
+    "nameXDagMeta": "コミュニティミニゲーム",
+    "descriptionNameXDagMeta": "コミュニティメンバー間の社会的な相互作用のための小さなシーン。"
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "無効なアドレスです。再度確認してください。"

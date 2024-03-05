@@ -272,7 +272,9 @@
     "nameXDagProWallet": "XDagPro 지갑",
     "descriptionXDagProWallet": "안드로이드 또는 iOS 스마트폰용 전문적인 지갑",
     "nameEasternFootballTeam": "동부 축구 팀",
-    "descriptionEasternFootballTeamByFoundation": "XDAG 재단이 후원하는 홍콩 축구 팀입니다."
+    "descriptionEasternFootballTeamByFoundation": "XDAG 재단이 후원하는 홍콩 축구 팀입니다.",
+    "nameXDagMeta": "커뮤니티 미니 게임",
+    "descriptionNameXDagMeta": "커뮤니티 회원 간의 소셜 상호 작용을위한 작은 장면."
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "잘못된 주소입니다. 다시 확인해주세요."

@@ -274,7 +274,9 @@
     "nameXDagProWallet": "XDagPro वॉलेट",
     "descriptionXDagProWallet": "Android या iOS स्मार्टफोनों के लिए एक पेशेवर वॉलेट",
     "nameEasternFootballTeam": "पूर्वी फुटबॉल टीम",
-    "descriptionEasternFootballTeamByFoundation": "XDAG फाउंडेशन द्वारा प्रायोजित हॉंगकॉंग फुटबॉल टीम।"
+    "descriptionEasternFootballTeamByFoundation": "XDAG फाउंडेशन द्वारा प्रायोजित हॉंगकॉंग फुटबॉल टीम।",
+    "nameXDagMeta": "सामुदायिक छोटा खेल",
+    "descriptionNameXDagMeta": "समुदाय के सदस्यों के बीच सामाजिक आक्रमण के लिए छोटा दृश्य।"
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "अमान्य पता। कृपया फिर से जांचें।"

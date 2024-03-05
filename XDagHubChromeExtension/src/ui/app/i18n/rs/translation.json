@@ -273,7 +273,9 @@
     "nameXDagProWallet": "Кошелек XDagPro",
     "descriptionXDagProWallet": "Профессиональный кошелек для смартфонов на Android или iOS",
     "nameEasternFootballTeam": "Восточная футбольная команда",
-    "descriptionEasternFootballTeamByFoundation": "Футбольная команда Гонконга, спонсируемая Фондом XDAG."
+    "descriptionEasternFootballTeamByFoundation": "Футбольная команда Гонконга, спонсируемая Фондом XDAG.",
+    "nameXDagMeta": "Сообщество мини-игра",
+    "descriptionNameXDagMeta": "Небольшая сцена для социального взаимодействия между членами сообщества."
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "Неверный адрес. Пожалуйста, проверьте еще раз."

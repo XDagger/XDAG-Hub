@@ -275,7 +275,9 @@
     "nameXDagProWallet": "XDagPro 钱包",
     "descriptionXDagProWallet": "用于安卓或者平果手机上的专业钱包",
     "nameEasternFootballTeam": "东方足球队",
-    "descriptionEasternFootballTeamByFoundation": "由XDAG基金会赞助的香港足球队。"
+    "descriptionEasternFootballTeamByFoundation": "由XDAG基金会赞助的香港足球队。",
+    "nameXDagMeta": "社区小游戏",
+    "descriptionNameXDagMeta": "给社区成员社交的小场景。"
   },
   "createXDagAddressValidation": {
     "InvalidAddress": "无效的地址。请再次检查。"
