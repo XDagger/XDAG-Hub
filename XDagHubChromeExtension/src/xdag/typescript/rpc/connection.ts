@@ -27,8 +27,6 @@ export class Connection {
   }
 }
 
-// TODO: Maybe don't have pre-built connections, and instead just have pre-built objects that folks
-// can use with the connection?
 export const localnetConnection = new Connection({
   fullnode: "http://127.0.0.1:9000",
   faucet: "",

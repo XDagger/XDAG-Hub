@@ -6,7 +6,7 @@
     "followSystem": "语言跟随"
   },
   "lockedPage": {
-    "headerCaption": "XDag 应用中心（早期预览版）",
+    "headerCaption": "XDAG 应用中心（早期预览版）",
     "title": "XDAG HUB",
     "forgotPassword": "忘记密码?",
     "enterPassword": "输入密码",
@@ -214,7 +214,7 @@
   },
   "SendTokenForm": {
     "SelectCoinAmountToSend": "填入要发送的币数量",
-    "InsufficientXDAGToCoverTransaction": "XDag余额不足以支付交易费用",
+    "InsufficientXDAGToCoverTransaction": "XDAG余额不足以支付交易费用",
     "EnterRecipientAddress": "填入接收人地址",
     "EnterRemark": "填入备注",
     "Review": "审查",
@@ -253,26 +253,26 @@
     "EstimatedGasFees": "预估燃料费用"
   },
   "AppsPlayGround": {
-  "XDagApps": "XDag应用",
+  "XDagApps": "XDAG应用",
   "DoYouOwnResearch": "以下应用程序经过积极筛选，但并不代表本钱包对其任何认可或有任何关系。请自行了解(DYOR)"
 },
   "CompletedTransactions": {
-    "transactionsWillShowHere": "您的XDag交易将显示在此处。"
+    "transactionsWillShowHere": "您的XDAG交易将显示在此处。"
   },
   "appsConfig": {
     "nameXDagWalletApi": "XDag钱包API",
     "descriptionXDagWalletApi": "连接钱包到Web3应用的编程指南和示例",
-    "nameXDagOffice": "XDag官网",
-    "descriptionXDagOffice": "XDag的官方网站",
-    "nameXDagCommunity": "XDag社区",
+    "nameXDagOffice": "XDAG官网",
+    "descriptionXDagOffice": "XDAG的官方网站",
+    "nameXDagCommunity": "XDAG社区",
     "descriptionXDagCommunity": "XDAG爱好者的聚集地",
     "nameXDagFun": "XDagFun",
-    "descriptionXDagFun": "一个有趣的XDag钱包排名网站",
+    "descriptionXDagFun": "一个有趣的XDAG钱包排名网站",
     "nameXDagMining": "XDag挖矿",
-    "descriptionXDagMining": "使用官方工具在CPU上挖掘XDag",
-    "nameXDagNews": "XDag 新闻",
-    "descriptionXDagNews": "关于XDag的官方新闻",
-    "nameXDagProWallet": "XDagPro 钱包",
+    "descriptionXDagMining": "使用官方工具在CPU上挖掘XDAG",
+    "nameXDagNews": "XDAG 新闻",
+    "descriptionXDagNews": "关于XDAG的官方新闻",
+    "nameXDagProWallet": "XDAGPro 钱包",
     "descriptionXDagProWallet": "用于安卓或者平果手机上的专业钱包",
     "nameEasternFootballTeam": "东方足球队",
     "descriptionEasternFootballTeamByFoundation": "由XDAG基金会赞助的香港足球队。",
