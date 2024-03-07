@@ -10,9 +10,7 @@ import type {
 } from "../types/index.js";
 import type { CoinMetadata } from "_src/xdag/typescript/framework";
 
-
 export * from "./http-transport.js";
-export * from "./network.js";
 
 export interface PaginationArguments<Cursor>
 {
